@@ -1,0 +1,187 @@
+{
+    "Weapons": {
+        "Dagger": {
+            "cost": "2 gp",
+            "damage": "1d4 piercing",
+            "weight": 1,
+            "properties": "Finesse, light, thrown (range 20/60)"
+        },
+        "Greatsword": {
+            "cost": "50 gp",
+            "damage": "2d6 slashing",
+            "weight": 6,
+            "properties": "Heavy, two-handed"
+        },
+        "Longbow": {
+            "cost": "50 gp",
+            "damage": "1d8 piercing",
+            "weight": 2,
+            "properties": "Amunition (range 150/600), heavy, two-handed"
+        },
+        "Longsword": {
+            "cost": "15 gp",
+            "damage": "1d8 slashing",
+            "weight": 3,
+            "properties": "Versatile (1d10)"
+        },
+        "Rapier": {
+            "cost": "25 gp",
+            "damage": "1d8 piercing",
+            "weight": 2,
+            "properties": "Finesse"
+        },
+        "Shortsword": {
+            "cost": "10 gp",
+            "damage": "1d6 piercing",
+            "weight": 2,
+            "properties": "Finesse, light"
+        }
+    },
+    "Armor": {
+        "Padded": {
+            "cost": "5 gp",
+            "ac_base": 11,
+            "dex_mod": "full",
+            "stealth_disadv": true,
+            "weight": 8,
+            "type": "Light"
+        },
+        "Leather": {
+            "cost": "10 gp",
+            "ac_base": 11,
+            "dex_mod": "full",
+            "stealth_disadv": false,
+            "weight": 10,
+            "type": "Light"
+        },
+        "Studded Leather": {
+            "cost": "45 gp",
+            "ac_base": 12,
+            "dex_mod": "full",
+            "stealth_disadv": false,
+            "weight": 13,
+            "type": "Light"
+        },
+        "Hide": {
+            "cost": "10 gp",
+            "ac_base": 12,
+            "dex_mod": "max_2",
+            "stealth_disadv": false,
+            "weight": 12,
+            "type": "Medium"
+        },
+        "Scale Mail": {
+            "cost": "50 gp",
+            "ac_base": 14,
+            "dex_mod": "max_2",
+            "stealth_disadv": true,
+            "weight": 45,
+            "type": "Medium"
+        },
+        "Breastplate": {
+            "cost": "400 gp",
+            "ac_base": 14,
+            "dex_mod": "max_2",
+            "stealth_disadv": false,
+            "weight": 20,
+            "type": "Medium"
+        },
+        "Half Plate": {
+            "cost": "750 gp",
+            "ac_base": 15,
+            "dex_mod": "max_2",
+            "stealth_disadv": true,
+            "weight": 40,
+            "type": "Medium"
+        },
+        "Ring Mail": {
+            "cost": "30 gp",
+            "ac_base": 14,
+            "dex_mod": "none",
+            "stealth_disadv": true,
+            "weight": 40,
+            "type": "Heavy"
+        },
+        "Chain Mail": {
+            "cost": "75 gp",
+            "ac_base": 16,
+            "dex_mod": "none",
+            "str_req": 13,
+            "stealth_disadv": true,
+            "weight": 55,
+            "type": "Heavy"
+        },
+        "Splint": {
+            "cost": "200 gp",
+            "ac_base": 17,
+            "dex_mod": "none",
+            "str_req": 15,
+            "stealth_disadv": true,
+            "weight": 60,
+            "type": "Heavy"
+        },
+        "Plate": {
+            "cost": "1500 gp",
+            "ac_base": 18,
+            "dex_mod": "none",
+            "str_req": 15,
+            "stealth_disadv": true,
+            "weight": 65,
+            "type": "Heavy"
+        },
+        "Shield": {
+            "cost": "10 gp",
+            "ac_bonus": 2,
+            "weight": 6,
+            "type": "Shield"
+        }
+    },
+    "Magic_Items": {
+        "Bag of Holding": {
+            "rarity": "Uncommon",
+            "attunement": false,
+            "description": "Questo sacco ha uno spazio interdimensionale interno molto più grande delle sue dimensioni esterne, in grado di contenere fino a 230 kg (500 libbre) per un volume totale di 1,8 metri cubi. Pesa sempre 7 kg indipendentemente dal suo contenuto.",
+            "source": "Dungeon Master's Guide"
+        },
+        "Decanter of Endless Water": {
+            "rarity": "Uncommon",
+            "attunement": false,
+            "description": "Una boccetta che se stappata può spruzzare acqua fresca o salata su comando. Ha tre parole d'ordine: 'Stream' (crea un ruscello d'acqua), 'Fountain' (un getto continuo) o 'Geyser' (un violento spruzzo d'acqua lungo 9 metri, utilizzabile per spingere indietro i nemici).",
+            "source": "Dungeon Master's Guide"
+        },
+        "Mizzium Apparatus": {
+            "rarity": "Uncommon",
+            "attunement": true,
+            "classes_req": [
+                "Sorcerer",
+                "Warlock",
+                "Wizard"
+            ],
+            "description": "Un bizzarro dispositivo metallico della gilda Izzet. Consente a un incantatore di lanciare qualsiasi incantesimo presente sulla sua lista di classe (anche se non conosciuto o preparato) superando una prova di Intelligenza (Arcana) con CD pari a 10 + il doppio del livello dello slot incantesimo utilizzato.",
+            "source": "Guildmasters' Guide to Ravnica"
+        },
+        "Pyroconverger": {
+            "rarity": "Uncommon",
+            "attunement": true,
+            "description": "Un dispositivo portatile Izzet che funge da lanciafiamme. Come azione, puoi sparare una linea di fiamme di 15 piedi: ogni creatura nell'area deve superare un tiro salvezza su Destrezza (CD 13) o subire 4d6 danni da fuoco. C'è un rischio di surriscaldamento ed esplosione ad ogni uso.",
+            "source": "Guildmasters' Guide to Ravnica"
+        },
+        "Staff of the Magi": {
+            "rarity": "Legendary",
+            "attunement": true,
+            "classes_req": [
+                "Sorcerer",
+                "Warlock",
+                "Wizard"
+            ],
+            "description": "Un bastone leggendario che conferisce +2 ai tiri per colpire, ai danni con armi e alla CD dei tiri salvezza degli incantesimi. Contiene 50 cariche utilizzabili per lanciare decine di magie (come Palla di Fuoco, Fulmine, ecc.). Consente inoltre di assorbire incantesimi nemici diretti contro di te o di eseguire un Colpo di Grazia (Retributive Strike) spaccando il bastone con conseguenze apocalittiche.",
+            "source": "Dungeon Master's Guide"
+        },
+        "Vorpal Sword": {
+            "rarity": "Legendary",
+            "attunement": true,
+            "description": "Questa spada magica concede un bonus di +3 ai tiri per colpire e ai danni. Quando ottieni un 20 naturale sul tiro per colpire con quest'arma, decapiti istantaneamente il bersaglio (se ha una testa ed è vulnerabile a questa meccanica), infliggendo in caso contrario 6d8 danni taglienti extra.",
+            "source": "Dungeon Master's Guide"
+        }
+    }
+}

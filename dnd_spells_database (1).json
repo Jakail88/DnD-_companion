@@ -1,0 +1,864 @@
+{
+    "Acid Splash": {
+        "level": 0,
+        "school": "Conjuration",
+        "casting_time": "1 action",
+        "range": "60 feet",
+        "components": "V, S",
+        "duration": "Instantaneous",
+        "classes": [
+            "Artificer",
+            "Sorcerer",
+            "Wizard"
+        ],
+        "description": "Scagli una bolla di acido. Scegli una creatura entro la gittata, o due creature entro la gittata che siano entro 5 piedi l'una dall'altra. Il bersaglio deve superare un tiro salvezza su Destrezza o subire 1d6 danni da acido. Il danno aumenta a 5° livello (2d6), 11° livello (3d6) e 17° livello (4d6).",
+        "source": "Player's Handbook"
+    },
+    "Blade Ward": {
+        "level": 0,
+        "school": "Abjuration",
+        "casting_time": "1 action",
+        "range": "Self",
+        "components": "V, S",
+        "duration": "1 round",
+        "classes": [
+            "Bard",
+            "Sorcerer",
+            "Warlock",
+            "Wizard"
+        ],
+        "description": "Tracci un sigillo di protezione nell'aria. Fino alla fine del tuo prossimo turno, hai resistenza contro i danni contundenti, perforanti e taglienti inflitti da attacchi con armi.",
+        "source": "Player's Handbook"
+    },
+    "Booming Blade": {
+        "level": 0,
+        "school": "Evocation",
+        "casting_time": "1 action",
+        "range": "Self (5-foot radius)",
+        "components": "S, M (una boccata d'arma del valore di almeno 1 ma)",
+        "duration": "1 round",
+        "classes": [
+            "Artificer",
+            "Sorcerer",
+            "Warlock",
+            "Wizard"
+        ],
+        "description": "Compi un attacco con un'arma da mischia contro una creatura. Se colpisci, il bersaglio subisce i normali effetti dell'attacco e viene avvolto da energia tonante. Se il bersaglio si muove volontariamente prima dell'inizio del tuo prossimo turno, subisce 1d8 danni da tuono. A livelli superiori il danno aumenta sia all'impatto che sul movimento.",
+        "source": "Tasha's Cauldron of Everything"
+    },
+    "Chill Touch": {
+        "level": 0,
+        "school": "Necromancy",
+        "casting_time": "1 action",
+        "range": "120 feet",
+        "components": "V, S",
+        "duration": "1 round",
+        "classes": [
+            "Sorcerer",
+            "Warlock",
+            "Wizard"
+        ],
+        "description": "Crei una mano scheletrica fantasmagorica nello spazio di una creatura. Compi un attacco magico a distanza: se colpisci, infliggi 1d8 danni necrotici e il bersaglio non può recuperare punti ferita fino all'inizio del tuo turno successivo. Se colpisci un non-morto, ha svantaggio ai tiri per colpire contro di te fino alla fine del tuo prossimo turno.",
+        "source": "Player's Handbook"
+    },
+    "Control Flames": {
+        "level": 0,
+        "school": "Transmutation",
+        "casting_time": "1 action",
+        "range": "60 feet",
+        "components": "S",
+        "duration": "Instantaneous or 1 hour",
+        "description": "Scegli una fiamma non magica entro gittata che occupi al massimo un cubo di 1,5 metri. Puoi espanderla, estinguerla, raddoppiare/dimezzare la luce emessa o far apparire forme e sagome al suo interno.",
+        "source": "Xanathar's Guide to Everything"
+    },
+    "Create Bonfire": {
+        "level": 0,
+        "school": "Conjuration",
+        "casting_time": "1 action",
+        "range": "60 feet",
+        "components": "V, S",
+        "duration": "Concentration, up to 1 minute",
+        "description": "Crei un falò magico sul terreno che puoi vedere. Qualsiasi creatura che entra nello spazio del falò o vi termina il turno deve superare un tiro salvezza su Destrezza o subire 1d8 danni da fuoco.",
+        "source": "Tasha's Cauldron of Everything"
+    },
+    "Eldritch Blast": {
+        "level": 0,
+        "school": "Evocation",
+        "casting_time": "1 action",
+        "range": "120 feet",
+        "components": "V, S",
+        "duration": "Instantaneous",
+        "classes": [
+            "Warlock"
+        ],
+        "description": "Scagli un dardo di energia crepitante. Compi un attacco magico a distanza contro il bersaglio: se colpisci, infliggi 1d10 danni da forza. Al 5° livello scagli due dardi, a 11° tre dardi e al 17° quattro dardi. Ogni dardo richiede un tiro per colpire separato.",
+        "source": "Player's Handbook"
+    },
+    "Fire Bolt": {
+        "level": 0,
+        "school": "Evocation",
+        "casting_time": "1 action",
+        "range": "120 feet",
+        "components": "V, S",
+        "duration": "Instantaneous",
+        "classes": [
+            "Sorcerer",
+            "Wizard",
+            "Artificer"
+        ],
+        "description": "Scagli un dardo di fuoco contro una creatura o un oggetto. Compi un attacco magico a distanza: se colpisci, infliggi 1d10 danni da fuoco. Un oggetto infiammabile colpito si incendia se non è indossato o trasportato.",
+        "source": "Player's Handbook"
+    },
+    "Frostbite": {
+        "level": 0,
+        "school": "Evocation",
+        "casting_time": "1 action",
+        "range": "60 feet",
+        "components": "V, S",
+        "duration": "Instantaneous",
+        "classes": [
+            "Artificer",
+            "Druid",
+            "Sorcerer",
+            "Warlock",
+            "Wizard"
+        ],
+        "description": "Provochi una morsa di gelo su una creatura visibile. Il bersaglio deve effettuare un tiro salvezza su Costituzione: se lo fallisce, subisce 1d6 danni da freddo e ha svantaggio al prossimo tiro per colpire con un'arma che effettua prima della fine del suo turno successivo.",
+        "source": "Elemental Evil Player's Companion"
+    },
+    "Green-Flame Blade": {
+        "level": 0,
+        "school": "Evocation",
+        "casting_time": "1 action",
+        "range": "Self (5-foot radius)",
+        "components": "S, M (un'arma)",
+        "duration": "Instantaneous",
+        "classes": [
+            "Artificer",
+            "Sorcerer",
+            "Warlock",
+            "Wizard"
+        ],
+        "description": "Effettui un attacco con un'arma da mischia. Se colpisci, infliggi i normali danni dell'arma e fiamme verdi balzano dal bersaglio a un'altra creatura entro 5 piedi da esso, infliggendole danni da fuoco pari al tuo modificatore di caratteristica da incantatore.",
+        "source": "Tasha's Cauldron of Everything"
+    },
+    "Guidance": {
+        "level": 0,
+        "school": "Divination",
+        "casting_time": "1 action",
+        "range": "Touch",
+        "components": "V, S",
+        "duration": "Concentration, up to 1 minute",
+        "classes": [
+            "Cleric",
+            "Druid",
+            "Artificer"
+        ],
+        "description": "Tocchi una creatura consenziente. Una volta prima del termine dell'incantesimo, il bersaglio può tirare un d4 e sommare il risultato a una prova di caratteristica a sua scelta.",
+        "source": "Player's Handbook"
+    },
+    "Light": {
+        "level": 0,
+        "school": "Evocation",
+        "casting_time": "1 action",
+        "range": "Touch",
+        "components": "V, M (una lucciola o un pezzo di fosforo)",
+        "duration": "1 hour",
+        "classes": [
+            "Bard",
+            "Cleric",
+            "Sorcerer",
+            "Wizard",
+            "Artificer"
+        ],
+        "description": "Tocchi un oggetto non più grande di 3 metri in ogni dimensione. L'oggetto emette luce intensa in un raggio di 6 metri e luce fioca per altri 6 metri.",
+        "source": "Player's Handbook"
+    },
+    "Lightning Lure": {
+        "level": 0,
+        "school": "Evocation",
+        "casting_time": "1 action",
+        "range": "15 feet",
+        "components": "V",
+        "duration": "Instantaneous",
+        "classes": [
+            "Artificer",
+            "Sorcerer",
+            "Warlock",
+            "Wizard"
+        ],
+        "description": "Crei una sferzata di energia fulminea che attira una creatura. Il bersaglio entro 15 piedi deve superare un tiro salvezza su Forza o essere tirato di 10 piedi in linea retta verso di te e subire 1d8 danni da fulmine se termina il movimento entro 5 piedi da te.",
+        "source": "Tasha's Cauldron of Everything"
+    },
+    "Mage Hand": {
+        "level": 0,
+        "school": "Conjuration",
+        "casting_time": "1 action",
+        "range": "30 feet",
+        "components": "V, S",
+        "duration": "1 minute",
+        "classes": [
+            "Bard",
+            "Sorcerer",
+            "Warlock",
+            "Wizard",
+            "Artificer"
+        ],
+        "description": "Una mano spettrale e fluttuante appare nel punto scelto. Puoi usarla per manipolare oggetti, aprire porte, versare fiale, fino a una distanza di 30 piedi, trasportando massimo 5 kg. Non può attaccare.",
+        "source": "Player's Handbook"
+    },
+    "Mending": {
+        "level": 0,
+        "school": "Transmutation",
+        "casting_time": "1 minute",
+        "range": "Touch",
+        "components": "V, S, M (due calamite)",
+        "duration": "Instantaneous",
+        "classes": [
+            "Artificer",
+            "Bard",
+            "Cleric",
+            "Druid",
+            "Sorcerer",
+            "Wizard"
+        ],
+        "description": "Questo incantesimo ripara una singola rottura o strappo in un oggetto che tocchi, come una maglia di catena spezzata, due metà di una chiave o una fiasca che perde, purché il danno sia inferiore a 30 cm.",
+        "source": "Player's Handbook"
+    },
+    "Mind Sliver": {
+        "level": 0,
+        "school": "Enchantment",
+        "casting_time": "1 action",
+        "range": "60 feet",
+        "components": "V",
+        "duration": "1 round",
+        "classes": [
+            "Sorcerer",
+            "Warlock",
+            "Wizard"
+        ],
+        "description": "Scagli una spina di energia psichica disorientante nella mente di una creatura. Il bersaglio deve superare un tiro salvezza su Intelligenza o subire 1d6 danni psichici e sottrarre 1d4 dal prossimo tiro salvezza che effettua prima della fine del tuo prossimo turno.",
+        "source": "Tasha's Cauldron of Everything"
+    },
+    "Minor Illusion": {
+        "level": 0,
+        "school": "Illusion",
+        "casting_time": "1 action",
+        "range": "30 feet",
+        "components": "S, M (un pizzico di lana)",
+        "duration": "1 minute",
+        "classes": [
+            "Bard",
+            "Sorcerer",
+            "Warlock",
+            "Wizard"
+        ],
+        "description": "Crei un suono o un'immagine di un oggetto entro la gittata, che permane per la durata dell'effetto. Il suono può variare da un sussurro a un ruggito. L'immagine non può essere più grande di un cubo di 1,5 metri.",
+        "source": "Player's Handbook"
+    },
+    "Prestidigitation": {
+        "level": 0,
+        "school": "Transmutation",
+        "casting_time": "1 action",
+        "range": "10 feet",
+        "components": "V, S",
+        "duration": "Up to 1 hour",
+        "classes": [
+            "Artificer",
+            "Bard",
+            "Sorcerer",
+            "Warlock",
+            "Wizard"
+        ],
+        "description": "Un trucco magico semplice che i novizi usano per fare pratica. Puoi creare piccoli effetti sensoriali istantanei, accendere o spegnere candele/torce, pulire o sporcare oggetti, scaldare o raffreddare cibo, o far apparire piccoli simboli.",
+        "source": "Player's Handbook"
+    },
+    "Sacred Flame": {
+        "level": 0,
+        "school": "Evocation",
+        "casting_time": "1 action",
+        "range": "60 feet",
+        "components": "V, S",
+        "duration": "Instantaneous",
+        "classes": [
+            "Cleric"
+        ],
+        "description": "Un bagliore simile a fiamme scende su una creatura visibile. Il bersaglio deve effettuare un tiro salvezza su Destrezza (non beneficia di alcuna copertura per questo tiro salvezza): se fallisce, subisce 1d8 danni radianti.",
+        "source": "Player's Handbook"
+    },
+    "Shillelagh": {
+        "level": 0,
+        "school": "Transmutation",
+        "casting_time": "1 bonus action",
+        "range": "Touch",
+        "components": "V, S, M (vischio, un quadrifoglio e un bastone)",
+        "duration": "1 minute",
+        "classes": [
+            "Druid"
+        ],
+        "description": "Il legno di un bastone o randello che impugni viene pervaso dal potere della natura. Per la durata, puoi usare la tua caratteristica da incantatore (Saggezza) al posto della Forza per i tiri per colpire e i danni, e il dado dei danni diventa un d8. L'arma diventa magica.",
+        "source": "Player's Handbook"
+    },
+    "Sword Burst": {
+        "level": 0,
+        "school": "Conjuration",
+        "casting_time": "1 action",
+        "range": "Self (5-foot radius)",
+        "components": "V",
+        "duration": "Instantaneous",
+        "classes": [
+            "Artificer",
+            "Sorcerer",
+            "Warlock",
+            "Wizard"
+        ],
+        "description": "Crei momentaneamente cerchi di lame spettrali che turbinano intorno a te. Ogni creatura entro 5 piedi deve superare un tiro salvezza su Destrezza o subire 1d6 danni da forza.",
+        "source": "Tasha's Cauldron of Everything"
+    },
+    "Toll the Dead": {
+        "level": 0,
+        "school": "Necromancy",
+        "casting_time": "1 action",
+        "range": "60 feet",
+        "components": "V, S",
+        "duration": "Instantaneous",
+        "classes": [
+            "Cleric",
+            "Warlock",
+            "Wizard"
+        ],
+        "description": "Punti il dito verso una creatura: il rintocco di una campana funesta risuona nell'aria intorno ad essa. Il bersaglio deve effettuare un tiro salvezza su Saggezza o subire 1d8 danni necrotici. Se la creatura è ferita (ha meno dei suoi PF massimi), subisce invece 1d12 danni necrotici.",
+        "source": "Xanathar's Guide to Everything"
+    },
+    "Vicious Mockery": {
+        "level": 0,
+        "school": "Enchantment",
+        "casting_time": "1 action",
+        "range": "60 feet",
+        "components": "V",
+        "duration": "Instantaneous",
+        "classes": [
+            "Bard"
+        ],
+        "description": "Lanci una serie di insulti carichi di sottili incantesimi contro una creatura. Se il bersaglio può sentirti, deve superare un tiro salvezza su Saggezza o subire 1d4 danni psichici e avere svantaggio al prossimo tiro per colpire che effettua prima della fine del suo turno successivo.",
+        "source": "Player's Handbook"
+    },
+    "Absorb Elements": {
+        "level": 1,
+        "school": "Abjuration",
+        "casting_time": "1 reaction, in risposta a subire danni elementali",
+        "range": "Self",
+        "components": "S",
+        "duration": "1 round",
+        "classes": [
+            "Artificer",
+            "Druid",
+            "Ranger",
+            "Sorcerer",
+            "Wizard"
+        ],
+        "description": "L'incantesimo cattura parte dell'energia in arrivo, mitigandone gli effetti e accumulandola per il tuo prossimo attacco da mischia. Ottieni resistenza al tipo di danno attivante fino all'inizio del tuo prossimo turno, e il tuo primo attacco da mischia messo a segno nel prossimo turno infligge 1d6 danni extra di quel tipo.",
+        "source": "Elemental Evil Player's Companion"
+    },
+    "Bless": {
+        "level": 1,
+        "school": "Enchantment",
+        "casting_time": "1 action",
+        "range": "30 feet",
+        "components": "V, S, M (un pizzico di acqua santa)",
+        "duration": "Concentration, up to 1 minute",
+        "classes": [
+            "Cleric",
+            "Paladin"
+        ],
+        "description": "Benedici fino a tre creature a tua scelta entro gittata. Ogni volta che un bersaglio effettua un tiro per colpire o un tiro salvezza prima del termine dell'incantesimo, può tirare un d4 e sommare il risultato al tiro.",
+        "source": "Player's Handbook"
+    },
+    "Bane": {
+        "level": 1,
+        "school": "Enchantment",
+        "casting_time": "1 action",
+        "range": "30 feet",
+        "components": "V, S, M (un pizzico di sangue)",
+        "duration": "Concentration, up to 1 minute",
+        "classes": [
+            "Bard",
+            "Cleric"
+        ],
+        "description": "Fino a tre creature a tua scelta entro gittata devono effettuare un tiro salvezza su Carisma. Se falliscono, ogni volta che effettuano un tiro per colpire o un tiro salvezza, devono sottrarre un d4 dal risultato.",
+        "source": "Player's Handbook"
+    },
+    "Catapult": {
+        "level": 1,
+        "school": "Transmutation",
+        "casting_time": "1 action",
+        "range": "150 feet",
+        "components": "S",
+        "duration": "Instantaneous",
+        "classes": [
+            "Artificer",
+            "Sorcerer",
+            "Wizard"
+        ],
+        "description": "Scegli un oggetto libero entro gittata che pesi tra 1 e 5 libbre. L'oggetto vola istantaneamente in linea retta fino a 90 piedi prima di cadere a terra. Se colpisce una creatura, questa deve superare un tiro salvezza su Destrezza o subire 3d8 danni d'impatto.",
+        "source": "Elemental Evil Player's Companion"
+    },
+    "Chaos Bolt": {
+        "level": 1,
+        "school": "Evocation",
+        "casting_time": "1 action",
+        "range": "120 feet",
+        "components": "V, S",
+        "duration": "Instantaneous",
+        "classes": [
+            "Sorcerer"
+        ],
+        "description": "Scagli un dardo di energia caotica e imprevedibile. Effettua un attacco magico a distanza: se colpisci, infliggi 2d8 + 1d6 danni. Scegli il tipo di danno in base ai numeri usciti sui d8. Se ottieni lo stesso numero su entrambi i d8, l'energia caotica rimbalza su un altro bersaglio entro 30 piedi.",
+        "source": "Xanathar's Guide to Everything"
+    },
+    "Cure Wounds": {
+        "level": 1,
+        "school": "Evocation",
+        "casting_time": "1 action",
+        "range": "Touch",
+        "components": "V, S",
+        "duration": "Instantaneous",
+        "classes": [
+            "Artificer",
+            "Bard",
+            "Cleric",
+            "Druid",
+            "Paladin",
+            "Ranger"
+        ],
+        "description": "Una creatura che tocchi recupera un ammontare di punti ferita pari a 1d8 + il tuo modificatore di caratteristica da incantatore. Non ha effetto su costrutti o non-morti.",
+        "source": "Player's Handbook"
+    },
+    "Earth Tremor": {
+        "level": 1,
+        "school": "Evocation",
+        "casting_time": "1 action",
+        "range": "Self (10-foot radius)",
+        "components": "V, S",
+        "duration": "Instantaneous",
+        "classes": [
+            "Bard",
+            "Druid",
+            "Sorcerer",
+            "Wizard"
+        ],
+        "description": "Provochi un tremito sismico nel terreno. Ogni creatura entro 10 piedi da te deve superare un tiro salvezza su Destrezza o subire 1d6 danni contundenti ed essere buttata prono. Il terreno circostante diventa terreno difficile.",
+        "source": "Elemental Evil Player's Companion"
+    },
+    "Faerie Fire": {
+        "level": 1,
+        "school": "Evocation",
+        "casting_time": "1 action",
+        "range": "60 feet",
+        "components": "V",
+        "duration": "Concentration, up to 1 minute",
+        "classes": [
+            "Artificer",
+            "Bard",
+            "Druid"
+        ],
+        "description": "Ogni oggetto entro un cubo di 6 metri viene delineato da una luce soffusa blu, verde o viola. Le creature nell'area che falliscono un tiro salvezza su Destrezza vengono delineate e gli attacchi contro di esse hanno vantaggio.",
+        "source": "Player's Handbook"
+    },
+    "Healing Word": {
+        "level": 1,
+        "school": "Evocation",
+        "casting_time": "1 bonus action",
+        "range": "60 feet",
+        "components": "V",
+        "duration": "Instantaneous",
+        "classes": [
+            "Bard",
+            "Cleric",
+            "Druid"
+        ],
+        "description": "Una creatura a tua scelta che puoi vedere entro gittata recupera punti ferita pari a 1d4 + il tuo modificatore di caratteristica da incantatore. Molto utile per rianimare alleati svenuti a distanza.",
+        "source": "Player's Handbook"
+    },
+    "Hex": {
+        "level": 1,
+        "school": "Enchantment",
+        "casting_time": "1 bonus action",
+        "range": "90 feet",
+        "components": "V, S, M (un occhio pietrificato di tritone)",
+        "duration": "Concentration, up to 1 hour",
+        "classes": [
+            "Warlock"
+        ],
+        "description": "Maledici una creatura entro gittata. Fino al termine dell'incantesimo, infliggi 1d6 danni necrotici extra al bersaglio ogni volta che lo colpisci con un attacco. Inoltre, scegli una caratteristica: il bersaglio ha svantaggio alle prove di quella caratteristica.",
+        "source": "Player's Handbook"
+    },
+    "Hunter's Mark": {
+        "level": 1,
+        "school": "Divination",
+        "casting_time": "1 bonus action",
+        "range": "90 feet",
+        "components": "V",
+        "duration": "Concentration, up to 1 hour",
+        "classes": [
+            "Ranger"
+        ],
+        "description": "Scegli una creatura entro la gittata e la marchi come tua preda. Finché l'incantesimo non termina, infliggi 1d6 danni extra al bersaglio ogni volta che lo colpisci con un attacco con arma, e hai vantaggio alle prove di Saggezza (Percezione/Sopravvivenza) per rintracciarlo.",
+        "source": "Player's Handbook"
+    },
+    "Ice Knife": {
+        "level": 1,
+        "school": "Conjuration",
+        "casting_time": "1 action",
+        "range": "60 feet",
+        "components": "S, M (una goccia d'acqua o un pezzo di ghiaccio)",
+        "duration": "Instantaneous",
+        "classes": [
+            "Druid",
+            "Sorcerer",
+            "Wizard"
+        ],
+        "description": "Crei un pugnale di ghiaccio e lo scagli contro una creatura. Compi un attacco magico a distanza: se colpisci, infliggi 1d10 danni perforanti. Che tu colpisca o meno, il pugnale poi esplode: ogni creatura entro 5 piedi dal bersaglio deve superare un tiro salvezza su Destrezza o subire 2d6 danni da freddo.",
+        "source": "Elemental Evil Player's Companion"
+    },
+    "Mage Armor": {
+        "level": 1,
+        "school": "Abjuration",
+        "casting_time": "1 action",
+        "range": "Touch",
+        "components": "V, S, M (un pezzo di cuoio conciato)",
+        "duration": "8 hours",
+        "classes": [
+            "Sorcerer",
+            "Wizard"
+        ],
+        "description": "Tocchi una creatura consenziente che non indossa armatura. Fino al termine dell'incantesimo, la sua Classe Armatura base diventa pari a 13 + il suo modificatore di Destrezza.",
+        "source": "Player's Handbook"
+    },
+    "Magic Missile": {
+        "level": 1,
+        "school": "Evocation",
+        "casting_time": "1 action",
+        "range": "120 feet",
+        "components": "V, S",
+        "duration": "Instantaneous",
+        "classes": [
+            "Sorcerer",
+            "Wizard"
+        ],
+        "description": "Crei tre dardi di forza magica che colpiscono infallibilmente i bersagli prescelti. Ogni dardo infligge 1d4 + 1 danni da forza. Puoi indirizzare i dardi contro un'unica creatura o distribuirli.",
+        "source": "Player's Handbook"
+    },
+    "Shield": {
+        "level": 1,
+        "school": "Abjuration",
+        "casting_time": "1 reaction, presa quando vieni colpito da un attacco o bersagliato da Dardo Incantato",
+        "range": "Self",
+        "components": "V, S",
+        "duration": "1 round",
+        "classes": [
+            "Sorcerer",
+            "Wizard"
+        ],
+        "description": "Una barriera invisibile di forza magica appare a proteggerti. Fino all'inizio del tuo prossimo turno, ottieni un bonus di +5 alla CA (incluso contro l'attacco attivante) e non subisci danni da Dardo Incantato.",
+        "source": "Player's Handbook"
+    },
+    "Tasha's Caustic Brew": {
+        "level": 1,
+        "school": "Evocation",
+        "casting_time": "1 action",
+        "range": "Self (30-foot line)",
+        "components": "V, S, M (un pezzetto di cibo avariato)",
+        "duration": "Concentration, up to 1 minute",
+        "classes": [
+            "Artificer",
+            "Sorcerer",
+            "Wizard"
+        ],
+        "description": "Spruzzi una scia di acido corrosivo lunga 9 metri e larga 1,5. Ogni creatura investita deve superare un tiro salvezza su Destrezza o essere ricoperta di acido, subendo 2d4 danni da acido all'inizio di ciascun suo turno finché l'acido non viene rimosso usando un'azione.",
+        "source": "Tasha's Cauldron of Everything"
+    },
+    "Invisibility": {
+        "level": 2,
+        "school": "Illusion",
+        "casting_time": "1 action",
+        "range": "Touch",
+        "components": "V, S, M (un ciglio avvolto nella gomma arabica)",
+        "duration": "Concentration, up to 1 hour",
+        "classes": [
+            "Bard",
+            "Sorcerer",
+            "Warlock",
+            "Wizard",
+            "Artificer"
+        ],
+        "description": "Una creatura che tocchi diventa invisibile. Qualsiasi cosa la creatura indossi o trasporti è invisibile finché rimane sul suo corpo. L'incantesimo termina prematuramente se il bersaglio attacca o lancia un incantesimo.",
+        "source": "Player's Handbook"
+    },
+    "Misty Step": {
+        "level": 2,
+        "school": "Conjuration",
+        "casting_time": "1 bonus action",
+        "range": "Self",
+        "components": "V",
+        "duration": "Instantaneous",
+        "classes": [
+            "Sorcerer",
+            "Warlock",
+            "Wizard"
+        ],
+        "description": "Circondato da una nebbia argentea, ti teletrasporti istantaneamente fino a 30 piedi in uno spazio libero che puoi vedere.",
+        "source": "Player's Handbook"
+    },
+    "Scorching Ray": {
+        "level": 2,
+        "school": "Evocation",
+        "casting_time": "1 action",
+        "range": "120 feet",
+        "components": "V, S",
+        "duration": "Instantaneous",
+        "classes": [
+            "Sorcerer",
+            "Wizard"
+        ],
+        "description": "Crei tre raggi di fuoco e li scagli contro i bersagli entro la gittata. Puoi scagliarli tutti contro lo stesso bersaglio o dividerli. Effettua un attacco magico a distanza per ogni raggio: ciascun raggio che colpisce infliggi 2d6 danni da fuoco.",
+        "source": "Player's Handbook"
+    },
+    "Spiritual Weapon": {
+        "level": 2,
+        "school": "Evocation",
+        "casting_time": "1 bonus action",
+        "range": "60 feet",
+        "components": "V, S",
+        "duration": "1 minute",
+        "classes": [
+            "Cleric"
+        ],
+        "description": "Crei un'arma spettrale e fluttuante entro la gittata. Quando la evochi, e poi come azione bonus in ogni tuo turno, puoi muoverla fino a 20 piedi e compiere un attacco magico da mischia contro una creatura entro 5 piedi da essa. Infligge 1d8 + modificatore di incantatore danni da forza.",
+        "source": "Player's Handbook"
+    },
+    "Tasha's Mind Whip": {
+        "level": 2,
+        "school": "Enchantment",
+        "casting_time": "1 action",
+        "range": "90 feet",
+        "components": "V",
+        "duration": "1 round",
+        "classes": [
+            "Sorcerer",
+            "Wizard"
+        ],
+        "description": "Sferzi psichicamente la mente di una creatura che puoi vedere. Il bersaglio deve effettuare un tiro salvezza su Intelligenza: se fallisce, subisce 3d6 danni psichici e, nel suo prossimo turno, può compiere solo un movimento, un'azione o un'azione bonus (una sola di queste tre) e non può usare reazioni.",
+        "source": "Tasha's Cauldron of Everything"
+    },
+    "Counterspell": {
+        "level": 3,
+        "school": "Abjuration",
+        "casting_time": "1 reaction, presa quando vedi una creatura entro 60 piedi lanciare un incantesimo",
+        "range": "60 feet",
+        "components": "S",
+        "duration": "Instantaneous",
+        "classes": [
+            "Sorcerer",
+            "Warlock",
+            "Wizard"
+        ],
+        "description": "Tenti di interrompere il lancio di un incantesimo da parte di un'altra creatura. Se la creatura sta lanciando un incantesimo di 3° livello o inferiore, fallisce e non ha effetto. Se è di 4° livello o superiore, effettua una prova di caratteristica magica (DC = 10 + livello dell'incantesimo): se la superi, l'incantesimo fallisce.",
+        "source": "Player's Handbook"
+    },
+    "Dispel Magic": {
+        "level": 3,
+        "school": "Abjuration",
+        "casting_time": "1 action",
+        "range": "120 feet",
+        "components": "V, S",
+        "duration": "Instantaneous",
+        "classes": [
+            "Bard",
+            "Cleric",
+            "Druid",
+            "Paladin",
+            "Sorcerer",
+            "Warlock",
+            "Wizard"
+        ],
+        "description": "Scegli una creatura, oggetto o effetto magico entro gittata. Qualsiasi incantesimo di 3° livello o inferiore attivo sul bersaglio termina. Per ciascun incantesimo di 4° o superiore, effettua una prova di caratteristica magica (CD 10 + livello) per dissolverlo.",
+        "source": "Player's Handbook"
+    },
+    "Fireball": {
+        "level": 3,
+        "school": "Evocation",
+        "casting_time": "1 action",
+        "range": "150 feet",
+        "components": "V, S, M (una pallina di guano di pipistrello e zolfo)",
+        "duration": "Instantaneous",
+        "classes": [
+            "Sorcerer",
+            "Wizard"
+        ],
+        "description": "Un fascio di luce scaturisce dal tuo dito per poi esplodere con un boato in una sfera di fiamme di 6 metri di raggio nel punto scelto. Ogni creatura nell'area deve effettuare un tiro salvezza su Destrezza: subisce 8d6 danni da fuoco se lo fallisce, o la metà se lo supera.",
+        "source": "Player's Handbook"
+    },
+    "Haste": {
+        "level": 3,
+        "school": "Transmutation",
+        "casting_time": "1 action",
+        "range": "30 feet",
+        "components": "V, S, M (una buccia di radice di liquirizia)",
+        "duration": "Concentration, up to 1 minute",
+        "classes": [
+            "Sorcerer",
+            "Wizard",
+            "Artificer"
+        ],
+        "description": "Scegli una creatura alleata entro la gittata. Per la durata dell'effetto, la sua velocità raddoppia, ottiene un bonus di +2 alla CA, ha vantaggio ai tiri salvezza su Destrezza e ottiene un'azione aggiuntiva in ogni suo turno (limitata ad Attacco, Scatto, Disimpegno, Schivata o Usa Oggetto). Quando finisce, la creatura è esausta per un turno.",
+        "source": "Player's Handbook"
+    },
+    "Revivify": {
+        "level": 3,
+        "school": "Conjuration",
+        "casting_time": "1 action",
+        "range": "Touch",
+        "components": "V, S, M (diamanti del valore di 300 gp, consumati)",
+        "duration": "Instantaneous",
+        "classes": [
+            "Cleric",
+            "Paladin",
+            "Artificer"
+        ],
+        "description": "Tocchi una creatura che è morta da non più di 1 minuto. La creatura torna in vita con 1 punto ferita. Questo incantesimo non può ripristinare parti del corpo mancanti o far risorgere creature morte di vecchiaia.",
+        "source": "Player's Handbook"
+    },
+    "Spirit Guardians": {
+        "level": 3,
+        "school": "Conjuration",
+        "casting_time": "1 action",
+        "range": "Self (15-foot radius)",
+        "components": "V, S, M (un simbolo sacro)",
+        "duration": "Concentration, up to 10 minutes",
+        "classes": [
+            "Cleric"
+        ],
+        "description": "Evochi spiriti protettori che fluttuano intorno a te in un raggio di 15 piedi. La velocità delle creature nemiche nell'area viene dimezzata. Inoltre, quando una creatura nemica entra nell'area per la prima volta in un turno o vi inizia il turno, deve effettuare un tiro salvezza su Saggezza: subisce 3d8 danni radianti (se sei buono/neutrale) o necrotici (se sei malvagio) se fallisce.",
+        "source": "Player's Handbook"
+    },
+    "Polymorph": {
+        "level": 4,
+        "school": "Transmutation",
+        "casting_time": "1 action",
+        "range": "60 feet",
+        "components": "V, S, M (un bozzolo di bruco)",
+        "duration": "Concentration, up to 1 hour",
+        "classes": [
+            "Bard",
+            "Druid",
+            "Sorcerer",
+            "Wizard"
+        ],
+        "description": "Trasformi una creatura visibile in una bestia a tua scelta. Il bersaglio non consenziente può effettuare un tiro salvezza su Saggezza per evitare l'effetto. Le statistiche fisiche e mentali del bersaglio vengono sostituite da quelle della bestia scelta (ad esempio un T-Rex o un Mammut). I punti ferita della nuova forma fungono da scudo: se scendono a 0, il bersaglio torna alla sua forma originale con i PF precedenti.",
+        "source": "Player's Handbook"
+    },
+    "Dimension Door": {
+        "level": 4,
+        "school": "Conjuration",
+        "casting_time": "1 action",
+        "range": "500 feet",
+        "components": "V",
+        "duration": "Instantaneous",
+        "classes": [
+            "Bard",
+            "Sorcerer",
+            "Warlock",
+            "Wizard"
+        ],
+        "description": "Ti teletrasporti istantaneamente dal tuo spazio corrente a qualsiasi altro spazio entro gittata che tu possa visualizzare o descrivere con precisione geometrica. Puoi portare con te una creatura consenziente della tua taglia o inferiore.",
+        "source": "Player's Handbook"
+    },
+    "Cloudkill": {
+        "level": 5,
+        "school": "Conjuration",
+        "casting_time": "1 action",
+        "range": "120 feet",
+        "components": "V, S",
+        "duration": "Concentration, up to 10 minutes",
+        "classes": [
+            "Sorcerer",
+            "Wizard"
+        ],
+        "description": "Crei una nebbia velenosa di colore giallo-verde di 6 metri di raggio. La nebbia si sposta di 3 metri allontanandosi da te all'inizio di ogni tuo turno. Qualsiasi creatura che vi entra o vi inizia il turno deve superare un tiro salvezza su Costituzione o subire 5d8 danni da veleno.",
+        "source": "Player's Handbook"
+    },
+    "Synaptic Static": {
+        "level": 5,
+        "school": "Enchantment",
+        "casting_time": "1 action",
+        "range": "120 feet",
+        "components": "V, S",
+        "duration": "Instantaneous",
+        "classes": [
+            "Bard",
+            "Sorcerer",
+            "Warlock",
+            "Wizard"
+        ],
+        "description": "Provochi un'esplosione di energia psichica sfrigolante in una sfera di 6 metri di raggio. Ogni creatura nell'area deve effettuare un tiro salvezza su Intelligenza: se fallisce, subisce 8d6 danni psichici e per 1 minuto sottrae un d6 da tutti i suoi tiri per colpire, prove di abilità e tiri per mantenere la concentrazione.",
+        "source": "Xanathar's Guide to Everything"
+    },
+    "Disintegrate": {
+        "level": 6,
+        "school": "Transmutation",
+        "casting_time": "1 action",
+        "range": "60 feet",
+        "components": "V, S, M (un pizzico di polvere di magnetite)",
+        "duration": "Instantaneous",
+        "classes": [
+            "Sorcerer",
+            "Wizard"
+        ],
+        "description": "Scagli un raggio verde dal tuo dito contro un bersaglio. Se colpisce una creatura, questa deve effettuare un tiro salvezza su Destrezza: se lo fallisce, subisce 10d6 + 40 danni da forza. Se questo danno riduce i punti ferita della creatura a 0, questa viene interamente polverizzata in cenere grigia (inclusi gli oggetti non magici indossati).",
+        "source": "Player's Handbook"
+    },
+    "Heal": {
+        "level": 6,
+        "school": "Evocation",
+        "casting_time": "1 action",
+        "range": "60 feet",
+        "components": "V, S",
+        "duration": "Instantaneous",
+        "classes": [
+            "Cleric",
+            "Druid"
+        ],
+        "description": "Inondi una creatura di energia curativa pura. Il bersaglio recupera istantaneamente 70 punti ferita. Questo effetto cura inoltre la cecità, la sordità e qualsiasi malattia attiva. Non ha effetto su costrutti o non-morti.",
+        "source": "Player's Handbook"
+    },
+    "Blade of Disaster": {
+        "level": 9,
+        "school": "Conjuration",
+        "casting_time": "1 bonus action",
+        "range": "60 feet",
+        "components": "V, S",
+        "duration": "Concentration, up to 1 minute",
+        "classes": [
+            "Sorcerer",
+            "Warlock",
+            "Wizard"
+        ],
+        "description": "Crei uno squarcio planare a forma di lama nera lunga circa 1 metro. Puoi effettuare fino a due attacchi magici da mischia a turno con essa: infligge 4d12 danni da forza. Mette a segno un colpo critico con un risultato di 18-20, infliggendo in tal caso ben 12d12 danni da forza cumulativi.",
+        "source": "Tasha's Cauldron of Everything"
+    },
+    "Wish": {
+        "level": 9,
+        "school": "Conjuration",
+        "casting_time": "1 action",
+        "range": "Self",
+        "components": "V",
+        "duration": "Instantaneous",
+        "classes": [
+            "Sorcerer",
+            "Wizard"
+        ],
+        "description": "Il desiderio è il più potente incantesimo che un mortale possa lanciare. Semplicemente parlando a voce alta, puoi alterare la realtà. L'uso base consente di duplicare qualsiasi altro incantesimo di livello 8 o inferiore di qualsiasi lista, senza richiedere componenti o tempo di lancio speciale. Usi alternativi (creare oggetti di immenso valore, curare l'intero party) provocano enorme stress magico e rischiano di impedirti di lanciare Desiderio per sempre.",
+        "source": "Player's Handbook"
+    }
+}

@@ -1,0 +1,1461 @@
+{
+    "PHB (Player's Handbook)": {
+        "Dwarf": {
+            "name": "Dwarf",
+            "source": "Player's Handbook",
+            "size": "Medium",
+            "speed": 25,
+            "ability_score_increase": {
+                "CON": 2
+            },
+            "languages": [
+                "Common",
+                "Dwarvish"
+            ],
+            "traits": [
+                {
+                    "name": "Darkvision",
+                    "description": "Accustomed to life underground, you have superior vision in dark and dim conditions. You can see in dim light within 60 feet of you as if it were bright light, and in darkness as if it were dim light. You can't discern color in darkness, only shades of gray."
+                },
+                {
+                    "name": "Dwarven Resilience",
+                    "description": "You have advantage on saving throws against poison, and you have resistance against poison damage."
+                },
+                {
+                    "name": "Dwarven Combat Training",
+                    "description": "You have proficiency with the battleaxe, handaxe, light hammer, and warhammer."
+                },
+                {
+                    "name": "Stonecunning",
+                    "description": "Whenever you make an Intelligence (History) check related to the origin of stonework, you are considered proficient in the History skill and add double your proficiency bonus to the check, instead of your normal proficiency bonus."
+                }
+            ],
+            "subraces": [
+                {
+                    "name": "Hill Dwarf",
+                    "source": "Player's Handbook",
+                    "ability_score_increase": {
+                        "WIS": 1
+                    },
+                    "traits": [
+                        {
+                            "name": "Dwarven Toughness",
+                            "description": "Your hit point maximum increases by 1, and it increases by 1 every time you gain a level."
+                        }
+                    ]
+                },
+                {
+                    "name": "Mountain Dwarf",
+                    "source": "Player's Handbook",
+                    "ability_score_increase": {
+                        "STR": 2
+                    },
+                    "traits": [
+                        {
+                            "name": "Dwarven Armor Training",
+                            "description": "You have proficiency with light and medium armor."
+                        }
+                    ]
+                },
+                {
+                    "name": "Duergar (Gray Dwarf)",
+                    "source": "Mordenkainen's Tome of Foes",
+                    "ability_score_increase": {
+                        "STR": 1
+                    },
+                    "languages": [
+                        "Undercommon"
+                    ],
+                    "traits": [
+                        {
+                            "name": "Superior Darkvision",
+                            "description": "Your darkvision has a radius of 120 feet."
+                        },
+                        {
+                            "name": "Duergar Resilience",
+                            "description": "You have advantage on saving throws against poison, spells, and illusions, as well as to resist being charmed or paralyzed."
+                        },
+                        {
+                            "name": "Duergar Magic",
+                            "description": "When you reach 3rd level, you can cast the enlarge/reduce spell on yourself once with this trait, using only the spell's enlarge option. When you reach 5th level, you can cast the invisibility spell on yourself once with this trait. You don't need material components for either spell, and you can't cast them while you're in direct sunlight. You regain the ability to cast these spells when you finish a long rest. Intelligence is your spellcasting ability."
+                        }
+                    ]
+                }
+            ]
+        },
+        "Elf": {
+            "name": "Elf",
+            "source": "Player's Handbook",
+            "size": "Medium",
+            "speed": 30,
+            "ability_score_increase": {
+                "DEX": 2
+            },
+            "languages": [
+                "Common",
+                "Elvish"
+            ],
+            "traits": [
+                {
+                    "name": "Darkvision",
+                    "description": "Accustomed to twilit forests and the night sky, you have superior vision in dark and dim conditions. You can see in dim light within 60 feet of you as if it were bright light, and in darkness as if it were dim light."
+                },
+                {
+                    "name": "Keen Senses",
+                    "description": "You have proficiency in the Perception skill."
+                },
+                {
+                    "name": "Fey Ancestry",
+                    "description": "You have advantage on saving throws against being charmed, and magic can't put you to sleep."
+                },
+                {
+                    "name": "Trance",
+                    "description": "Elves don't need to sleep. Instead, they meditate deeply, remaining semiconscious, for 4 hours a day. After resting in this way, you gain the same benefit that a human does from 8 hours of sleep."
+                }
+            ],
+            "subraces": [
+                {
+                    "name": "High Elf",
+                    "source": "Player's Handbook",
+                    "ability_score_increase": {
+                        "INT": 1
+                    },
+                    "traits": [
+                        {
+                            "name": "Elf Weapon Training",
+                            "description": "You have proficiency with the longsword, shortsword, shortbow, and longbow."
+                        },
+                        {
+                            "name": "Cantrip",
+                            "description": "You know one cantrip of your choice from the wizard spell list. Intelligence is your spellcasting ability for it."
+                        },
+                        {
+                            "name": "Extra Language",
+                            "description": "You can speak, read, and write one extra language of your choice."
+                        }
+                    ]
+                },
+                {
+                    "name": "Wood Elf",
+                    "source": "Player's Handbook",
+                    "ability_score_increase": {
+                        "WIS": 1
+                    },
+                    "traits": [
+                        {
+                            "name": "Elf Weapon Training",
+                            "description": "You have proficiency with the longsword, shortsword, shortbow, and longbow."
+                        },
+                        {
+                            "name": "Fleet of Foot",
+                            "description": "Your base walking speed increases to 35 feet."
+                        },
+                        {
+                            "name": "Mask of the Wild",
+                            "description": "You can attempt to hide even when you are only lightly obscured by foliage, heavy rain, falling snow, mist, and other natural phenomena."
+                        }
+                    ]
+                },
+                {
+                    "name": "Dark Elf (Drow)",
+                    "source": "Player's Handbook",
+                    "ability_score_increase": {
+                        "CHA": 1
+                    },
+                    "traits": [
+                        {
+                            "name": "Superior Darkvision",
+                            "description": "Your darkvision has a radius of 120 feet."
+                        },
+                        {
+                            "name": "Sunlight Sensitivity",
+                            "description": "You have disadvantage on attack rolls and on Wisdom (Perception) checks that rely on sight when you, the target of your attack, or whatever you are trying to perceive is in direct sunlight."
+                        },
+                        {
+                            "name": "Drow Magic",
+                            "description": "You know the dancing lights cantrip. When you reach 3rd level, you can cast the faerie fire spell once per day. When you reach 5th level, you can also cast the darkness spell once per day. Charisma is your spellcasting ability for these spells."
+                        },
+                        {
+                            "name": "Drow Weapon Training",
+                            "description": "You have proficiency with rapiers, shortswords, and hand crossbows."
+                        }
+                    ]
+                },
+                {
+                    "name": "Eladrin",
+                    "source": "Mordenkainen's Tome of Foes",
+                    "ability_score_increase": {
+                        "INT": 1
+                    },
+                    "traits": [
+                        {
+                            "name": "Elf Weapon Training",
+                            "description": "You have proficiency with the longsword, shortsword, shortbow, and longbow."
+                        },
+                        {
+                            "name": "Fey Step",
+                            "description": "You can cast the misty step spell once using this trait. You regain the ability to do so when you finish a short or long rest."
+                        }
+                    ]
+                },
+                {
+                    "name": "Sea Elf",
+                    "source": "Mordenkainen's Tome of Foes",
+                    "ability_score_increase": {
+                        "CON": 1
+                    },
+                    "languages": [
+                        "Aquan"
+                    ],
+                    "traits": [
+                        {
+                            "name": "Sea Elf Training",
+                            "description": "You have proficiency with the spear, trident, light crossbow, and net."
+                        },
+                        {
+                            "name": "Child of the Sea",
+                            "description": "You have a swimming speed of 30 feet, and you can breathe air and water."
+                        },
+                        {
+                            "name": "Friend of the Sea",
+                            "description": "Using gestures and sounds, you can communicate simple ideas with any beast that has an innate swimming speed."
+                        }
+                    ]
+                },
+                {
+                    "name": "Shadar-kai",
+                    "source": "Mordenkainen's Tome of Foes",
+                    "ability_score_increase": {
+                        "CON": 1
+                    },
+                    "traits": [
+                        {
+                            "name": "Necrotic Resistance",
+                            "description": "You have resistance to necrotic damage."
+                        },
+                        {
+                            "name": "Blessing of the Raven Queen",
+                            "description": "As a bonus action, you can magically teleport up to 30 feet to an unoccupied space you can see. Once you use this trait, you can't do so again until you finish a long rest. Starting at 3rd level, you also gain resistance to all damage when you teleport using this trait."
+                        }
+                    ]
+                }
+            ]
+        },
+        "Halfling": {
+            "name": "Halfling",
+            "source": "Player's Handbook",
+            "size": "Small",
+            "speed": 25,
+            "ability_score_increase": {
+                "DEX": 2
+            },
+            "languages": [
+                "Common",
+                "Halfling"
+            ],
+            "traits": [
+                {
+                    "name": "Lucky",
+                    "description": "When you roll a 1 on an attack roll, ability check, or saving throw, you can reroll the die and must use the new roll."
+                },
+                {
+                    "name": "Brave",
+                    "description": "You have advantage on saving throws against being frightened."
+                },
+                {
+                    "name": "Halfling Nimbleness",
+                    "description": "You can move through the space of any creature that is of a size larger than yours."
+                }
+            ],
+            "subraces": [
+                {
+                    "name": "Lightfoot",
+                    "source": "Player's Handbook",
+                    "ability_score_increase": {
+                        "CHA": 1
+                    },
+                    "traits": [
+                        {
+                            "name": "Naturally Stealthy",
+                            "description": "You can attempt to hide even when you are obscured only by a creature that is at least one size larger than you."
+                        }
+                    ]
+                },
+                {
+                    "name": "Stout",
+                    "source": "Player's Handbook",
+                    "ability_score_increase": {
+                        "CON": 1
+                    },
+                    "traits": [
+                        {
+                            "name": "Stout Resilience",
+                            "description": "You have advantage on saving throws against poison, and you have resistance against poison damage."
+                        }
+                    ]
+                }
+            ]
+        },
+        "Human": {
+            "name": "Human",
+            "source": "Player's Handbook",
+            "size": "Medium",
+            "speed": 30,
+            "ability_score_increase": {
+                "STR": 1,
+                "DEX": 1,
+                "CON": 1,
+                "INT": 1,
+                "WIS": 1,
+                "CHA": 1
+            },
+            "languages": [
+                "Common",
+                "Choice of one extra"
+            ],
+            "traits": [
+                {
+                    "name": "Resourceful",
+                    "description": "Highly adaptable, gaining a bonus language and being widely versatile in all fields of life."
+                }
+            ]
+        },
+        "Dragonborn": {
+            "name": "Dragonborn",
+            "source": "Player's Handbook",
+            "size": "Medium",
+            "speed": 30,
+            "ability_score_increase": {
+                "STR": 2,
+                "CHA": 1
+            },
+            "languages": [
+                "Common",
+                "Draconic"
+            ],
+            "traits": [
+                {
+                    "name": "Draconic Ancestry",
+                    "description": "Choose one type of dragon from the Draconic Ancestry table. Your breath weapon and damage resistance are determined by the dragon type."
+                },
+                {
+                    "name": "Breath Weapon",
+                    "description": "You can use your action to exhale destructive energy. Your draconic ancestry determines the size, shape, and damage type of the exhalation (DC = 8 + CON modifier + Proficiency). On a failed save, a creature takes 2d6 damage (scales with level)."
+                },
+                {
+                    "name": "Damage Resistance",
+                    "description": "You have resistance to the damage type associated with your draconic ancestry."
+                }
+            ]
+        },
+        "Gnome": {
+            "name": "Gnome",
+            "source": "Player's Handbook",
+            "size": "Small",
+            "speed": 25,
+            "ability_score_increase": {
+                "INT": 2
+            },
+            "languages": [
+                "Common",
+                "Gnomish"
+            ],
+            "traits": [
+                {
+                    "name": "Darkvision",
+                    "description": "Superior vision in dark and dim conditions out to 60 feet."
+                },
+                {
+                    "name": "Gnome Cunning",
+                    "description": "You have advantage on all Intelligence, Wisdom, and Charisma saving throws against magic."
+                }
+            ],
+            "subraces": [
+                {
+                    "name": "Forest Gnome",
+                    "source": "Player's Handbook",
+                    "ability_score_increase": {
+                        "DEX": 1
+                    },
+                    "traits": [
+                        {
+                            "name": "Natural Illusionist",
+                            "description": "You know the minor illusion cantrip. Intelligence is your spellcasting ability for it."
+                        },
+                        {
+                            "name": "Speak with Small Beasts",
+                            "description": "Through sounds and gestures, you can communicate simple ideas with Small or smaller beasts."
+                        }
+                    ]
+                },
+                {
+                    "name": "Rock Gnome",
+                    "source": "Player's Handbook",
+                    "ability_score_increase": {
+                        "CON": 1
+                    },
+                    "traits": [
+                        {
+                            "name": "Artificer's Lore",
+                            "description": "Whenever you make an Intelligence (History) check related to magic items, alchemical objects, or technological devices, you can add twice your proficiency bonus."
+                        },
+                        {
+                            "name": "Tinker",
+                            "description": "You have proficiency with artisan's tools (tinker's tools). Using them, you can spend 1 hour and 10 gp to construct a Tiny clockwork device."
+                        }
+                    ]
+                }
+            ]
+        },
+        "Half-Elf": {
+            "name": "Half-Elf",
+            "source": "Player's Handbook",
+            "size": "Medium",
+            "speed": 30,
+            "ability_score_increase": {
+                "CHA": 2,
+                "CHOICE_1": 1,
+                "CHOICE_2": 1
+            },
+            "languages": [
+                "Common",
+                "Elvish",
+                "Choice of one extra"
+            ],
+            "traits": [
+                {
+                    "name": "Darkvision",
+                    "description": "Thanks to your elf blood, you have superior vision in dark and dim conditions out to 60 feet."
+                },
+                {
+                    "name": "Fey Ancestry",
+                    "description": "You have advantage on saving throws against being charmed, and magic can't put you to sleep."
+                },
+                {
+                    "name": "Skill Versatility",
+                    "description": "You gain proficiency in two skills of your choice."
+                }
+            ]
+        },
+        "Half-Orc": {
+            "name": "Half-Orc",
+            "source": "Player's Handbook",
+            "size": "Medium",
+            "speed": 30,
+            "ability_score_increase": {
+                "STR": 2,
+                "CON": 1
+            },
+            "languages": [
+                "Common",
+                "Orc"
+            ],
+            "traits": [
+                {
+                    "name": "Darkvision",
+                    "description": "You have superior vision in dark and dim conditions out to 60 feet."
+                },
+                {
+                    "name": "Menacing",
+                    "description": "You gain proficiency in the Intimidation skill."
+                },
+                {
+                    "name": "Relentless Endurance",
+                    "description": "When you are reduced to 0 hit points but not killed outright, you can drop to 1 hit point instead. You can't use this feature again until you finish a long rest."
+                },
+                {
+                    "name": "Savage Attacks",
+                    "description": "When you score a critical hit with a melee weapon attack, you can roll one of the weapon's damage dice one additional time and add it to the extra damage of the critical hit."
+                }
+            ]
+        },
+        "Tiefling": {
+            "name": "Tiefling",
+            "source": "Player's Handbook",
+            "size": "Medium",
+            "speed": 30,
+            "ability_score_increase": {
+                "CHA": 2,
+                "INT": 1
+            },
+            "languages": [
+                "Common",
+                "Infernal"
+            ],
+            "traits": [
+                {
+                    "name": "Darkvision",
+                    "description": "Thanks to your infernal heritage, you have superior vision in dark and dim conditions out to 60 feet."
+                },
+                {
+                    "name": "Hellish Resistance",
+                    "description": "You have resistance to fire damage."
+                },
+                {
+                    "name": "Infernal Legacy",
+                    "description": "You know the thaumaturgy cantrip. At 3rd level, you can cast hellish rebuke as a 2nd-level spell once per long rest. At 5th level, you can cast darkness once per long rest. Charisma is your spellcasting ability."
+                }
+            ]
+        }
+    },
+    "EEPC (Elemental Evil Player's Companion)": {
+        "Aarakocra": {
+            "name": "Aarakocra",
+            "source": "Elemental Evil Player's Companion",
+            "size": "Medium",
+            "speed": 25,
+            "ability_score_increase": {
+                "DEX": 2,
+                "WIS": 1
+            },
+            "languages": [
+                "Common",
+                "Aarakocra",
+                "Auran"
+            ],
+            "traits": [
+                {
+                    "name": "Flight",
+                    "description": "You have a flying speed of 50 feet. To use this speed, you can't be wearing medium or heavy armor."
+                },
+                {
+                    "name": "Talons",
+                    "description": "You are proficient with your unarmed strikes, which deal 1d4 slashing damage on a hit."
+                }
+            ]
+        },
+        "Deep Gnome (Svirfneblin)": {
+            "name": "Deep Gnome",
+            "source": "Elemental Evil Player's Companion",
+            "size": "Small",
+            "speed": 25,
+            "ability_score_increase": {
+                "INT": 2,
+                "DEX": 1
+            },
+            "languages": [
+                "Common",
+                "Gnomish",
+                "Undercommon"
+            ],
+            "traits": [
+                {
+                    "name": "Superior Darkvision",
+                    "description": "Your darkvision has a radius of 120 feet."
+                },
+                {
+                    "name": "Gnome Cunning",
+                    "description": "You have advantage on all Intelligence, Wisdom, and Charisma saving throws against magic."
+                },
+                {
+                    "name": "Stone Camouflage",
+                    "description": "You have advantage on Dexterity (stealth) checks to hide in rocky terrain."
+                }
+            ]
+        },
+        "Genasi": {
+            "name": "Genasi",
+            "source": "Elemental Evil Player's Companion",
+            "size": "Medium",
+            "speed": 30,
+            "ability_score_increase": {
+                "CON": 2
+            },
+            "languages": [
+                "Common",
+                "Primordial"
+            ],
+            "traits": [
+                {
+                    "name": "Elemental Origin",
+                    "description": "Heirs to elemental power, manifesting different traits based on your planar subrace."
+                }
+            ],
+            "subraces": [
+                {
+                    "name": "Air Genasi",
+                    "source": "Elemental Evil Player's Companion",
+                    "ability_score_increase": {
+                        "DEX": 1
+                    },
+                    "traits": [
+                        {
+                            "name": "Unending Breath",
+                            "description": "You can hold your breath indefinitely while you're not incapacitated."
+                        },
+                        {
+                            "name": "Mingle with the Wind",
+                            "description": "You can cast the levitate spell once with this trait, requiring no material components, and you regain the ability to cast it this way when you finish a long rest. Constitution is your spellcasting ability for this spell."
+                        }
+                    ]
+                },
+                {
+                    "name": "Earth Genasi",
+                    "source": "Elemental Evil Player's Companion",
+                    "ability_score_increase": {
+                        "STR": 1
+                    },
+                    "traits": [
+                        {
+                            "name": "Earth Walk",
+                            "description": "You can move across difficult terrain made of earth or stone without expending extra movement."
+                        },
+                        {
+                            "name": "Merge with Stone",
+                            "description": "You can cast the pass without trace spell once with this trait, requiring no material components, and you regain the ability to cast it this way when you finish a long rest. Constitution is your spellcasting ability for this spell."
+                        }
+                    ]
+                },
+                {
+                    "name": "Fire Genasi",
+                    "source": "Elemental Evil Player's Companion",
+                    "ability_score_increase": {
+                        "INT": 1
+                    },
+                    "traits": [
+                        {
+                            "name": "Darkvision",
+                            "description": "You can see in dim light within 60 feet of you as if it were bright light, and in darkness as if it were dim light. Everything you see in darkness is in a shade of red."
+                        },
+                        {
+                            "name": "Fire Resistance",
+                            "description": "You have resistance to fire damage."
+                        },
+                        {
+                            "name": "Reach to the Blaze",
+                            "description": "You know the produce flame cantrip. Once you reach 3rd level, you can cast the burning hands spell once with this trait as a 1st-level spell. Constitution is your spellcasting ability."
+                        }
+                    ]
+                },
+                {
+                    "name": "Water Genasi",
+                    "source": "Elemental Evil Player's Companion",
+                    "ability_score_increase": {
+                        "WIS": 1
+                    },
+                    "traits": [
+                        {
+                            "name": "Acid Resistance",
+                            "description": "You have resistance to acid damage."
+                        },
+                        {
+                            "name": "Amphibious",
+                            "description": "You can breathe air and water."
+                        },
+                        {
+                            "name": "Swim speed",
+                            "description": "You have a swim speed of 30 feet."
+                        },
+                        {
+                            "name": "Call to the Wave",
+                            "description": "You know the shape water cantrip. Once you reach 3rd level, you can cast the create or destroy water spell once with this trait as a 1st-level spell. Constitution is your spellcasting ability."
+                        }
+                    ]
+                }
+            ]
+        },
+        "Goliath": {
+            "name": "Goliath",
+            "source": "Elemental Evil Player's Companion",
+            "size": "Medium",
+            "speed": 30,
+            "ability_score_increase": {
+                "STR": 2,
+                "CON": 1
+            },
+            "languages": [
+                "Common",
+                "Giant"
+            ],
+            "traits": [
+                {
+                    "name": "Natural Athlete",
+                    "description": "You have proficiency in the Athletics skill."
+                },
+                {
+                    "name": "Stone's Endurance",
+                    "description": "When you take damage, you can use your reaction to roll a d12. Add your Constitution modifier to the number rolled, and reduce the damage by that total. You regain this trait on a short or long rest."
+                },
+                {
+                    "name": "Powerful Build",
+                    "description": "You count as one size larger when determining your carrying capacity and the weight you can push, drag, or lift."
+                },
+                {
+                    "name": "Mountain Born",
+                    "description": "You're acclimated to high altitude, including elevations above 20,000 feet. You're also naturally adapted to cold climates."
+                }
+            ]
+        }
+    },
+    "The Tortle Package": {
+        "Tortle": {
+            "name": "Tortle",
+            "source": "The Tortle Package",
+            "size": "Medium",
+            "speed": 30,
+            "ability_score_increase": {
+                "STR": 2,
+                "WIS": 1
+            },
+            "languages": [
+                "Common",
+                "Aquan"
+            ],
+            "traits": [
+                {
+                    "name": "Claws",
+                    "description": "Your claws are natural weapons, which you can use to make unarmed strikes. If you hit, you deal slashing damage equal to 1d4 + Strength modifier."
+                },
+                {
+                    "name": "Hold Breath",
+                    "description": "You can hold your breath for up to 1 hour at a time."
+                },
+                {
+                    "name": "Natural Armor",
+                    "description": "Your shell provides you a base AC of 17 (your Dex modifier doesn't affect it). You can't wear armor, but scudi apply normally."
+                },
+                {
+                    "name": "Shell Defense",
+                    "description": "You can withdraw into your shell as an action. Until you emerge, you gain a +4 bonus to AC, and you have advantage on Strength and Constitution saving throws. You are prone, your speed is 0 and can't increase, and you can't take reactions."
+                },
+                {
+                    "name": "Survival Instinct",
+                    "description": "You gain proficiency in the Survival skill."
+                }
+            ]
+        }
+    },
+    "GGR (Guildmasters' Guide to Ravnica)": {
+        "Centaur": {
+            "name": "Centaur",
+            "source": "Guildmasters' Guide to Ravnica",
+            "size": "Medium",
+            "speed": 40,
+            "ability_score_increase": {
+                "STR": 2,
+                "WIS": 1
+            },
+            "languages": [
+                "Common",
+                "Sylvan"
+            ],
+            "traits": [
+                {
+                    "name": "Fey",
+                    "description": "Your creature type is fey, rather than humanoid."
+                },
+                {
+                    "name": "Charge",
+                    "description": "If you move at least 30 feet straight toward a target and then hit it with a melee weapon attack, you can immediately make one hooves attack as a bonus action."
+                },
+                {
+                    "name": "Hooves",
+                    "description": "Your hooves are natural weapons, which you can use to make unarmed strikes dealing 1d6 + STR bludgeoning damage."
+                },
+                {
+                    "name": "Equine Build",
+                    "description": "You count as one size larger for carrying, pushing, dragging. Any climb that requires hands/feet costs you 4 extra feet of movement per foot climbed."
+                },
+                {
+                    "name": "Survivor",
+                    "description": "You gain proficiency in one of: Animal Handling, Medicine, Nature, or Survival."
+                }
+            ]
+        },
+        "Loxodon": {
+            "name": "Loxodon",
+            "source": "Guildmasters' Guide to Ravnica",
+            "size": "Medium",
+            "speed": 30,
+            "ability_score_increase": {
+                "CON": 2,
+                "WIS": 1
+            },
+            "languages": [
+                "Common",
+                "Loxodon"
+            ],
+            "traits": [
+                {
+                    "name": "Powerful Build",
+                    "description": "You count as one size larger when determining carrying capacity."
+                },
+                {
+                    "name": "Loxodon Serenity",
+                    "description": "You have advantage on saving throws against being charmed or frightened."
+                },
+                {
+                    "name": "Natural Armor",
+                    "description": "Your thick, leathery hide gives you AC of 12 + CON modifier. Shield bonuses apply as normal."
+                },
+                {
+                    "name": "Trunk",
+                    "description": "You can grasp things with your trunk, using it to reach up to 5 feet, lift, pull, or carry. It cannot wield weapons or shields."
+                },
+                {
+                    "name": "Keen Smell",
+                    "description": "You have advantage on Wisdom (Perception), Wisdom (Survival), and Intelligence (Investigation) checks that involve smell."
+                }
+            ]
+        },
+        "Minotaur": {
+            "name": "Minotaur",
+            "source": "Guildmasters' Guide to Ravnica",
+            "size": "Medium",
+            "speed": 30,
+            "ability_score_increase": {
+                "STR": 2,
+                "CON": 1
+            },
+            "languages": [
+                "Common",
+                "Minotaur"
+            ],
+            "traits": [
+                {
+                    "name": "Horns",
+                    "description": "Your horns are natural weapons, dealing 1d6 + STR piercing damage on unarmed strikes."
+                },
+                {
+                    "name": "Goring Rush",
+                    "description": "Immediately after you take the Dash action and move at least 20 feet, you can make one horns attack as a bonus action."
+                },
+                {
+                    "name": "Hammering Horns",
+                    "description": "Immediately after you hit a creature with a melee attack on your turn, you can use a bonus action to attempt to shove that target up to 10 feet (Strength save vs 8 + Strength mod + Prof)."
+                },
+                {
+                    "name": "Imposing Presence",
+                    "description": "You have proficiency in either the Intimidation or Persuasion skill."
+                }
+            ]
+        },
+        "Simic Hybrid": {
+            "name": "Simic Hybrid",
+            "source": "Guildmasters' Guide to Ravnica",
+            "size": "Medium",
+            "speed": 30,
+            "ability_score_increase": {
+                "CON": 2,
+                "CHOICE": 1
+            },
+            "languages": [
+                "Common",
+                "Choice of Elvish or Vedalken"
+            ],
+            "traits": [
+                {
+                    "name": "Darkvision",
+                    "description": "You can see in dim light within 60 feet as if it were bright light, and in darkness as if it were dim light."
+                },
+                {
+                    "name": "Animal Enhancement (Lvl 1)",
+                    "description": "Choose one: Manta Glide (slow falls), Nimble Climber (climb speed equal to walk), or Underwater Adaptation (swim speed 30 and breathe air and water)."
+                },
+                {
+                    "name": "Animal Enhancement (Lvl 5)",
+                    "description": "Choose one at level 5: Grappling Appendages (claws/tentacles to grapple as a bonus action, 1d6 damage), Carapace (+1 AC when not wearing heavy armor), or Acid Spray (acid spit 2d10 damage once per rest)."
+                }
+            ]
+        },
+        "Vedalken": {
+            "name": "Vedalken",
+            "source": "Guildmasters' Guide to Ravnica",
+            "size": "Medium",
+            "speed": 30,
+            "ability_score_increase": {
+                "INT": 2,
+                "WIS": 1
+            },
+            "languages": [
+                "Common",
+                "Vedalken",
+                "Choice of one extra"
+            ],
+            "traits": [
+                {
+                    "name": "Vedalken Dispassion",
+                    "description": "You have advantage on all Intelligence, Wisdom, and Charisma saving throws."
+                },
+                {
+                    "name": "Tireless Precision",
+                    "description": "You gain proficiency in one skill and one tool. When making checks with them, roll an extra d4 and add it to the total."
+                },
+                {
+                    "name": "Partially Amphibious",
+                    "description": "By absorbing oxygen through your skin, you can breathe underwater for up to 1 hour."
+                }
+            ]
+        }
+    },
+    "Eberron (Wayfinder's Guide to Eberron)": {
+        "Changeling": {
+            "name": "Changeling",
+            "source": "Wayfinder's Guide to Eberron",
+            "size": "Medium",
+            "speed": 30,
+            "ability_score_increase": {
+                "CHA": 2,
+                "CHOICE": 1
+            },
+            "languages": [
+                "Common",
+                "Two extra of choice"
+            ],
+            "traits": [
+                {
+                    "name": "Shapechanger",
+                    "description": "As an action, you can change your appearance and voice. You can't duplicate a creature you've never seen, and you revert to your natural form if you die."
+                },
+                {
+                    "name": "Changeling Instincts",
+                    "description": "You gain proficiency in two skills of your choice from Deception, Insight, Intimidation, and Performance."
+                }
+            ]
+        },
+        "Kalashtar": {
+            "name": "Kalashtar",
+            "source": "Wayfinder's Guide to Eberron",
+            "size": "Medium",
+            "speed": 30,
+            "ability_score_increase": {
+                "WIS": 2,
+                "CHA": 1,
+                "CHOICE": 1
+            },
+            "languages": [
+                "Common",
+                "Quori",
+                "One extra of choice"
+            ],
+            "traits": [
+                {
+                    "name": "Dual Mind",
+                    "description": "When you make a Wisdom saving throw, you can use your reaction to gain advantage on the roll."
+                },
+                {
+                    "name": "Mental Discipline",
+                    "description": "You have resistance to psychic damage."
+                },
+                {
+                    "name": "Mind Link",
+                    "description": "You can speak telepathically to any creature you can see within 60 feet of you. They don't need to share a language with you."
+                },
+                {
+                    "name": "Severed from Dreams",
+                    "description": "Kalashtar are immune to magical spells and effects that require you to dream (like the dream spell), but they do not dream naturally."
+                }
+            ]
+        },
+        "Shifter": {
+            "name": "Shifter",
+            "source": "Wayfinder's Guide to Eberron",
+            "size": "Medium",
+            "speed": 30,
+            "ability_score_increase": {
+                "DEX": 1
+            },
+            "languages": [
+                "Common"
+            ],
+            "traits": [
+                {
+                    "name": "Darkvision",
+                    "description": "You have superior vision in dark and dim conditions out to 60 feet."
+                },
+                {
+                    "name": "Shifting",
+                    "description": "As a bonus action, you can assume a more bestial appearance. This shift lasts for 1 minute or until you end it. You gain temporary HP equal to your level + CON modifier. You also gain a subrace-specific benefit."
+                }
+            ],
+            "subraces": [
+                {
+                    "name": "Beasthide Shifter",
+                    "source": "Wayfinder's Guide to Eberron",
+                    "ability_score_increase": {
+                        "CON": 1
+                    },
+                    "traits": [
+                        {
+                            "name": "Tough",
+                            "description": "You gain proficiency in the Athletics skill."
+                        },
+                        {
+                            "name": "Shifting Feature",
+                            "description": "While shifted, you gain a +1 bonus to AC and an additional 1d6 temporary hit points."
+                        }
+                    ]
+                },
+                {
+                    "name": "Longtooth Shifter",
+                    "source": "Wayfinder's Guide to Eberron",
+                    "ability_score_increase": {
+                        "STR": 1
+                    },
+                    "traits": [
+                        {
+                            "name": "Fierce",
+                            "description": "You gain proficiency in the Intimidation skill."
+                        },
+                        {
+                            "name": "Shifting Feature",
+                            "description": "While shifted, you can use a bonus action to make a bite attack dealing 1d6 + STR modifier piercing damage."
+                        }
+                    ]
+                },
+                {
+                    "name": "Swiftstride Shifter",
+                    "source": "Wayfinder's Guide to Eberron",
+                    "ability_score_increase": {
+                        "DEX": 1,
+                        "CHA": 1
+                    },
+                    "traits": [
+                        {
+                            "name": "Graceful",
+                            "description": "You gain proficiency in the Acrobatics skill."
+                        },
+                        {
+                            "name": "Swift",
+                            "description": "Your walking speed is increased by 5 feet."
+                        },
+                        {
+                            "name": "Shifting Feature",
+                            "description": "While shifted, your walking speed is increased by an additional 5 feet. You can move up to 10 feet as a reaction when an enemy ends its turn within 5 feet of you without provoking opportunity attacks."
+                        }
+                    ]
+                },
+                {
+                    "name": "Wildhunt Shifter",
+                    "source": "Wayfinder's Guide to Eberron",
+                    "ability_score_increase": {
+                        "WIS": 1
+                    },
+                    "traits": [
+                        {
+                            "name": "Natural Tracker",
+                            "description": "You gain proficiency in the Survival skill."
+                        },
+                        {
+                            "name": "Shifting Feature",
+                            "description": "While shifted, you have advantage on all Wisdom checks, and no creature within 30 feet can make attack rolls with advantage against you."
+                        }
+                    ]
+                }
+            ]
+        },
+        "Warforged": {
+            "name": "Warforged",
+            "source": "Wayfinder's Guide to Eberron",
+            "size": "Medium",
+            "speed": 30,
+            "ability_score_increase": {
+                "CON": 2
+            },
+            "languages": [
+                "Common"
+            ],
+            "traits": [
+                {
+                    "name": "Construct Resilience",
+                    "description": "You have advantage on saving throws against being poisoned, and you have resistance to poison damage. You don't need to eat, drink, or breathe, and are immune to disease."
+                },
+                {
+                    "name": "Sentry's Rest",
+                    "description": "When you take a long rest, you must spend at least six hours in an inactive, motionless state. In this state, you appear inert, but it doesn't render you unconscious."
+                },
+                {
+                    "name": "Integrated Protection",
+                    "description": "You gain a +1 bonus to AC. To don armor, you must incorporate it into your body over the course of 1 hour, and you cannot have it removed against your will."
+                },
+                {
+                    "name": "Tireless",
+                    "description": "You do not suffer exhaustion from lack of sleep."
+                }
+            ],
+            "subraces": [
+                {
+                    "name": "Envoy",
+                    "source": "Wayfinder's Guide to Eberron",
+                    "ability_score_increase": {
+                        "DEX": 1,
+                        "INT": 1
+                    },
+                    "traits": [
+                        {
+                            "name": "Specialized Design",
+                            "description": "You gain one skill proficiency, one tool proficiency, and fluency in one language of your choice."
+                        },
+                        {
+                            "name": "Integrated Tool",
+                            "description": "Choose one tool you are proficient with. This tool is integrated into your body, and you add double your proficiency bonus to any ability checks you make with it."
+                        }
+                    ]
+                },
+                {
+                    "name": "Juggernaut",
+                    "source": "Wayfinder's Guide to Eberron",
+                    "ability_score_increase": {
+                        "STR": 2
+                    },
+                    "traits": [
+                        {
+                            "name": "Iron Fists",
+                            "description": "When you make an unarmed strike, you can deal 1d4 + STR modifier bludgeoning damage instead of the normal damage."
+                        },
+                        {
+                            "name": "Powerful Build",
+                            "description": "You count as one size larger when determining carrying capacity."
+                        }
+                    ]
+                },
+                {
+                    "name": "Skirmisher",
+                    "source": "Wayfinder's Guide to Eberron",
+                    "ability_score_increase": {
+                        "DEX": 2
+                    },
+                    "traits": [
+                        {
+                            "name": "Swift",
+                            "description": "Your walking speed is increased by 5 feet."
+                        },
+                        {
+                            "name": "Light Step",
+                            "description": "When you are traveling alone for an extended period of time (one hour or more), you can move stealthily at a normal pace."
+                        }
+                    ]
+                }
+            ]
+        }
+    },
+    "TCoE (Tasha's Cauldron of Everything)": {
+        "Custom Lineage": {
+            "name": "Custom Lineage",
+            "source": "Tasha's Cauldron of Everything",
+            "size": "Choice of Small or Medium",
+            "speed": 30,
+            "ability_score_increase": {
+                "CHOICE": 2
+            },
+            "languages": [
+                "Common",
+                "Choice of one extra"
+            ],
+            "traits": [
+                {
+                    "name": "Feat",
+                    "description": "You gain one feat of your choice for which you qualify."
+                },
+                {
+                    "name": "Variable Trait",
+                    "description": "You gain one of the following options of your choice: (a) darkvision with a range of 60 feet or (b) proficiency in one skill of your choice."
+                }
+            ]
+        }
+    },
+    "MToF (Mordenkainen's Tome of Foes - Subraces)": {
+        "Gith": {
+            "name": "Gith",
+            "source": "Mordenkainen's Tome of Foes",
+            "size": "Medium",
+            "speed": 30,
+            "ability_score_increase": {
+                "INT": 1
+            },
+            "languages": [
+                "Common",
+                "Gith"
+            ],
+            "subraces": [
+                {
+                    "name": "Githyanki",
+                    "source": "Mordenkainen's Tome of Foes",
+                    "ability_score_increase": {
+                        "STR": 2
+                    },
+                    "traits": [
+                        {
+                            "name": "Decadent Mastery",
+                            "description": "You learn one language of your choice, and you are proficient with one skill or tool of your choice."
+                        },
+                        {
+                            "name": "Martial Prodigy",
+                            "description": "You are proficient with light and medium armor, and with shortswords, longswords, and greatswords."
+                        },
+                        {
+                            "name": "Githyanki Psionics",
+                            "description": "You know the mage hand cantrip. Level 3: jump (1/day). Level 5: misty step (1/day). Intelligence is your spellcasting ability."
+                        }
+                    ]
+                },
+                {
+                    "name": "Githzerai",
+                    "source": "Mordenkainen's Tome of Foes",
+                    "ability_score_increase": {
+                        "WIS": 2
+                    },
+                    "traits": [
+                        {
+                            "name": "Mental Discipline",
+                            "description": "You have advantage on saving throws against the charmed and frightened conditions."
+                        },
+                        {
+                            "name": "Githzerai Psionics",
+                            "description": "You know the mage hand cantrip (hand is invisible). Level 3: shield (1/day). Level 5: detect thoughts (1/day). Wisdom is your spellcasting ability."
+                        }
+                    ]
+                }
+            ]
+        }
+    },
+    "Setting Specific & Expanded Lineages": {
+        "Dhampir": {
+            "name": "Dhampir",
+            "source": "Van Richten's Guide to Ravenloft / D&D Beyond",
+            "size": "Medium",
+            "speed": 35,
+            "ability_score_increase": {
+                "CHOICE_1": 2,
+                "CHOICE_2": 1
+            },
+            "languages": [
+                "Common",
+                "Choice of one extra"
+            ],
+            "traits": [
+                {
+                    "name": "Darkvision",
+                    "description": "You have superior vision in dark and dim conditions out to 60 feet."
+                },
+                {
+                    "name": "Spider Climb",
+                    "description": "You gain a climbing speed equal to your walking speed. Starting at 3rd level, you can move up, down, and across vertical surfaces and upside down along ceilings, while leaving your hands free."
+                },
+                {
+                    "name": "Vampiric Bite",
+                    "description": "Your fanged bite is a natural weapon. Deals 1d4 piercing damage. On hit, if you have less than half HP, you can heal or gain bonus to next check."
+                }
+            ]
+        },
+        "Hexblood": {
+            "name": "Hexblood",
+            "source": "Van Richten's Guide to Ravenloft / D&D Beyond",
+            "size": "Medium or Small",
+            "speed": 30,
+            "ability_score_increase": {
+                "CHOICE_1": 2,
+                "CHOICE_2": 1
+            },
+            "languages": [
+                "Common",
+                "Choice of one extra"
+            ],
+            "traits": [
+                {
+                    "name": "Fey Type",
+                    "description": "Your creature type is fey, rather than humanoid."
+                },
+                {
+                    "name": "Eerie Token",
+                    "description": "You can harmlessly pull out a fingernail, tooth, or lock of hair to create a magical token to telepathically communicate or see through up to 10 miles away."
+                },
+                {
+                    "name": "Hex Magic",
+                    "description": "You know the disguise self and hex spells. You can cast each once per long rest without a spell slot."
+                }
+            ]
+        },
+        "Reborn": {
+            "name": "Reborn",
+            "source": "Van Richten's Guide to Ravenloft / D&D Beyond",
+            "size": "Medium or Small",
+            "speed": 30,
+            "ability_score_increase": {
+                "CHOICE_1": 2,
+                "CHOICE_2": 1
+            },
+            "languages": [
+                "Common",
+                "Choice of one extra"
+            ],
+            "traits": [
+                {
+                    "name": "Deathless Nature",
+                    "description": "Advantage on death saves, advantage vs poison, resistance to poison damage. You don't need to eat, drink, breathe, or sleep, and magic cannot put you to sleep."
+                },
+                {
+                    "name": "Knowledge from a Past Life",
+                    "description": "When you make an ability check that uses a skill, you can add a d6 to the roll (uses equal to proficiency bonus per long rest)."
+                }
+            ]
+        },
+        "Owlin": {
+            "name": "Owlin",
+            "source": "Strixhaven: A Curriculum of Chaos / D&D Beyond",
+            "size": "Medium or Small",
+            "speed": 30,
+            "ability_score_increase": {
+                "CHOICE_1": 2,
+                "CHOICE_2": 1
+            },
+            "languages": [
+                "Common",
+                "Choice of one extra"
+            ],
+            "traits": [
+                {
+                    "name": "Darkvision",
+                    "description": "Superior vision in dark and dim conditions out to 120 feet."
+                },
+                {
+                    "name": "Flight",
+                    "description": "You have a flying speed equal to your walking speed. You cannot use this flight while wearing medium or heavy armor."
+                },
+                {
+                    "name": "Silent Feathers",
+                    "description": "You have proficiency in the Stealth skill."
+                }
+            ]
+        },
+        "Leonin": {
+            "name": "Leonin",
+            "source": "Mythic Odysseys of Theros / D&D Beyond",
+            "size": "Medium",
+            "speed": 35,
+            "ability_score_increase": {
+                "CON": 2,
+                "STR": 1
+            },
+            "languages": [
+                "Common",
+                "Leonin"
+            ],
+            "traits": [
+                {
+                    "name": "Darkvision",
+                    "description": "Superior vision in dark and dim conditions out to 60 feet."
+                },
+                {
+                    "name": "Claws",
+                    "description": "Your claws deal 1d4 + Strength slashing damage on unarmed strikes."
+                },
+                {
+                    "name": "Hunter's Instincts",
+                    "description": "You gain proficiency in one of: Athletics, Intimidation, Perception, or Survival."
+                },
+                {
+                    "name": "Daunting Roar",
+                    "description": "As a bonus action, let out a terrifying roar. Each creature within 10 feet must make a Wis save (DC = 8 + CON mod + Prof) or be frightened of you until the end of your next turn (1/short rest)."
+                }
+            ]
+        },
+        "Satyr": {
+            "name": "Satyr",
+            "source": "Mythic Odysseys of Theros / D&D Beyond",
+            "size": "Medium",
+            "speed": 35,
+            "ability_score_increase": {
+                "CHA": 2,
+                "DEX": 1
+            },
+            "languages": [
+                "Common",
+                "Sylvan"
+            ],
+            "traits": [
+                {
+                    "name": "Fey Type",
+                    "description": "Your creature type is fey, rather than humanoid."
+                },
+                {
+                    "name": "Ram",
+                    "description": "Your head/horns are natural weapons, dealing 1d6 + STR bludgeoning damage."
+                },
+                {
+                    "name": "Magic Resistance",
+                    "description": "You have advantage on saving throws against spells and other magical effects."
+                },
+                {
+                    "name": "Mirthful Leaps",
+                    "description": "Whenever you make a long or high jump, roll a d8 and add the number rolled to the distance in feet."
+                },
+                {
+                    "name": "Reveler",
+                    "description": "You gain proficiency in Performance and Persuasion, and with one musical instrument of choice."
+                }
+            ]
+        },
+        "Locathah": {
+            "name": "Locathah",
+            "source": "Locathah Rising / D&D Beyond",
+            "size": "Medium",
+            "speed": 30,
+            "ability_score_increase": {
+                "STR": 2,
+                "DEX": 1
+            },
+            "languages": [
+                "Common",
+                "Aquan"
+            ],
+            "traits": [
+                {
+                    "name": "Natural Armor",
+                    "description": "Your tough skin gives you a base AC of 12 + DEX modifier."
+                },
+                {
+                    "name": "Leviathan Will",
+                    "description": "You have advantage on saving throws against being charmed, frightened, paralyzed, poisoned, stunned, or put to sleep."
+                },
+                {
+                    "name": "Observant & Athletic",
+                    "description": "You gain proficiency in Athletics and Perception."
+                },
+                {
+                    "name": "Limited Amphibiousness",
+                    "description": "You can breathe air and water, but you must be submerged in water at least once every 4 hours or suffocate."
+                }
+            ]
+        },
+        "Grung": {
+            "name": "Grung",
+            "source": "One Grung Above / D&D Beyond",
+            "size": "Small",
+            "speed": 25,
+            "ability_score_increase": {
+                "DEX": 2,
+                "CON": 1
+            },
+            "languages": [
+                "Grung"
+            ],
+            "traits": [
+                {
+                    "name": "Arboreal Alertness",
+                    "description": "You gain proficiency in the Perception skill."
+                },
+                {
+                    "name": "Amphibious",
+                    "description": "You can breathe air and water."
+                },
+                {
+                    "name": "Poison Immunity",
+                    "description": "You are immune to poison damage and the poisoned condition."
+                },
+                {
+                    "name": "Poisonous Skin",
+                    "description": "Any creature that touches you or hits you with an unarmed strike must succeed on a DC 12 Con save or be poisoned for 1 minute. You can apply poison to your piercing weapons."
+                },
+                {
+                    "name": "Standing Leap",
+                    "description": "Your long jump is up to 25 feet and your high jump is up to 15 feet, with or without a running start."
+                },
+                {
+                    "name": "Water Dependency",
+                    "description": "If you fail to immerse yourself in water for at least 1 hour during a day, you suffer one level of exhaustion at the end of that day."
+                }
+            ]
+        }
+    }
+}

@@ -1,0 +1,1562 @@
+{
+    "Artificer": {
+        "source": "Tasha's Cauldron of Everything",
+        "hit_die": 8,
+        "saving_throws": [
+            "CON",
+            "INT"
+        ],
+        "primary_abilities": [
+            "INT"
+        ],
+        "multiclass_prereq": "INT 13",
+        "spellcasting": {
+            "is_spellcaster": true,
+            "ability": "INT",
+            "caster_type": "half_round_up",
+            "progression": "artificer"
+        },
+        "subclass_level": 3,
+        "class_features_by_level": {
+            "1": [
+                "Magical Tinkering",
+                "Spellcasting"
+            ],
+            "2": [
+                "Infuse Item"
+            ],
+            "3": [
+                "Artificer Specialist",
+                "The Right Tool for the Job"
+            ],
+            "4": [
+                "Ability Score Improvement / Feat"
+            ],
+            "5": [
+                "Artificer Specialist Feature"
+            ],
+            "6": [
+                "Tool Expertise"
+            ],
+            "7": [
+                "Flash of Genius"
+            ],
+            "8": [
+                "Ability Score Improvement / Feat"
+            ],
+            "9": [
+                "Artificer Specialist Feature"
+            ],
+            "10": [
+                "Magic Item Adept"
+            ],
+            "11": [
+                "Spell-Storing Item"
+            ],
+            "12": [
+                "Ability Score Improvement / Feat"
+            ],
+            "13": [
+                "No features (4th level spells unlocked)"
+            ],
+            "14": [
+                "Magic Item Savant"
+            ],
+            "15": [
+                "Artificer Specialist Feature"
+            ],
+            "16": [
+                "Ability Score Improvement / Feat"
+            ],
+            "17": [
+                "No features (5th level spells unlocked)"
+            ],
+            "18": [
+                "Magic Item Master"
+            ],
+            "19": [
+                "Ability Score Improvement / Feat"
+            ],
+            "20": [
+                "Soul of Artifice"
+            ]
+        },
+        "subclasses": {
+            "Alchemist": {
+                "source": "Tasha's Cauldron of Everything",
+                "description": "Si concentra sull'alchimia, la creazione di elisir sperimentali curativi e di utilità, e sul potenziamento dei danni da acido/fuoco/veleno."
+            },
+            "Armorer": {
+                "source": "Tasha's Cauldron of Everything",
+                "description": "Modifica l'armatura per fungere da seconda pelle metallica (Guardian o Infiltrator), permettendo di lanciare magie integrando protezioni formidabili."
+            },
+            "Artillerist": {
+                "source": "Tasha's Cauldron of Everything",
+                "description": "Specializzato in artiglieria magica, evoca cannoni eldritch (fissi o portatili) in grado di sparare fuoco, forza o proiettare scudi energetici di PF temporanei."
+            },
+            "Battle Smith": {
+                "source": "Tasha's Cauldron of Everything",
+                "description": "Un combattente da mischia tecnologico supportato da un difensore d'acciaio artificiale (Steel Defender). Usa l'Intelligenza per i tiri per colpire delle armi magiche."
+            }
+        }
+    },
+    "Barbarian": {
+        "source": "Player's Handbook",
+        "hit_die": 12,
+        "saving_throws": [
+            "STR",
+            "CON"
+        ],
+        "primary_abilities": [
+            "STR"
+        ],
+        "multiclass_prereq": "STR 13",
+        "spellcasting": {
+            "is_spellcaster": false
+        },
+        "subclass_level": 3,
+        "class_features_by_level": {
+            "1": [
+                "Rage",
+                "Unarmored Defense"
+            ],
+            "2": [
+                "Reckless Attack",
+                "Danger Sense"
+            ],
+            "3": [
+                "Primal Path"
+            ],
+            "4": [
+                "Ability Score Improvement / Feat"
+            ],
+            "5": [
+                "Extra Attack",
+                "Fast Movement"
+            ],
+            "6": [
+                "Path Feature"
+            ],
+            "7": [
+                "Feral Instinct"
+            ],
+            "8": [
+                "Ability Score Improvement / Feat"
+            ],
+            "9": [
+                "Brutal Critical (1 die)"
+            ],
+            "10": [
+                "Path Feature"
+            ],
+            "11": [
+                "Relentless Rage"
+            ],
+            "12": [
+                "Ability Score Improvement / Feat"
+            ],
+            "13": [
+                "Brutal Critical (2 dice)"
+            ],
+            "14": [
+                "Path Feature"
+            ],
+            "15": [
+                "Persistent Rage"
+            ],
+            "16": [
+                "Ability Score Improvement / Feat"
+            ],
+            "17": [
+                "Brutal Critical (3 dice)"
+            ],
+            "18": [
+                "Indomitable Might"
+            ],
+            "19": [
+                "Ability Score Improvement / Feat"
+            ],
+            "20": [
+                "Primal Champion"
+            ]
+        },
+        "subclasses": {
+            "Path of the Berserker": {
+                "source": "Player's Handbook",
+                "description": "Incanala la furia nella Frenzy pura, permettendo attacchi extra come azione bonus a costo di livelli di esaustione, sbloccando immunità a charme/paura."
+            },
+            "Path of the Totem Warrior": {
+                "source": "Player's Handbook",
+                "description": "Adotta uno spirito guida animale (Orso, Aquila, Lupo, Leone, Tigre) che infonde abilità magiche e resistenze superiori durante l'ira."
+            },
+            "Path of the Ancestral Guardian": {
+                "source": "Xanathar's Guide to Everything",
+                "description": "Incanala gli spiriti degli antenati per difendere gli alleati, imponendo svantaggio ai nemici e assorbendo ferite con scudi spettrali."
+            },
+            "Path of the Storm Herald": {
+                "source": "Xanathar's Guide to Everything",
+                "description": "Emana un'aura magica elementale (Desert, Sea o Tundra) che brucia i nemici, lancia fulmini o conferisce Punti Ferita temporanei agli alleati."
+            },
+            "Path of the Zealot": {
+                "source": "Xanathar's Guide to Everything",
+                "description": "Inspirato da divinità guerriere, infligge danni radiosi o necrotici extra, è facilissimo da resuscitare e può letteralmente rifiutarsi di morire a 0 HP."
+            },
+            "Path of the Beast": {
+                "source": "Tasha's Cauldron of Everything",
+                "description": "Sviluppa mutazioni bestiali (zanne, artigli o coda) durante l'ira, ottenendo nuovi tipi di attacchi speciali e mobilità innata adattiva."
+            },
+            "Path of Wild Magic": {
+                "source": "Tasha's Cauldron of Everything",
+                "description": "Un'ira intrisa di caos fatato che scatena effetti magici casuali da una tabella di magia selvaggia e ricarica gli slot incantesimo degli alleati."
+            },
+            "Path of the Giant": {
+                "source": "Glory of the Giants / Bigby",
+                "description": "Incanala l'altezza e gli elementi dei Giganti. Cresce di taglia (fino a Grande o Mastodontico), infonde le armi di elementi e le scaglia a distanza."
+            }
+        }
+    },
+    "Bard": {
+        "source": "Player's Handbook",
+        "hit_die": 8,
+        "saving_throws": [
+            "DEX",
+            "CHA"
+        ],
+        "primary_abilities": [
+            "CHA"
+        ],
+        "multiclass_prereq": "CHA 13",
+        "spellcasting": {
+            "is_spellcaster": true,
+            "ability": "CHA",
+            "caster_type": "full",
+            "progression": "standard"
+        },
+        "subclass_level": 3,
+        "class_features_by_level": {
+            "1": [
+                "Spellcasting",
+                "Bardic Inspiration (d6)"
+            ],
+            "2": [
+                "Jack of All Trades",
+                "Song of Rest (d6)"
+            ],
+            "3": [
+                "Bard College",
+                "Expertise (2 skills)"
+            ],
+            "4": [
+                "Ability Score Improvement / Feat"
+            ],
+            "5": [
+                "Bardic Inspiration (d8)",
+                "Font of Inspiration"
+            ],
+            "6": [
+                "Countercharm",
+                "Bard College Feature"
+            ],
+            "7": [
+                "No class features (4th level spells unlocked)"
+            ],
+            "8": [
+                "Ability Score Improvement / Feat"
+            ],
+            "9": [
+                "Song of Rest (d8)"
+            ],
+            "10": [
+                "Bardic Inspiration (d10)",
+                "Expertise (2 skills)",
+                "Magical Secrets (2 spells)"
+            ],
+            "11": [
+                "No class features (6th level spells unlocked)"
+            ],
+            "12": [
+                "Ability Score Improvement / Feat"
+            ],
+            "13": [
+                "Song of Rest (d10)"
+            ],
+            "14": [
+                "Magical Secrets (2 spells)",
+                "Bard College Feature"
+            ],
+            "15": [
+                "Bardic Inspiration (d12)"
+            ],
+            "16": [
+                "Ability Score Improvement / Feat"
+            ],
+            "17": [
+                "Song of Rest (d12)"
+            ],
+            "18": [
+                "Magical Secrets (2 spells)"
+            ],
+            "19": [
+                "Ability Score Improvement / Feat"
+            ],
+            "20": [
+                "Superior Inspiration"
+            ]
+        },
+        "subclasses": {
+            "College of Lore": {
+                "source": "Player's Handbook",
+                "description": "Specializzato in conoscenza e manipolazione. Ottiene competenze extra, sblocca Cutting Words per ostacolare i nemici e ottiene segreti magici extra al 6° livello."
+            },
+            "College of Valor": {
+                "source": "Player's Handbook",
+                "description": "Un bardo marziale con competenze in armature medie, scudi e armi da guerra. Ottiene Attacco Extra e permette agli alleati di aggiungere l'ispirazione ai tiri per i danni o alla CA."
+            },
+            "College of Glamour": {
+                "source": "Xanathar's Guide to Everything",
+                "description": "Un bardo intriso della bellezza mozzafiato del Feywild. Guarisce e sposta gli alleati con maestosità magica, e ammalia intere folle con orazioni mistiche."
+            },
+            "College of Swords": {
+                "source": "Xanathar's Guide to Everything",
+                "description": "Conosciuti come 'Blades', usano le armi per esibirsi e combattere, consumando l'Ispirazione Bardica per eseguire acrobazie d'arma ('Blade Flourishes') difensive o offensive."
+            },
+            "College of Whispers": {
+                "source": "Xanathar's Guide to Everything",
+                "description": "Usa la musica e le parole come armi di terrore e spionaggio. Infonde le armi di terrore psichico ed è in grado di rubare l'ombra e l'identità di un cadavere."
+            },
+            "College of Creation": {
+                "source": "Tasha's Cauldron of Everything",
+                "description": "Attinge alla canzone della creazione del multiverso. Anima oggetti inanimati dandogli vita, e genera oggetti fisici temporanei dal nulla."
+            },
+            "College of Eloquence": {
+                "source": "Tasha's Cauldron of Everything",
+                "description": "Maestri di retorica e dibattito persuasivo. Non possono fare tiri bassi in Persuasione/Inganno, e la loro ispirazione non va mai sprecata se il tiro fallisce."
+            },
+            "College of Spirits": {
+                "source": "Tasha's Cauldron of Everything",
+                "description": "Incanala gli spiriti dei defunti usando tarocchi o tavolette spiritiche, raccontando storie mitiche che garantiscono bonus casuali spettacolari."
+            }
+        }
+    },
+    "Cleric": {
+        "source": "Player's Handbook",
+        "hit_die": 8,
+        "saving_throws": [
+            "WIS",
+            "CHA"
+        ],
+        "primary_abilities": [
+            "WIS"
+        ],
+        "multiclass_prereq": "WIS 13",
+        "spellcasting": {
+            "is_spellcaster": true,
+            "ability": "WIS",
+            "caster_type": "full",
+            "progression": "standard"
+        },
+        "subclass_level": 1,
+        "class_features_by_level": {
+            "1": [
+                "Divine Domain",
+                "Domain Spells",
+                "Bonus Proficiencies/Cantrip"
+            ],
+            "2": [
+                "Channel Divinity (1/rest)",
+                "Domain Feature"
+            ],
+            "3": [
+                "No features (2nd level spells unlocked)"
+            ],
+            "4": [
+                "Ability Score Improvement / Feat"
+            ],
+            "5": [
+                "Destroy Undead (CR 1/2)"
+            ],
+            "6": [
+                "Channel Divinity (2/rest)",
+                "Domain Feature"
+            ],
+            "7": [
+                "No features (4th level spells unlocked)"
+            ],
+            "8": [
+                "Ability Score Improvement / Feat",
+                "Destroy Undead (CR 1)",
+                "Potent Spellcasting or Divine Strike"
+            ],
+            "9": [
+                "No features (5th level spells unlocked)"
+            ],
+            "10": [
+                "Divine Intervention (10% chance)"
+            ],
+            "11": [
+                "Destroy Undead (CR 2)"
+            ],
+            "12": [
+                "Ability Score Improvement / Feat"
+            ],
+            "13": [
+                "No features (7th level spells unlocked)"
+            ],
+            "14": [
+                "Destroy Undead (CR 3)"
+            ],
+            "15": [
+                "No features (8th level spells unlocked)"
+            ],
+            "16": [
+                "Ability Score Improvement / Feat"
+            ],
+            "17": [
+                "Destroy Undead (CR 4)",
+                "Domain Feature"
+            ],
+            "18": [
+                "Channel Divinity (3/rest)"
+            ],
+            "19": [
+                "Ability Score Improvement / Feat"
+            ],
+            "20": [
+                "Divine Intervention Improvement (100% success)"
+            ]
+        },
+        "subclasses": {
+            "Knowledge Domain": {
+                "source": "Player's Handbook",
+                "description": "Dominio della Conoscenza. Raddoppia la competenza nelle abilità storiche, legge la mente dei nemici e ottiene la competenza temporanea in qualsiasi abilità."
+            },
+            "Life Domain": {
+                "source": "Player's Handbook",
+                "description": "Dominio della Vita. Il guaritore definitivo, indossa armature pesanti e aggiunge bonus flat massicci a tutti gli incantesimi di cura lanciati."
+            },
+            "Light Domain": {
+                "source": "Player's Handbook",
+                "description": "Dominio della Luce. Sfrutta il potere del sole per rivelare invisibilità, imporre svantaggio agli attacchi nemici e lanciare Fireball."
+            },
+            "Nature Domain": {
+                "source": "Player's Handbook",
+                "description": "Dominio della Natura. Ottiene un trucchetto da druido, comanda animali e piante, e controlla gli elementi difensivi di protezione."
+            },
+            "Tempest Domain": {
+                "source": "Player's Handbook",
+                "description": "Dominio della Tempesta. Infonde i colpi di fulmini e tuoni, massimizzando all'istante il danno da tuono/fulmine tramite Channel Divinity."
+            },
+            "Trickery Domain": {
+                "source": "Player's Handbook",
+                "description": "Dominio dell'Inganno. Genera un duplicato illusorio di se stesso per lanciare incantesimi da posizioni protette, si muove furtivamente e ammalia i bersagli."
+            },
+            "War Domain": {
+                "source": "Player's Handbook",
+                "description": "Dominio della Guerra. Un chierico da prima linea che esegue attacchi bonus con armi da guerra, garantendo un colossale +10 flat ai tiri per colpire."
+            },
+            "Order Domain": {
+                "source": "Guildmasters' Guide to Ravnica / Tasha",
+                "description": "Dominio dell'Ordine. Comanda gli alleati spingendoli ad attaccare come reazione immediata ogni volta che li cura o li potenzia con magie."
+            },
+            "Forge Domain": {
+                "source": "Xanathar's Guide to Everything",
+                "description": "Dominio della Forgia. Un maestro fabbro immune al fuoco, indossa armature pesanti e potenzia permanentemente un'arma o armatura del party con +1 magico."
+            },
+            "Grave Domain": {
+                "source": "Xanathar's Guide to Everything",
+                "description": "Dominio della Tomba. Custodisce il confine vita/morte. Cura al massimo chi è a 0 HP, rileva i non morti e annulla i colpi critici dei nemici."
+            },
+            "Peace Domain": {
+                "source": "Tasha's Cauldron of Everything",
+                "description": "Dominio della Pace. Crea legami mistici tra gli alleati che permettono loro di sommare d4 flat alle prove e di teletrasportarsi per subire danni al posto altrui."
+            },
+            "Twilight Domain": {
+                "source": "Tasha's Cauldron of Everything",
+                "description": "Dominio del Crepuscolo. Genera un'aura d'ombra che guarisce continuamente gli alleati da paure, charme, o gli fornisce massicci HP temporanei costanti."
+            }
+        }
+    },
+    "Druid": {
+        "source": "Player's Handbook",
+        "hit_die": 8,
+        "saving_throws": [
+            "INT",
+            "WIS"
+        ],
+        "primary_abilities": [
+            "WIS"
+        ],
+        "multiclass_prereq": "WIS 13",
+        "spellcasting": {
+            "is_spellcaster": true,
+            "ability": "WIS",
+            "caster_type": "full",
+            "progression": "standard"
+        },
+        "subclass_level": 2,
+        "class_features_by_level": {
+            "1": [
+                "Druidic",
+                "Spellcasting"
+            ],
+            "2": [
+                "Wild Shape",
+                "Druid Circle"
+            ],
+            "3": [
+                "No features (2nd level spells unlocked)"
+            ],
+            "4": [
+                "Wild Shape Improvement (CR 1/2, no flying)",
+                "Ability Score Improvement / Feat"
+            ],
+            "5": [
+                "No class features (3rd level spells unlocked)"
+            ],
+            "6": [
+                "Druid Circle Feature"
+            ],
+            "7": [
+                "No class features (4th level spells unlocked)"
+            ],
+            "8": [
+                "Wild Shape Improvement (CR 1, flying speed)",
+                "Ability Score Improvement / Feat"
+            ],
+            "9": [
+                "No class features (5th level spells unlocked)"
+            ],
+            "10": [
+                "Druid Circle Feature"
+            ],
+            "11": [
+                "No class features (6th level spells unlocked)"
+            ],
+            "12": [
+                "Ability Score Improvement / Feat"
+            ],
+            "13": [
+                "No class features (7th level spells unlocked)"
+            ],
+            "14": [
+                "Druid Circle Feature"
+            ],
+            "15": [
+                "No class features (8th level spells unlocked)"
+            ],
+            "16": [
+                "Ability Score Improvement / Feat"
+            ],
+            "17": [
+                "No class features (9th level spells unlocked)"
+            ],
+            "18": [
+                "Timeless Body",
+                "Beast Spells"
+            ],
+            "19": [
+                "Ability Score Improvement / Feat"
+            ],
+            "20": [
+                "Archdruid (Infinite Wild Shapes)"
+            ]
+        },
+        "subclasses": {
+            "Circle of the Land": {
+                "source": "Player's Handbook",
+                "description": "Legato a un ambiente (Mete, Palude, Sottosuolo, Foresta, Costa). Ottiene incantesimi extra sempre preparati e ricarica slot durante i riposi brevi."
+            },
+            "Circle of the Moon": {
+                "source": "Player's Handbook",
+                "description": "Druido combattente ferino. Si trasforma in bestie di Grado di Sfida (CR) elevato come azione bonus e si cura sacrificando slot incantesimo."
+            },
+            "Circle of Dreams": {
+                "source": "Xanathar's Guide to Everything",
+                "description": "Legato alle corti fatate. Cura istantaneamente gli alleati con dadi di energia fatata e facilita i riposi sicuri nascondendo il party."
+            },
+            "Circle of the Shepherd": {
+                "source": "Xanathar's Guide to Everything",
+                "description": "Evocatore di spiriti guardiani animali (Orso, Falco, Unicorno). Fornisce enormi potenziamenti a tutte le creature evocate, massimizzandone i PF."
+            },
+            "Circle of Spores": {
+                "source": "Guildmasters' Guide to Ravnica / Tasha",
+                "description": "Druido dei funghi e dei non morti. Usa la forma selvatica per ricoprirsi di spore protettive, infliggendo danni necrotici e risvegliando cadaveri."
+            },
+            "Circle of Stars": {
+                "source": "Tasha's Cauldron of Everything",
+                "description": "Attinge alle costellazioni cosmiche (Calice, Arciere, Dragone) ottenendo forme stellari mistiche che potenziano danni, cure o concentrazione."
+            },
+            "Circle of Wildfire": {
+                "source": "Tasha's Cauldron of Everything",
+                "description": "Legato all'energia purificatrice del fuoco. Evoca uno spirito elementale della fiamma che vola, attacca e teletrasporta il party bruciando i nemici."
+            }
+        }
+    },
+    "Fighter": {
+        "source": "Player's Handbook",
+        "hit_die": 10,
+        "saving_throws": [
+            "STR",
+            "CON"
+        ],
+        "primary_abilities": [
+            "STR",
+            "DEX"
+        ],
+        "multiclass_prereq": "STR 13 or DEX 13",
+        "spellcasting": {
+            "is_spellcaster": false,
+            "comment": "Eldritch Knight sblocca Spellcasting a livello 3 (1/3 caster)"
+        },
+        "subclass_level": 3,
+        "class_features_by_level": {
+            "1": [
+                "Fighting Style",
+                "Second Wind"
+            ],
+            "2": [
+                "Action Surge (1 use)"
+            ],
+            "3": [
+                "Martial Archetype"
+            ],
+            "4": [
+                "Ability Score Improvement / Feat"
+            ],
+            "5": [
+                "Extra Attack (1)"
+            ],
+            "6": [
+                "Ability Score Improvement / Feat (Fighter Extra ASI!)"
+            ],
+            "7": [
+                "Martial Archetype Feature"
+            ],
+            "8": [
+                "Ability Score Improvement / Feat"
+            ],
+            "9": [
+                "Indomitable (1 reroll)"
+            ],
+            "10": [
+                "Martial Archetype Feature"
+            ],
+            "11": [
+                "Extra Attack (2)"
+            ],
+            "12": [
+                "Ability Score Improvement / Feat"
+            ],
+            "13": [
+                "Indomitable (2 rerolls)"
+            ],
+            "14": [
+                "Ability Score Improvement / Feat (Fighter Extra ASI!)"
+            ],
+            "15": [
+                "Martial Archetype Feature"
+            ],
+            "16": [
+                "Ability Score Improvement / Feat"
+            ],
+            "17": [
+                "Action Surge (2 uses)",
+                "Indomitable (3 rerolls)"
+            ],
+            "18": [
+                "Martial Archetype Feature"
+            ],
+            "19": [
+                "Ability Score Improvement / Feat"
+            ],
+            "20": [
+                "Extra Attack (3)"
+            ]
+        },
+        "subclasses": {
+            "Champion": {
+                "source": "Player's Handbook",
+                "description": "Semplice e devastante. Raddoppia l'intervallo critico (19-20 e poi 18-20), ottiene un secondo stile di combattimento e rigenera PF automaticamente."
+            },
+            "Battle Master": {
+                "source": "Player's Handbook",
+                "description": "Lo stratega militare supremo. Sblocca dadi di superiorità (d8/d10) per eseguire manovre speciali (disarmare, sbilanciare, finta) in combattimento."
+            },
+            "Eldritch Knight": {
+                "source": "Player's Handbook",
+                "description": "Un combattente arcano (1/3 caster). Unisce acciaio ed evocazioni/abiurazioni della lista dello Wizard, richiamando la propria arma magicamente."
+            },
+            "Arcane Archer": {
+                "source": "Xanathar's Guide to Everything",
+                "description": "Un arciere elfico leggendario. Infonde le frecce di magie mistiche (es: frecce esplosive, cercatrici, banishing) con tiri speciali."
+            },
+            "Cavalier": {
+                "source": "Xanathar's Guide to Everything",
+                "description": "Il protettore giurato e cavaliere. Marchia i nemici per punirli se attaccano altri alleati, sbarrando il cammino ed eccellendo sulle cavalcature."
+            },
+            "Samurai": {
+                "source": "Xanathar's Guide to Everything",
+                "description": "Un guerriero d'acciaio con forza di volontà implacabile. Ottiene vantaggio a tutti gli attacchi con Fighting Spirit e resiste alla morte per un turno extra."
+            },
+            "Psi Warrior": {
+                "source": "Tasha's Cauldron of Everything",
+                "description": "Combattente psichico. Manipola telecineticamente armi e scudi di forza spirituale, riducendo i danni subiti e scagliando i nemici."
+            },
+            "Rune Knight": {
+                "source": "Tasha's Cauldron of Everything",
+                "description": "Usa la magia delle rune dei Giganti per ingrandirsi di taglia, assorbire attacchi, riflettere colpi o bloccare mentalmente gli avversari."
+            }
+        }
+    },
+    "Monk": {
+        "source": "Player's Handbook",
+        "hit_die": 8,
+        "saving_throws": [
+            "STR",
+            "DEX"
+        ],
+        "primary_abilities": [
+            "DEX",
+            "WIS"
+        ],
+        "multiclass_prereq": "DEX 13 and WIS 13",
+        "spellcasting": {
+            "is_spellcaster": false,
+            "comment": "Usa la riserva di punti Ki per lanciare discipline speciali o magie"
+        },
+        "subclass_level": 3,
+        "class_features_by_level": {
+            "1": [
+                "Unarmored Defense",
+                "Martial Arts (d4)"
+            ],
+            "2": [
+                "Ki (Flurry of Blows, Patient Defense, Step of the Wind)",
+                "Unarmored Movement (+10 ft.)"
+            ],
+            "3": [
+                "Monastic Tradition",
+                "Deflect Missiles"
+            ],
+            "4": [
+                "Ability Score Improvement / Feat",
+                "Slow Fall"
+            ],
+            "5": [
+                "Extra Attack",
+                "Stunning Strike",
+                "Martial Arts (d6)"
+            ],
+            "6": [
+                "Ki-Empowered Strikes",
+                "Monastic Tradition Feature",
+                "Unarmored Movement (+15 ft.)"
+            ],
+            "7": [
+                "Evasion",
+                "Stillness of Mind"
+            ],
+            "8": [
+                "Ability Score Improvement / Feat"
+            ],
+            "9": [
+                "Unarmored Movement Improvement (runs on vertical surfaces/water)"
+            ],
+            "10": [
+                "Purity of Body (immune to disease and poison)",
+                "Unarmored Movement (+20 ft.)"
+            ],
+            "11": [
+                "Monastic Tradition Feature",
+                "Martial Arts (d8)"
+            ],
+            "12": [
+                "Ability Score Improvement / Feat"
+            ],
+            "13": [
+                "Tongue of the Sun and Moon"
+            ],
+            "14": [
+                "Diamond Soul (proficiency in all saving throws!)"
+            ],
+            "15": [
+                "Timeless Body",
+                "Unarmored Movement (+25 ft.)"
+            ],
+            "16": [
+                "Ability Score Improvement / Feat"
+            ],
+            "17": [
+                "Monastic Tradition Feature",
+                "Martial Arts (d10)"
+            ],
+            "18": [
+                "Empty Body (invisibility & astral projection)"
+            ],
+            "19": [
+                "Ability Score Improvement / Feat"
+            ],
+            "20": [
+                "Perfect Self",
+                "Unarmored Movement (+30 ft.)"
+            ]
+        },
+        "subclasses": {
+            "Way of the Open Hand": {
+                "source": "Player's Handbook",
+                "description": "Il maestro di arti marziali classico. Sbilancia, spinge o nega le reazioni dei nemici con Flurry of Blows e si guarisce concentrando l'energia."
+            },
+            "Way of Shadow": {
+                "source": "Player's Handbook",
+                "description": "Il ninja letale. Si teletrasporta da un'ombra all'altra ottenendo vantaggio immediato, lancia magie silenti e diventa invisibile."
+            },
+            "Way of the Four Elements": {
+                "source": "Player's Handbook",
+                "description": "Infonde i pugni degli elementi (aria, acqua, terra, fuoco), spendendo punti Ki per lanciare incantesimi modellati come discipline elementali."
+            },
+            "Way of the Sun Soul": {
+                "source": "Xanathar's Guide to Everything",
+                "description": "Monaco in grado di scagliare dardi radiosi lucenti a distanza, esplosioni di luce accecante e rivestirsi di uno scudo infuocato solare."
+            },
+            "Way of the Kensei": {
+                "source": "Xanathar's Guide to Everything",
+                "description": "Maestro d'armi. Integra l'uso di spade, archi e altre armi marziali con i suoi attacchi senz'armi, infondendole di poteri KI magici."
+            },
+            "Way of the Drunken Master": {
+                "source": "Xanathar's Guide to Everything",
+                "description": "Stile dell'ubriaco. Evita attacchi barcollando, si disingaggia gratis dopo un Flurry of Blows e reindirizza gli attacchi falliti contro i nemici stessi."
+            },
+            "Way of Mercy": {
+                "source": "Tasha's Cauldron of Everything",
+                "description": "Monaco dottore piaga. Cura le ferite degli alleati con i suoi pugni mistici o avvelena letalmente i nemici imponendo la morte indolore."
+            },
+            "Way of the Astral Self": {
+                "source": "Tasha's Cauldron of Everything",
+                "description": "Evoca spettri o arti di energia astrale trasparente attorno al corpo, usandoli per attaccare a distanza con la statistica di Saggezza."
+            }
+        }
+    },
+    "Paladin": {
+        "source": "Player's Handbook",
+        "hit_die": 10,
+        "saving_throws": [
+            "WIS",
+            "CHA"
+        ],
+        "primary_abilities": [
+            "STR",
+            "CHA"
+        ],
+        "multiclass_prereq": "STR 13 and CHA 13",
+        "spellcasting": {
+            "is_spellcaster": true,
+            "ability": "CHA",
+            "caster_type": "half",
+            "progression": "standard"
+        },
+        "subclass_level": 3,
+        "class_features_by_level": {
+            "1": [
+                "Divine Sense",
+                "Lay on Hands"
+            ],
+            "2": [
+                "Fighting Style",
+                "Spellcasting",
+                "Divine Smite"
+            ],
+            "3": [
+                "Divine Health",
+                "Sacred Oath",
+                "Harness Divine Power (TCoE)"
+            ],
+            "4": [
+                "Ability Score Improvement / Feat"
+            ],
+            "5": [
+                "Extra Attack"
+            ],
+            "6": [
+                "Aura of Protection (adds CHA to all party saving throws!)"
+            ],
+            "7": [
+                "Sacred Oath Feature (Aura improvements)"
+            ],
+            "8": [
+                "Ability Score Improvement / Feat"
+            ],
+            "9": [
+                "No features (3rd level spells unlocked)"
+            ],
+            "10": [
+                "Aura of Courage (immune to fear)"
+            ],
+            "11": [
+                "Improved Divine Smite (adds 1d8 radiant to every hit!)"
+            ],
+            "12": [
+                "Ability Score Improvement / Feat"
+            ],
+            "13": [
+                "No features (4th level spells unlocked)"
+            ],
+            "14": [
+                "Cleansing Touch (dispels magic with a touch)"
+            ],
+            "15": [
+                "Sacred Oath Feature"
+            ],
+            "16": [
+                "Ability Score Improvement / Feat"
+            ],
+            "17": [
+                "No features (5th level spells unlocked)"
+            ],
+            "18": [
+                "Aura Range Improvement (30 ft.)"
+            ],
+            "19": [
+                "Ability Score Improvement / Feat"
+            ],
+            "20": [
+                "Sacred Oath Capstone Transformation"
+            ]
+        },
+        "subclasses": {
+            "Oath of Devotion": {
+                "source": "Player's Handbook",
+                "description": "Il classico paladino splendente. Infonde l'arma di luce divina per colpire infallibilmente ed emana un'aura di protezione assoluta."
+            },
+            "Oath of the Ancients": {
+                "source": "Player's Handbook",
+                "description": "Il paladino della natura. Emana un'aura leggendaria che dimezza tutti i danni da incantesimi subiti dal party."
+            },
+            "Oath of Vengeance": {
+                "source": "Player's Handbook",
+                "description": "L'implacabile vendicatore. Marchia un singolo nemico giurando vendetta (Vow of Enmity) per avere vantaggio a tutti i tiri per colpire."
+            },
+            "Oath of Conquest": {
+                "source": "Xanathar's Guide to Everything",
+                "description": "Il paladino tiranno. Paralizza di paura i nemici con un'aura spaventosa in grado di azzerare la velocità di movimento di chi ne è affetto."
+            },
+            "Oath of Redemption": {
+                "source": "Xanathar's Guide to Everything",
+                "description": "Il paladino paciere. Assorbe i danni inflitti ai suoi alleati subendoli al loro posto e riflette il danno violento contro i nemici."
+            },
+            "Oath of Glory": {
+                "source": "Tasha's Cauldron of Everything",
+                "description": "L'atleta mitico. Ottiene velocità incredibili, salti divini, schiva colpi devastanti e ispira gli alleati a compiere gesta eroiche."
+            },
+            "Oath of the Watchers": {
+                "source": "Tasha's Cauldron of Everything",
+                "description": "Il protettore planare del multiverso. Aumenta massicciamente l'iniziativa di tutto il party e punisce mentalmente i caster nemici."
+            }
+        }
+    },
+    "Ranger": {
+        "source": "Player's Handbook",
+        "hit_die": 10,
+        "saving_throws": [
+            "STR",
+            "DEX"
+        ],
+        "primary_abilities": [
+            "DEX",
+            "WIS"
+        ],
+        "multiclass_prereq": "DEX 13 and WIS 13",
+        "spellcasting": {
+            "is_spellcaster": true,
+            "ability": "WIS",
+            "caster_type": "half",
+            "progression": "standard"
+        },
+        "subclass_level": 3,
+        "class_features_by_level": {
+            "1": [
+                "Favored Enemy",
+                "Natural Explorer (or Deft Explorer from TCoE)"
+            ],
+            "2": [
+                "Fighting Style",
+                "Spellcasting"
+            ],
+            "3": [
+                "Ranger Archetype",
+                "Primeval Awareness"
+            ],
+            "4": [
+                "Ability Score Improvement / Feat"
+            ],
+            "5": [
+                "Extra Attack"
+            ],
+            "6": [
+                "Favored Enemy & Natural Explorer improvements"
+            ],
+            "7": [
+                "Ranger Archetype Feature"
+            ],
+            "8": [
+                "Ability Score Improvement / Feat",
+                "Land's Stride"
+            ],
+            "9": [
+                "No features (3rd level spells unlocked)"
+            ],
+            "10": [
+                "Hide in Plain Sight (or Nature's Veil from TCoE)"
+            ],
+            "11": [
+                "Ranger Archetype Feature"
+            ],
+            "12": [
+                "Ability Score Improvement / Feat"
+            ],
+            "13": [
+                "No features (4th level spells unlocked)"
+            ],
+            "14": [
+                "Vanish (Hide as bonus action, untrackable)"
+            ],
+            "15": [
+                "Ranger Archetype Feature"
+            ],
+            "16": [
+                "Ability Score Improvement / Feat"
+            ],
+            "17": [
+                "No features (5th level spells unlocked)"
+            ],
+            "18": [
+                "Feral Senses"
+            ],
+            "19": [
+                "Ability Score Improvement / Feat"
+            ],
+            "20": [
+                "Foe Slayer"
+            ]
+        },
+        "subclasses": {
+            "Hunter": {
+                "source": "Player's Handbook",
+                "description": "Cacciatore puro. Sceglie tattiche di combattimento difensive o offensive personalizzate (es: Colossus Slayer, Horde Breaker, Multiattack Defense)."
+            },
+            "Beast Master": {
+                "source": "Player's Handbook / Tasha",
+                "description": "Ha un forte legame con una bestia compagna d'avventura (o gli Spiriti della Terra/Aria/Mare di TCoE) che combatte e scala con lui."
+            },
+            "Gloom Stalker": {
+                "source": "Xanathar's Guide to Everything",
+                "description": "L'infiltrato sotterraneo. Completamente invisibile a chiunque usi la scurovisione nell'oscurità totale, infligge danni colossali al primo turno."
+            },
+            "Horizon Walker": {
+                "source": "Xanathar's Guide to Everything",
+                "description": "Il protettore dei portali. Si teletrasporta continuamente a ogni attacco da mischia, convertendo i danni delle armi in pura forza planare."
+            },
+            "Monster Slayer": {
+                "source": "Xanathar's Guide to Everything",
+                "description": "Cacciatore di mostri ed incantatori. Studia i punti deboli dei nemici e interrompe i loro incantesimi o tentativi di teletrasporto."
+            },
+            "Fey Wanderer": {
+                "source": "Tasha's Cauldron of Everything",
+                "description": "Ranger fatato. Somma il modificatore di Saggezza alle prove di Carisma, infligge danni da charme fatato e convoca spiriti silvani fatati."
+            },
+            "Swarmkeeper": {
+                "source": "Tasha's Cauldron of Everything",
+                "description": "Ospita uno sciame di piccoli spiriti (insetti, fate o foglie) che lo sollevano in volo, colpiscono i nemici o li spingono lontano."
+            },
+            "Drakewarden": {
+                "source": "Fizban's Treasury of Dragons",
+                "description": "Addomesticatore di draghi. Evoca un compagno Drago che cresce con lui, cavalcabile ad alti livelli e in grado di soffiare energia elementale."
+            }
+        }
+    },
+    "Rogue": {
+        "source": "Player's Handbook",
+        "hit_die": 8,
+        "saving_throws": [
+            "DEX",
+            "INT"
+        ],
+        "primary_abilities": [
+            "DEX"
+        ],
+        "multiclass_prereq": "DEX 13",
+        "spellcasting": {
+            "is_spellcaster": false,
+            "comment": "Arcane Trickster sblocca Spellcasting a livello 3 (1/3 caster)"
+        },
+        "subclass_level": 3,
+        "class_features_by_level": {
+            "1": [
+                "Expertise (2 skills)",
+                "Sneak Attack (1d6)",
+                "Thieves' Cant"
+            ],
+            "2": [
+                "Cunning Action (Dash/Disengage/Hide as bonus action)"
+            ],
+            "3": [
+                "Roguish Archetype",
+                "Sneak Attack (2d6)"
+            ],
+            "4": [
+                "Ability Score Improvement / Feat"
+            ],
+            "5": [
+                "Uncanny Dodge",
+                "Sneak Attack (3d6)"
+            ],
+            "6": [
+                "Expertise (2 additional skills)"
+            ],
+            "7": [
+                "Evasion",
+                "Sneak Attack (4d6)"
+            ],
+            "8": [
+                "Ability Score Improvement / Feat"
+            ],
+            "9": [
+                "Roguish Archetype Feature",
+                "Sneak Attack (5d6)"
+            ],
+            "10": [
+                "Ability Score Improvement / Feat (Rogue Extra ASI!)"
+            ],
+            "11": [
+                "Reliable Talent (can't roll under 10 on proficient skills!)",
+                "Sneak Attack (6d6)"
+            ],
+            "12": [
+                "Ability Score Improvement / Feat"
+            ],
+            "13": [
+                "Roguish Archetype Feature",
+                "Sneak Attack (7d6)"
+            ],
+            "14": [
+                "Blindsense",
+                "Sneak Attack (8d6)"
+            ],
+            "15": [
+                "Slippery Mind (Wisdom save proficiency)",
+                "Sneak Attack (9d6)"
+            ],
+            "16": [
+                "Ability Score Improvement / Feat"
+            ],
+            "17": [
+                "Roguish Archetype Feature",
+                "Sneak Attack (10d6)"
+            ],
+            "18": [
+                "Elusive (no attacks have advantage against you)"
+            ],
+            "19": [
+                "Ability Score Improvement / Feat"
+            ],
+            "20": [
+                "Stroke of Luck (auto-success on 1 d20 roll/rest)"
+            ]
+        },
+        "subclasses": {
+            "Thief": {
+                "source": "Player's Handbook",
+                "description": "Ladro classico. Arrampica velocemente, usa oggetti magici ignorando i requisiti di classe o livello e compie due turni interi nel primo round."
+            },
+            "Assassin": {
+                "source": "Player's Handbook",
+                "description": "Il killer nell'ombra. Colpisce sempre con vantaggio le creature che non hanno ancora agito, infliggendo critici automatici sui nemici sorpresi."
+            },
+            "Arcane Trickster": {
+                "source": "Player's Handbook",
+                "description": "Unione di furtività e illusioni/ammaliamenti arcani. Controlla una mano magica invisible per disarmare trappole e rubare tasche a distanza."
+            },
+            "Inquisitive": {
+                "source": "Xanathar's Guide to Everything",
+                "description": "L'investigatore astuto. Rileva all'istante le bugie e scova i nemici nascosti, applicando il furtivo Sneak Attack senza bisogno di vantaggio fisco."
+            },
+            "Mastermind": {
+                "source": "Xanathar's Guide to Everything",
+                "description": "Il genio del crimine dietro le quinte. Aiuta gli alleati a distanza come azione bonus ogni singolo turno ed imita perfettamente ogni accento."
+            },
+            "Scout": {
+                "source": "Xanathar's Guide to Everything",
+                "description": "Un rogue esploratore esperto di natura e sopravvivenza. Sfugge istantaneamente in mischia muovendosi come reazione ai movimenti nemici."
+            },
+            "Swashbuckler": {
+                "source": "Xanathar's Guide to Everything",
+                "description": "Il duellante agile. Esegue attacchi furtivi eccezionali nei duelli 1v1, si disingaggia gratis attaccando e aggiunge il Carisma all'iniziativa."
+            },
+            "Phantom": {
+                "source": "Tasha's Cauldron of Everything",
+                "description": "Un assassino intriso di energie della morte. Raccoglie anime dei defunti (Soul Shards) per infliggere danni necrotici collaterali."
+            },
+            "Soulknife": {
+                "source": "Tasha's Cauldron of Everything",
+                "description": "Guerriero psionico. Evoca lame di energia psichica pura dalle nocche, stabilendo ponti mentali telepatici di comunicazione col party."
+            }
+        }
+    },
+    "Sorcerer": {
+        "source": "Player's Handbook",
+        "hit_die": 6,
+        "saving_throws": [
+            "CON",
+            "CHA"
+        ],
+        "primary_abilities": [
+            "CHA"
+        ],
+        "multiclass_prereq": "CHA 13",
+        "spellcasting": {
+            "is_spellcaster": true,
+            "ability": "CHA",
+            "caster_type": "full",
+            "progression": "standard"
+        },
+        "subclass_level": 1,
+        "class_features_by_level": {
+            "1": [
+                "Sorcerous Origin",
+                "Spellcasting"
+            ],
+            "2": [
+                "Font of Magic (Sorcery Points sbloccati)"
+            ],
+            "3": [
+                "Metamagic (2 options chosen, es: Quickened, Twinned, Subtle)"
+            ],
+            "4": [
+                "Ability Score Improvement / Feat"
+            ],
+            "5": [
+                "Magical Guidance (TCoE optional)"
+            ],
+            "6": [
+                "Sorcerous Origin Feature"
+            ],
+            "7": [
+                "No features (4th level spells unlocked)"
+            ],
+            "8": [
+                "Ability Score Improvement / Feat"
+            ],
+            "9": [
+                "No features (5th level spells unlocked)"
+            ],
+            "10": [
+                "Metamagic (3rd option chosen)"
+            ],
+            "11": [
+                "No features (6th level spells unlocked)"
+            ],
+            "12": [
+                "Ability Score Improvement / Feat"
+            ],
+            "13": [
+                "No features (7th level spells unlocked)"
+            ],
+            "14": [
+                "Sorcerous Origin Feature"
+            ],
+            "15": [
+                "No features (8th level spells unlocked)"
+            ],
+            "16": [
+                "Ability Score Improvement / Feat"
+            ],
+            "17": [
+                "Metamagic (4th option chosen)"
+            ],
+            "18": [
+                "Sorcerous Origin Feature"
+            ],
+            "19": [
+                "Ability Score Improvement / Feat"
+            ],
+            "20": [
+                "Sorcerous Restoration"
+            ]
+        },
+        "subclasses": {
+            "Draconic Bloodline": {
+                "source": "Player's Handbook",
+                "description": "Discendente dei draghi. Ha scaglie naturali robuste (CA base 13 + Des), PF massimi extra a ogni livello, ali di drago e soffio elementale."
+            },
+            "Wild Magic": {
+                "source": "Player's Handbook",
+                "description": "Mago del caos puro. Innesca tiri misticheggianti sulla tabella delle maree del caos (Wild Magic Surge) per generare effetti folli casuali."
+            },
+            "Divine Soul": {
+                "source": "Xanathar's Guide to Everything",
+                "description": "Predestinato divino. Può scegliere e lanciare incantesimi sia dalla lista dello Stregone che da quella del Chierico, curando o bruciando."
+            },
+            "Shadow Magic": {
+                "source": "Xanathar's Guide to Everything",
+                "description": "Cresciuto nel Shadowfell. Sopravvive alla morte flat con un TS, evoca un levriero d'ombra (Hound of Ill Omen) che assale e spaventa i bersagli."
+            },
+            "Storm Sorcery": {
+                "source": "Xanathar's Guide to Everything",
+                "description": "L'araldo della tempesta. Vola liberamente di 10 piedi senza provocare attacchi ogni volta che lancia incantesimi standard di 1° livello o più."
+            },
+            "Aberrant Mind": {
+                "source": "Tasha's Cauldron of Everything",
+                "description": "Invaso da forze del Far Realm. Comunica telepaticamente, lancia magie psioniche silenti senza consumare slot spendendo solo punti stregoneria."
+            },
+            "Clockwork Soul": {
+                "source": "Tasha's Cauldron of Everything",
+                "description": "Legato all'ordine matematico di Mechanus. Annulla vantaggi e svantaggi altrui, creando scudi geometrici protettivi di d8 di forza."
+            }
+        }
+    },
+    "Warlock": {
+        "source": "Player's Handbook",
+        "hit_die": 8,
+        "saving_throws": [
+            "WIS",
+            "CHA"
+        ],
+        "primary_abilities": [
+            "CHA"
+        ],
+        "multiclass_prereq": "CHA 13",
+        "spellcasting": {
+            "is_spellcaster": true,
+            "ability": "CHA",
+            "caster_type": "pact_magic",
+            "progression": "warlock"
+        },
+        "subclass_level": 1,
+        "class_features_by_level": {
+            "1": [
+                "Otherworldly Patron",
+                "Pact Magic"
+            ],
+            "2": [
+                "Eldritch Invocations (2 known, es: Agonizing Blast, Devil's Sight)"
+            ],
+            "3": [
+                "Pact Boon (Pact of the Chain, Blade, Tome, or Talisman)"
+            ],
+            "4": [
+                "Ability Score Improvement / Feat"
+            ],
+            "5": [
+                "Eldritch Invocations (3 known)"
+            ],
+            "6": [
+                "Otherworldly Patron Feature"
+            ],
+            "7": [
+                "Eldritch Invocations (4 known)"
+            ],
+            "8": [
+                "Ability Score Improvement / Feat"
+            ],
+            "9": [
+                "Eldritch Invocations (5 known)"
+            ],
+            "10": [
+                "Otherworldly Patron Feature"
+            ],
+            "11": [
+                "Mystic Arcanum (6th level spell)"
+            ],
+            "12": [
+                "Ability Score Improvement / Feat",
+                "Eldritch Invocations (6 known)"
+            ],
+            "13": [
+                "Mystic Arcanum (7th level spell)"
+            ],
+            "14": [
+                "Otherworldly Patron Feature"
+            ],
+            "15": [
+                "Mystic Arcanum (8th level spell)",
+                "Eldritch Invocations (7 known)"
+            ],
+            "16": [
+                "Ability Score Improvement / Feat"
+            ],
+            "17": [
+                "Mystic Arcanum (9th level spell)"
+            ],
+            "18": [
+                "Eldritch Invocations (8 known)"
+            ],
+            "19": [
+                "Ability Score Improvement / Feat"
+            ],
+            "20": [
+                "Eldritch Master (recovers pact slots in 1 minute)"
+            ]
+        },
+        "subclasses": {
+            "The Archfey": {
+                "source": "Player's Handbook",
+                "description": "Patto con un nobile signore fatato. Sblocca magie di nebbia sfuggente, charme irresistibili e immunità mentali con contrattacchi."
+            },
+            "The Fiend": {
+                "source": "Player's Handbook",
+                "description": "Patto con un demone o diavolo infernale. Ottiene PF temporanei uccidendo nemici, manipola la fortuna e scaglia i nemici all'inferno."
+            },
+            "The Great Old One": {
+                "source": "Player's Handbook",
+                "description": "Patto con entità aliene astratte. Comunica telepaticamente con qualsiasi mente ed erige scudi psichici mentali impenetrabili."
+            },
+            "The Celestial": {
+                "source": "Xanathar's Guide to Everything",
+                "description": "Patto con angeli o fenici. Genera una riserva di d6 di luce curativa per curare a distanza come azione bonus e resiste alle fiamme."
+            },
+            "The Hexblade": {
+                "source": "Xanathar's Guide to Everything",
+                "description": "Patto con una lama senziente del Shadowfell. Attacca usando Carisma, infligge maledizioni letali (Hexblade's Curse) e genera spettri dai cadaveri."
+            },
+            "The Fathomless": {
+                "source": "Tasha's Cauldron of Everything",
+                "description": "Patto con abissi marini e Kraken. Evoca tentacoli d'acqua ghiacciata che colpiscono e proteggono, nuotando e respirando sott'acqua."
+            },
+            "The Genie": {
+                "source": "Tasha's Cauldron of Everything",
+                "description": "Patto con Efreeti, Djinni, Dao o Marid. Ha un vascello magico miniaturizzato (lampada o anello) in cui riposarsi o nascondere l'inventario."
+            },
+            "The Undead": {
+                "source": "Van Richten's Guide to Ravenloft",
+                "description": "Patto con signori dei non morti. Entra in Form of Dread spaventando i nemici ad ogni colpo, ottenendo immunità a paura e danni necrotici."
+            }
+        }
+    },
+    "Wizard": {
+        "source": "Player's Handbook",
+        "hit_die": 6,
+        "saving_throws": [
+            "INT",
+            "WIS"
+        ],
+        "primary_abilities": [
+            "INT"
+        ],
+        "multiclass_prereq": "INT 13",
+        "spellcasting": {
+            "is_spellcaster": true,
+            "ability": "INT",
+            "caster_type": "full",
+            "progression": "standard"
+        },
+        "subclass_level": 2,
+        "class_features_by_level": {
+            "1": [
+                "Spellcasting",
+                "Arcane Recovery (recupera slot durante i riposi brevi)"
+            ],
+            "2": [
+                "Arcane Tradition (Mago specialista di scuola)"
+            ],
+            "3": [
+                "No class features (2nd level spells unlocked)"
+            ],
+            "4": [
+                "Ability Score Improvement / Feat"
+            ],
+            "5": [
+                "No class features (3rd level spells unlocked)"
+            ],
+            "6": [
+                "Arcane Tradition Feature"
+            ],
+            "7": [
+                "No class features (4th level spells unlocked)"
+            ],
+            "8": [
+                "Ability Score Improvement / Feat"
+            ],
+            "9": [
+                "No class features (5th level spells unlocked)"
+            ],
+            "10": [
+                "Arcane Tradition Feature"
+            ],
+            "11": [
+                "No class features (6th level spells unlocked)"
+            ],
+            "12": [
+                "Ability Score Improvement / Feat"
+            ],
+            "13": [
+                "No class features (7th level spells unlocked)"
+            ],
+            "14": [
+                "Arcane Tradition Feature"
+            ],
+            "15": [
+                "No class features (8th level spells unlocked)"
+            ],
+            "16": [
+                "Ability Score Improvement / Feat"
+            ],
+            "17": [
+                "No class features (9th level spells unlocked)"
+            ],
+            "18": [
+                "Spell Mastery (lancia un incantesimo di 1° e 2° livello all'infinito!)"
+            ],
+            "19": [
+                "Ability Score Improvement / Feat"
+            ],
+            "20": [
+                "Signature Spells (due magie di 3° livello flat sempre pronte gratis)"
+            ]
+        },
+        "subclasses": {
+            "School of Abjuration": {
+                "source": "Player's Handbook",
+                "description": "Scuola di Abiurazione. Genera un potente scudo protettivo arcano (Arcane Ward) che assorbe costantemente i danni diretti al party."
+            },
+            "School of Conjuration": {
+                "source": "Player's Handbook",
+                "description": "Scuola di Evocazione. Crea oggetti fisici dal nulla temporaneamente e si teletrasporta scambiando posto con gli alleati."
+            },
+            "School of Divination": {
+                "source": "Player's Handbook",
+                "description": "Scuola di Divinazione. Ottiene dadi Portento (due d20 tirati a inizio giornata) per sostituire forzatamente qualsiasi tiro di dado della sessione."
+            },
+            "School of Enchantment": {
+                "source": "Player's Handbook",
+                "description": "Scuola di Ammaliamento. Ipnotizza i nemici con lo sguardo e devia magicamente gli attacchi indirizzandoli verso altri bersagli."
+            },
+            "School of Evocation": {
+                "source": "Player's Handbook",
+                "description": "Scuola di Invocazione. Modella le aree di danno (Sculpt Spells) per escludere gli alleati dagli effetti devastanti di Fireball e tempeste."
+            },
+            "School of Illusion": {
+                "source": "Player's Handbook",
+                "description": "Scuola di Illusione. Rende le illusioni parzialmente reali, manipola i sensi e crea copie speculari istantaneamente come reazione."
+            },
+            "School of Necromancy": {
+                "source": "Player's Handbook",
+                "description": "Scuola di Necromanzia. Ruba l'energia vitale di chi uccide curandosi e convoca armate di scheletri e zombie potenziati."
+            },
+            "School of Transmutation": {
+                "source": "Player's Handbook",
+                "description": "Scuola di Trasmutazione. Crea una pietra filosofale (Transmuter's Stone) che dona immunità elementali, scurovisione o ringiovanimento."
+            },
+            "School of War Magic": {
+                "source": "Xanathar's Guide to Everything",
+                "description": "Tattico di guerra. Somma l'Intelligenza all'iniziativa, aumenta la CA o i TS come reazione infinita e devia attacchi assorbendo cariche."
+            },
+            "School of Bladesinging": {
+                "source": "Tasha's Cauldron of Everything",
+                "description": "Canto della lama elfico. Canta per ottenere bonus colossali alla CA, alla concentrazione e alla velocità, sferrando attacchi extra misti a trucchetti."
+            },
+            "Order of Scribes": {
+                "source": "Tasha's Cauldron of Everything",
+                "description": "Legato al libro di magie senziente. Copia magie istantaneamente, muta l'elemento dei danni dei suoi incantesimi e proietta un ologramma spettrale di se stesso."
+            }
+        }
+    }
+}

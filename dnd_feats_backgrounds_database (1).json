@@ -1,0 +1,248 @@
+{
+    "Backgrounds": {
+        "Acolyte": {
+            "proficiencies": [
+                "Insight",
+                "Religion"
+            ],
+            "feat_grant": "Magic Initiate (Cleric) or Shelter of the Faithful",
+            "description": "Hai speso la tua vita al servizio di un tempio, compiendo riti, preghiere e sacrifici religiosi.",
+            "source": "Player's Handbook"
+        },
+        "Charlatan": {
+            "proficiencies": [
+                "Deception",
+                "Sleight of Hand"
+            ],
+            "feat_grant": "Skilled or False Identity",
+            "description": "Sei un maestro della manipolazione, abile a travestirti e a tessere imbrogli per arricchirti.",
+            "source": "Player's Handbook"
+        },
+        "Criminal": {
+            "proficiencies": [
+                "Stealth",
+                "Sleight of Hand"
+            ],
+            "feat_grant": "Alert or Criminal Contact",
+            "description": "Hai un passato di crimine organizzato, furti, contrabbando o spionaggio urbano.",
+            "source": "Player's Handbook"
+        },
+        "Entertainer": {
+            "proficiencies": [
+                "Acrobatics",
+                "Performance"
+            ],
+            "feat_grant": "Musician or By Popular Demand",
+            "description": "Il palco è la tua casa. Vivi per gli applausi, le canzoni, la recitazione o l'acrobazia.",
+            "source": "Player's Handbook"
+        },
+        "Folk Hero": {
+            "proficiencies": [
+                "Animal Handling",
+                "Survival"
+            ],
+            "feat_grant": "Rustic Hospitality or Tough",
+            "description": "Provieni da umili origini contadine, ma un evento straordinario ti ha reso l'eroe del popolo.",
+            "source": "Player's Handbook"
+        },
+        "Guild Artisan": {
+            "proficiencies": [
+                "Insight",
+                "Persuasion"
+            ],
+            "feat_grant": "Guild Membership or Crafter",
+            "description": "Sei membro di una gilda commerciale ufficiale, maestro di un'arte o di un mestiere artigianale.",
+            "source": "Player's Handbook"
+        },
+        "Hermit": {
+            "proficiencies": [
+                "Medicine",
+                "Religion"
+            ],
+            "feat_grant": "Discovery or Healer",
+            "description": "Hai vissuto in totale isolamento per anni, trovando una grande verità o un segreto mistico.",
+            "source": "Player's Handbook"
+        },
+        "Noble": {
+            "proficiencies": [
+                "History",
+                "Persuasion"
+            ],
+            "feat_grant": "Position of Privilege or Skilled",
+            "description": "La tua famiglia possiede titoli, terre e influenza politica. Sei abituato a essere rispettato.",
+            "source": "Player's Handbook"
+        },
+        "Outlander": {
+            "proficiencies": [
+                "Athletics",
+                "Survival"
+            ],
+            "feat_grant": "Wanderer or Tough",
+            "description": "Sei cresciuto nelle terre selvagge, lontano dalla civiltà. Conosci foreste, deserti e la caccia.",
+            "source": "Player's Handbook"
+        },
+        "Sage": {
+            "proficiencies": [
+                "Arcana",
+                "History"
+            ],
+            "feat_grant": "Researcher or Magic Initiate (Wizard)",
+            "description": "Hai trascorso anni a studiare tomi polverosi in grandi biblioteche o accademie arcane.",
+            "source": "Player's Handbook"
+        },
+        "Sailor": {
+            "proficiencies": [
+                "Acrobatics",
+                "Perception"
+            ],
+            "feat_grant": "Ship's Passage or Tavern Brawler",
+            "description": "Hai solcato mari e oceani a bordo di navi mercantili, mercenarie o velieri pirata.",
+            "source": "Player's Handbook"
+        },
+        "Soldier": {
+            "proficiencies": [
+                "Athletics",
+                "Intimidation"
+            ],
+            "feat_grant": "Military Rank or Savage Attacker",
+            "description": "Sei un veterano addestrato di un esercito regolare, di una milizia cittadina o di mercenari.",
+            "source": "Player's Handbook"
+        },
+        "Urchin": {
+            "proficiencies": [
+                "Sleight of Hand",
+                "Stealth"
+            ],
+            "feat_grant": "City Secrets or Alert",
+            "description": "Sei cresciuto da solo e senza un soldo nei vicoli bui e malfamati di una grande metropoli.",
+            "source": "Player's Handbook"
+        },
+        "Izzet Engineer": {
+            "proficiencies": [
+                "Arcana",
+                "Investigation"
+            ],
+            "feat_grant": "Urban Infrastructure & Izzet Guild Spells",
+            "description": "Sei uno scienziato pazzo o inventore all'interno della Lega Izzet a Ravnica.",
+            "source": "Guildmasters' Guide to Ravnica"
+        },
+        "Azorius Functionary": {
+            "proficiencies": [
+                "Insight",
+                "Intimidation"
+            ],
+            "feat_grant": "Legal Authority & Azorius Guild Spells",
+            "description": "Sei un ingranaggio della macchina burocratica o giudiziaria del Senato Azorius a Ravnica.",
+            "source": "Guildmasters' Guide to Ravnica"
+        }
+    },
+    "Feats": {
+        "Actor": {
+            "prerequisites": "None",
+            "benefits": [
+                "Incrementa il punteggio di Carisma di 1 (max 20).",
+                "Hai vantaggio alle prove di Carisma (Inganno) e Carisma (Intrattenere) quando provi a spacciarti per qualcun altro.",
+                "Puoi imitare perfettamente la voce o i suoni sentiti per almeno 1 minuto."
+            ],
+            "source": "Player's Handbook"
+        },
+        "Alert": {
+            "prerequisites": "None",
+            "benefits": [
+                "Ottieni un bonus di +5 all'Iniziativa.",
+                "Non puoi essere sorpreso finché sei cosciente.",
+                "Le altre creature non hanno vantaggio ai tiri per colpire contro di te dal fatto di essere nascoste."
+            ],
+            "source": "Player's Handbook"
+        },
+        "Athlete": {
+            "prerequisites": "None",
+            "benefits": [
+                "Incrementa la Forza o la Destrezza di 1 (max 20).",
+                "Rialzarsi da prono costa solo 5 piedi di movimento anziché la metà della velocità.",
+                "Scalare non dimezza la tua velocità di movimento.",
+                "Puoi fare un salto in lungo o in alto con rincorsa muovendoti solo di 5 piedi a piedi anziché 10."
+            ],
+            "source": "Player's Handbook"
+        },
+        "Brawny": {
+            "prerequisites": "Strength 13 or higher",
+            "benefits": [
+                "Ottieni competenza nell'abilità Atletica. Se sei già competente, ottieni l'Esperienza (raddoppi il PB).",
+                "La tua capacità di carico (carrying capacity) e spinta viene raddoppiata."
+            ],
+            "source": "Xanathar's Guide to Everything"
+        },
+        "Crusher": {
+            "prerequisites": "None",
+            "benefits": [
+                "Incrementa la Forza o la Costituzione di 1 (max 20).",
+                "Una volta per turno, quando colpisci con un attacco contundente, puoi spostare il bersaglio di 5 piedi in uno spazio libero non più grande di una taglia.",
+                "Quando metti a segno un colpo critico contundente, i tiri per colpire contro quella creatura hanno vantaggio fino al tuo prossimo turno."
+            ],
+            "source": "Tasha's Cauldron of Everything"
+        },
+        "Eldritch Adept": {
+            "prerequisites": "Spellcasting or Pact Magic",
+            "benefits": [
+                "Sbloccando questo talento impari una Eldritch Invocation (Supplica Occulta) a tua scelta dal Warlock per cui qualifichi. Puoi cambiarla ad ogni level up."
+            ],
+            "source": "Tasha's Cauldron of Everything"
+        },
+        "Fey Touched": {
+            "prerequisites": "None",
+            "benefits": [
+                "Incrementa l'Intelligenza, la Saggezza o il Carisma di 1 (max 20).",
+                "Impari l'incantesimo Passo Misterioso (Misty Step) e una magia di 1° livello della scuola di Ammaliamento o Divinazione. Puoi lanciarli gratis una volta per riposo lungo."
+            ],
+            "source": "Tasha's Cauldron of Everything"
+        },
+        "Grappler": {
+            "url": "https://dnd5e.wikidot.com/feat:grappler",
+            "prerequisites": "Strength 13 or higher",
+            "benefits": [
+                "Hai vantaggio ai tiri per colpire contro una creatura che stai afferrando.",
+                "Puoi usare un'azione per tentare di immobilizzare (pin) una creatura afferrata. Fai un'altra prova: se superata, siete entrambi trattenuti."
+            ],
+            "source": "Player's Handbook"
+        },
+        "Great Weapon Master": {
+            "level_req": 4,
+            "prerequisites": "Strength 13 or higher",
+            "description": "Quando esegui un colpo critico o riduci a 0 PF una creatura con un'arma da mischia pesante, puoi compiere un attacco extra come azione bonus. Prima di attaccare con arma pesante, puoi prendere -5 al tiro per colpire per sommare +10 al danno.",
+            "source": "Player's Handbook"
+        },
+        "Lucky": {
+            "benefits": [
+                "Possiedi 3 Punti Fortuna (Luck Points). Puoi spenderli per tirare un d20 aggiuntivo per tiri per colpire, prove di caratteristica o tiri salvezza, o per forzare un nemico a ritirare un attacco contro di te.",
+                "I punti si ricaricano completamente dopo un riposo lungo."
+            ],
+            "source": "Player's Handbook"
+        },
+        "Sentinel": {
+            "benefits": [
+                "Quando colpisci una creatura con un attacco di opportunità, la sua velocità diventa 0 per il resto del turno.",
+                "Le creature entro 5 piedi da te provocano attacchi di opportunità anche se usano l'azione di Disimpegno.",
+                "Quando una creatura entro 5 piedi colpisce un bersaglio diverso da te, puoi usare la tua reazione per compiere un attacco da mischia contro di essa."
+            ],
+            "source": "Player's Handbook"
+        },
+        "Sharpshooter": {
+            "benefits": [
+                "Attaccare a lunga gittata non impone svantaggio ai tuoi tiri con armi a distanza.",
+                "I tuoi attacchi con armi a distanza ignorano mezza copertura e tre quarti di copertura.",
+                "Prima di effettuare un tiro per colpire a distanza con un'arma in cui sei competente, puoi prendere -5 al tiro per sommare +10 al danno."
+            ],
+            "source": "Player's Handbook"
+        },
+        "War Caster": {
+            "prerequisites": "Ability to cast at least one spell",
+            "benefits": [
+                "Hai vantaggio ai tiri salvezza su Costituzione per mantenere la concentrazione sugli incantesimi quando subisci danni.",
+                "Puoi eseguire le componenti somatiche degli incantesimi anche quando impugni armi o scudi in entrambe le mani.",
+                "Quando una creatura provoca un attacco di opportunità da te, puoi usare la tua reazione per lanciare un incantesimo contro di essa anziché compiere l'attacco."
+            ],
+            "source": "Player's Handbook"
+        }
+    }
+}

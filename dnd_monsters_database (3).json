@@ -1,0 +1,2577 @@
+{
+    "Cat": {
+        "name": "Cat",
+        "size": "Tiny",
+        "type": "beast",
+        "alignment": "unaligned",
+        "ac": 12,
+        "hp": 2,
+        "speed": "40 ft., climb 30 ft.",
+        "stats": {
+            "STR": 3,
+            "DEX": 15,
+            "CON": 10,
+            "INT": 2,
+            "WIS": 12,
+            "CHA": 7
+        },
+        "skills": "Perception +3, Stealth +4",
+        "senses": "passive Perception 13",
+        "languages": "-",
+        "cr": "0",
+        "traits": [
+            "Keen Smell (The cat has advantage on Wisdom (Perception) checks that rely on smell.)"
+        ],
+        "actions": [
+            "Claws. Melee Weapon Attack: +0 to hit, reach 5 ft., one target. Hit: 1 slashing damage."
+        ],
+        "source": "Player's Handbook / Monster Manual"
+    },
+    "Frog": {
+        "name": "Frog",
+        "size": "Tiny",
+        "type": "beast",
+        "alignment": "unaligned",
+        "ac": 11,
+        "hp": 1,
+        "speed": "20 ft., swim 20 ft.",
+        "stats": {
+            "STR": 1,
+            "DEX": 13,
+            "CON": 8,
+            "INT": 1,
+            "WIS": 8,
+            "CHA": 3
+        },
+        "skills": "Perception +1, Stealth +3",
+        "senses": "darkvision 30 ft., passive Perception 11",
+        "languages": "-",
+        "cr": "0",
+        "traits": [
+            "Amphibious (The frog can breathe air and water.)",
+            "Standing Leap (As part of its movement and without a running start, the frog can long jump up to 10 feet and high jump up to 5 feet.)"
+        ],
+        "actions": [
+            "Bite. Melee Weapon Attack: +0 to hit, reach 5 ft., one target. Hit: 1 piercing damage."
+        ],
+        "source": "Player's Handbook / Monster Manual"
+    },
+    "Rat": {
+        "name": "Rat",
+        "size": "Tiny",
+        "type": "beast",
+        "alignment": "unaligned",
+        "ac": 10,
+        "hp": 1,
+        "speed": "20 ft.",
+        "stats": {
+            "STR": 2,
+            "DEX": 11,
+            "CON": 9,
+            "INT": 2,
+            "WIS": 10,
+            "CHA": 4
+        },
+        "skills": "Stealth +2",
+        "senses": "darkvision 30 ft., passive Perception 10",
+        "languages": "-",
+        "cr": "0",
+        "traits": [
+            "Keen Smell (The rat has advantage on Wisdom (Perception) checks that rely on smell.)"
+        ],
+        "actions": [
+            "Bite. Melee Weapon Attack: +0 to hit, reach 5 ft., one target. Hit: 1 piercing damage."
+        ],
+        "source": "Player's Handbook / Monster Manual"
+    },
+    "Raven": {
+        "name": "Raven",
+        "size": "Tiny",
+        "type": "beast",
+        "alignment": "unaligned",
+        "ac": 12,
+        "hp": 1,
+        "speed": "10 ft., fly 50 ft.",
+        "stats": {
+            "STR": 2,
+            "DEX": 14,
+            "CON": 8,
+            "INT": 2,
+            "WIS": 12,
+            "CHA": 6
+        },
+        "skills": "Perception +3",
+        "senses": "passive Perception 13",
+        "languages": "-",
+        "cr": "0",
+        "traits": [
+            "Mimicry (The raven can mimic simple sounds it has heard. A creature can tell they are imitations with a successful DC 10 Wisdom (Insight) check.)"
+        ],
+        "actions": [
+            "Beak. Melee Weapon Attack: +4 to hit, reach 5 ft., one target. Hit: 1 piercing damage."
+        ],
+        "source": "Player's Handbook / Monster Manual"
+    },
+    "Young Kruthik": {
+        "name": "Young Kruthik",
+        "size": "Small",
+        "type": "monstrosity",
+        "alignment": "unaligned",
+        "ac": 16,
+        "hp": 9,
+        "speed": "30 ft., burrow 10 ft., climb 30 ft.",
+        "stats": {
+            "STR": 13,
+            "DEX": 16,
+            "CON": 13,
+            "INT": 4,
+            "WIS": 10,
+            "CHA": 6
+        },
+        "skills": "Senses: darkvision 30 ft., tremorsense 60 ft.",
+        "senses": "passive Perception 10",
+        "languages": "Kruthik",
+        "cr": "1/8",
+        "traits": [
+            "Keen Smell (The kruthik has advantage on Wisdom (Perception) checks that rely on smell.)",
+            "Pack Tactics (The kruthik has advantage on an attack roll against a creature if at least one of its allies is within 5 feet of the creature and isn't incapacitated.)",
+            "Tunneler (The kruthik can burrow through solid rock at half its burrowing speed and leaves a 2 1/2-foot-diameter tunnel in its wake.)"
+        ],
+        "actions": [
+            "Stab. Melee Weapon Attack: +5 to hit, reach 5 ft., one target. Hit: 5 (1d4 + 3) piercing damage."
+        ],
+        "source": "Mordenkainen's Tome of Foes"
+    },
+    "Goblin": {
+        "name": "Goblin",
+        "size": "Small",
+        "type": "humanoid (goblinoid)",
+        "alignment": "neutral evil",
+        "ac": 15,
+        "hp": 7,
+        "speed": "30 ft.",
+        "stats": {
+            "STR": 8,
+            "DEX": 14,
+            "CON": 10,
+            "INT": 10,
+            "WIS": 8,
+            "CHA": 8
+        },
+        "skills": "Stealth +6",
+        "senses": "darkvision 60 ft., passive Perception 9",
+        "languages": "Common, Goblin",
+        "cr": "1/4",
+        "traits": [
+            "Nimble Escape (The goblin can take the Disengage or Hide action as a bonus action on each of its turns.)"
+        ],
+        "actions": [
+            "Scimitar. Melee Weapon Attack: +4 to hit, reach 5 ft., one target. Hit: 5 (1d6 + 2) slashing damage.",
+            "Shortbow. Ranged Weapon Attack: +4 to hit, range 80/320 ft., one target. Hit: 5 (1d6 + 2) piercing damage."
+        ],
+        "source": "Player's Handbook / Monster Manual"
+    },
+    "Skeleton": {
+        "name": "Skeleton",
+        "size": "Medium",
+        "type": "undead",
+        "alignment": "lawful evil",
+        "ac": 13,
+        "hp": 13,
+        "speed": "30 ft.",
+        "stats": {
+            "STR": 10,
+            "DEX": 14,
+            "CON": 15,
+            "INT": 6,
+            "WIS": 8,
+            "CHA": 5
+        },
+        "skills": "-",
+        "senses": "darkvision 60 ft., passive Perception 9",
+        "languages": "understands the languages it knew in life but can't speak",
+        "cr": "1/4",
+        "traits": [
+            "Vulnerable to Bludgeoning (Vulnerable to bludgeoning damage.)",
+            "Damage Immunities: poison. Condition Immunities: poisoned."
+        ],
+        "actions": [
+            "Shortsword. Melee Weapon Attack: +4 to hit, reach 5 ft., one target. Hit: 5 (1d6 + 2) piercing damage.",
+            "Shortbow. Ranged Weapon Attack: +4 to hit, range 80/320 ft., one target. Hit: 5 (1d6 + 2) piercing damage."
+        ],
+        "source": "Player's Handbook / Monster Manual"
+    },
+    "Zombie": {
+        "name": "Zombie",
+        "size": "Medium",
+        "type": "undead",
+        "alignment": "neutral evil",
+        "ac": 8,
+        "hp": 22,
+        "speed": "20 ft.",
+        "stats": {
+            "STR": 13,
+            "DEX": 6,
+            "CON": 16,
+            "INT": 3,
+            "WIS": 6,
+            "CHA": 5
+        },
+        "skills": "Saving Throws: Wis +0",
+        "senses": "darkvision 60 ft., passive Perception 8",
+        "languages": "understands the languages it knew in life but can't speak",
+        "cr": "1/4",
+        "traits": [
+            "Undead Fortitude (If damage reduces the zombie to 0 hit points, it must make a Constitution saving throw with a DC of 5 + the damage taken, unless the damage is radiant or from a critical hit. On a success, the zombie drops to 1 hit point instead.)",
+            "Damage Immunities: poison. Condition Immunities: poisoned."
+        ],
+        "actions": [
+            "Slam. Melee Weapon Attack: +3 to hit, reach 5 ft., one target. Hit: 4 (1d6 + 1) bludgeoning damage."
+        ],
+        "source": "Player's Handbook / Monster Manual"
+    },
+    "Sprite": {
+        "name": "Sprite",
+        "size": "Tiny",
+        "type": "fey",
+        "alignment": "neutral good",
+        "ac": 15,
+        "hp": 2,
+        "speed": "10 ft., fly 40 ft.",
+        "stats": {
+            "STR": 3,
+            "DEX": 18,
+            "CON": 10,
+            "INT": 14,
+            "WIS": 13,
+            "CHA": 11
+        },
+        "skills": "Perception +3, Stealth +8",
+        "senses": "passive Perception 13",
+        "languages": "Common, Elvish, Sylvan",
+        "cr": "1/4",
+        "traits": [
+            "Heart Sight (The sprite touches a creature and magically knows the creature's current emotional state or alignment. If the target fails a DC 10 Charisma save, the sprite also knows its alignment.)",
+            "Invisibility (The sprite magically turns invisible.)"
+        ],
+        "actions": [
+            "Longsword. Melee Weapon Attack: +2 to hit, reach 5 ft., one target. Hit: 1 slashing damage.",
+            "Shortbow. Ranged Weapon Attack: +6 to hit, range 40/160 ft., one target. Hit: 1 piercing damage, and the target must succeed on a DC 10 Constitution save or become poisoned for 1 minute."
+        ],
+        "source": "Player's Handbook / Monster Manual"
+    },
+    "Geonid": {
+        "name": "Geonid",
+        "size": "Small",
+        "type": "elemental",
+        "alignment": "neutral",
+        "ac": 17,
+        "hp": 26,
+        "speed": "30 ft.",
+        "stats": {
+            "STR": 12,
+            "DEX": 10,
+            "CON": 16,
+            "INT": 9,
+            "WIS": 14,
+            "CHA": 11
+        },
+        "skills": "Perception +4, Stealth +2",
+        "senses": "darkvision 60 ft., passive Perception 14",
+        "languages": "Terran",
+        "cr": "1/4",
+        "traits": [
+            "Stone Camouflage (The geonid has advantage on Dexterity (Stealth) checks made to hide in rocky terrain.)",
+            "Stone Tell (The geonid can touch stone and learn what creatures have been in the area within the past 24 hours.)"
+        ],
+        "actions": [
+            "Club. Melee Weapon Attack: +3 to hit, reach 5 ft., one target. Hit: 3 (1d4 + 1) bludgeoning damage."
+        ],
+        "source": "The Tortle Package"
+    },
+    "Tortle": {
+        "name": "Tortle",
+        "size": "Medium",
+        "type": "humanoid (tortle)",
+        "alignment": "lawful good",
+        "ac": 17,
+        "hp": 22,
+        "speed": "30 ft.",
+        "stats": {
+            "STR": 15,
+            "DEX": 10,
+            "CON": 12,
+            "INT": 11,
+            "WIS": 13,
+            "CHA": 12
+        },
+        "skills": "Athletics +4, Survival +3",
+        "senses": "passive Perception 11",
+        "languages": "Common, Aquan",
+        "cr": "1/4",
+        "traits": [
+            "Natural Armor (Base AC is 17, cannot wear armor.)",
+            "Hold Breath (The tortle can hold its breath for up to 1 hour.)",
+            "Shell Defense (The tortle can withdraw into its shell as an action. Until it emerges, it gains a +4 bonus to AC and has advantage on Strength and Constitution saving throws, but its speed is 0 and it is prone.)"
+        ],
+        "actions": [
+            "Claws. Melee Weapon Attack: +4 to hit, reach 5 ft., one target. Hit: 4 (1d4 + 2) slashing damage.",
+            "Quarterstaff. Melee Weapon Attack: +4 to hit, reach 5 ft., one target. Hit: 5 (1d6 + 2) bludgeoning damage."
+        ],
+        "source": "The Tortle Package"
+    },
+    "Abyssal Wretch": {
+        "name": "Abyssal Wretch",
+        "size": "Medium",
+        "type": "fiend (demon)",
+        "alignment": "chaotic evil",
+        "ac": 11,
+        "hp": 18,
+        "speed": "20 ft.",
+        "stats": {
+            "STR": 9,
+            "DEX": 12,
+            "CON": 11,
+            "INT": 5,
+            "WIS": 8,
+            "CHA": 5
+        },
+        "skills": "-",
+        "senses": "darkvision 120 ft., passive Perception 9",
+        "languages": "understands Abyssal but can't speak",
+        "cr": "1/4",
+        "traits": [
+            "Damage Resistances: cold, fire, lightning. Damage Immunities: poison. Condition Immunities: poisoned."
+        ],
+        "actions": [
+            "Bite. Melee Weapon Attack: +3 to hit, reach 5 ft., one target. Hit: 5 (1d8 + 1) slashing damage."
+        ],
+        "source": "Mordenkainen's Tome of Foes"
+    },
+    "Derro": {
+        "name": "Derro",
+        "size": "Small",
+        "type": "humanoid (derro)",
+        "alignment": "chaotic evil",
+        "ac": 13,
+        "hp": 13,
+        "speed": "30 ft.",
+        "stats": {
+            "STR": 10,
+            "DEX": 14,
+            "CON": 12,
+            "INT": 11,
+            "WIS": 5,
+            "CHA": 9
+        },
+        "skills": "Stealth +4",
+        "senses": "darkvision 120 ft., passive Perception 7",
+        "languages": "Dwarvish, Undercommon",
+        "cr": "1/4",
+        "traits": [
+            "Magic Resistance (The derro has advantage on saving throws against spells and other magical effects.)",
+            "Sunlight Sensitivity (While in sunlight, the derro has disadvantage on attack rolls and Wisdom (Perception) checks that rely on sight.)"
+        ],
+        "actions": [
+            "Hooked Spear. Melee Weapon Attack: +2 to hit, reach 5 ft., one target. Hit: 3 (1d6) piercing damage.",
+            "Light Crossbow. Ranged Weapon Attack: +4 to hit, range 80/320 ft., one target. Hit: 6 (1d8 + 2) piercing damage."
+        ],
+        "source": "Mordenkainen's Tome of Foes"
+    },
+    "Male Steeder": {
+        "name": "Male Steeder",
+        "size": "Medium",
+        "type": "monstrosity",
+        "alignment": "unaligned",
+        "ac": 12,
+        "hp": 13,
+        "speed": "30 ft., climb 30 ft.",
+        "stats": {
+            "STR": 15,
+            "DEX": 12,
+            "CON": 14,
+            "INT": 2,
+            "WIS": 10,
+            "CHA": 3
+        },
+        "skills": "Stealth +5, Perception +4",
+        "senses": "darkvision 120 ft., passive Perception 14",
+        "languages": "-",
+        "cr": "1/4",
+        "traits": [
+            "Spider Climb (The steeder can climb difficult surfaces without needing to make an ability check.)",
+            "Extraordinary Leap (The distance of the steeder's long jumps is tripled.)"
+        ],
+        "actions": [
+            "Bite. Melee Weapon Attack: +4 to hit, reach 5 ft., one target. Hit: 4 (1d4 + 2) piercing damage plus 4 (1d8) poison damage.",
+            "Sticky Leg. Melee Weapon Attack: +4 to hit, reach 5 ft., one Small or Tiny creature. Hit: The target is stuck to the steeder's leg and grappled (escape DC 12)."
+        ],
+        "source": "Mordenkainen's Tome of Foes"
+    },
+    "The Wretched": {
+        "name": "The Wretched",
+        "size": "Small",
+        "type": "monstrosity",
+        "alignment": "neutral evil",
+        "ac": 15,
+        "hp": 10,
+        "speed": "40 ft.",
+        "stats": {
+            "STR": 7,
+            "DEX": 12,
+            "CON": 9,
+            "INT": 5,
+            "WIS": 6,
+            "CHA": 5
+        },
+        "skills": "-",
+        "senses": "darkvision 60 ft., passive Perception 8",
+        "languages": "-",
+        "cr": "1/4",
+        "traits": [
+            "Damage Resistances: bludgeoning, piercing, and slashing while in dim light or darkness.",
+            "Wretched Pack Tactics (The Wretched has advantage on an attack roll against a creature if at least one of its allies is within 5 feet of the creature and isn't incapacitated.)"
+        ],
+        "actions": [
+            "Bite. Melee Weapon Attack: +3 to hit, reach 5 ft., one target. Hit: 6 (1d10 + 1) piercing damage, and the Wretched attaches to the target."
+        ],
+        "source": "Mordenkainen's Tome of Foes"
+    },
+    "Black Bear": {
+        "name": "Black Bear",
+        "size": "Medium",
+        "type": "beast",
+        "alignment": "unaligned",
+        "ac": 11,
+        "hp": 19,
+        "speed": "40 ft., climb 30 ft.",
+        "stats": {
+            "STR": 15,
+            "DEX": 10,
+            "CON": 14,
+            "INT": 2,
+            "WIS": 12,
+            "CHA": 7
+        },
+        "skills": "Perception +3",
+        "senses": "passive Perception 13",
+        "languages": "-",
+        "cr": "1/2",
+        "traits": [
+            "Keen Smell (The bear has advantage on Wisdom (Perception) checks that rely on smell.)"
+        ],
+        "actions": [
+            "Multiattack. The bear makes two attacks: one with its bite and one with its claws.",
+            "Bite. Melee Weapon Attack: +3 to hit, reach 5 ft., one target. Hit: 5 (1d6 + 2) piercing damage.",
+            "Claws. Melee Weapon Attack: +3 to hit, reach 5 ft., one target. Hit: 7 (2d4 + 2) slashing damage."
+        ],
+        "source": "Player's Handbook / Monster Manual"
+    },
+    "Crocodile": {
+        "name": "Crocodile",
+        "size": "Large",
+        "type": "beast",
+        "alignment": "unaligned",
+        "ac": 12,
+        "hp": 19,
+        "speed": "20 ft., swim 30 ft.",
+        "stats": {
+            "STR": 15,
+            "DEX": 10,
+            "CON": 13,
+            "INT": 2,
+            "WIS": 10,
+            "CHA": 5
+        },
+        "skills": "Stealth +2",
+        "senses": "passive Perception 10",
+        "languages": "-",
+        "cr": "1/2",
+        "traits": [
+            "Hold Breath (The crocodile can hold its breath for 15 minutes.)"
+        ],
+        "actions": [
+            "Bite. Melee Weapon Attack: +4 to hit, reach 5 ft., one target. Hit: 7 (1d10 + 2) piercing damage, and the target is grappled (escape DC 12). Until this grapple ends, the target is restrained, and the crocodile can't bite another target."
+        ],
+        "source": "Player's Handbook / Monster Manual"
+    },
+    "Reef Shark": {
+        "name": "Reef Shark",
+        "size": "Medium",
+        "type": "beast",
+        "alignment": "unaligned",
+        "ac": 12,
+        "hp": 22,
+        "speed": "0 ft., swim 40 ft.",
+        "stats": {
+            "STR": 14,
+            "DEX": 13,
+            "CON": 13,
+            "INT": 1,
+            "WIS": 10,
+            "CHA": 4
+        },
+        "skills": "Perception +2",
+        "senses": "blindsight 30 ft., passive Perception 12",
+        "languages": "-",
+        "cr": "1/2",
+        "traits": [
+            "Pack Tactics (The shark has advantage on attack rolls against a creature if at least one of its allies is within 5 feet and isn't incapacitated.)",
+            "Water Breathing (The shark can breathe only while underwater.)"
+        ],
+        "actions": [
+            "Bite. Melee Weapon Attack: +4 to hit, reach 5 ft., one target. Hit: 6 (1d8 + 2) piercing damage."
+        ],
+        "source": "Player's Handbook / Monster Manual"
+    },
+    "Nupperibo": {
+        "name": "Nupperibo",
+        "size": "Medium",
+        "type": "fiend (devil)",
+        "alignment": "lawful evil",
+        "ac": 13,
+        "hp": 11,
+        "speed": "20 ft.",
+        "stats": {
+            "STR": 16,
+            "DEX": 3,
+            "CON": 11,
+            "INT": 3,
+            "WIS": 8,
+            "CHA": 1
+        },
+        "skills": "Perception +1",
+        "senses": "blindsight 10 ft., passive Perception 11",
+        "languages": "understands Infernal but can't speak",
+        "cr": "1/2",
+        "traits": [
+            "Damage Resistances: acid, cold; bludgeoning, piercing, and slashing from nonmagical attacks that aren't silvered. Damage Immunities: fire, poison. Condition Immunities: blinded, charmed, frightened, poisoned.",
+            "Cloud of Vermin (Any creature, other than a devil, that starts its turn within 20 feet of the nupperibo must make a DC 11 Constitution save or take 2 (1d4) piercing damage with disadvantage.)",
+            "Hunger-Driven (The nupperibo can flawlessly track any creature that has taken damage from its Cloud of Vermin within the previous 24 hours.)"
+        ],
+        "actions": [
+            "Bite. Melee Weapon Attack: +5 to hit, reach 5 ft., one target. Hit: 6 (1d6 + 3) piercing damage."
+        ],
+        "source": "Mordenkainen's Tome of Foes"
+    },
+    "Orc": {
+        "name": "Orc",
+        "size": "Medium",
+        "type": "humanoid (orc)",
+        "alignment": "chaotic evil",
+        "ac": 13,
+        "hp": 15,
+        "speed": "30 ft.",
+        "stats": {
+            "STR": 16,
+            "DEX": 12,
+            "CON": 16,
+            "INT": 7,
+            "WIS": 11,
+            "CHA": 10
+        },
+        "skills": "Intimidation +2",
+        "senses": "darkvision 60 ft., passive Perception 10",
+        "languages": "Common, Orc",
+        "cr": "1/2",
+        "traits": [
+            "Aggressive (As a bonus action, the orc can move up to its speed toward a hostile creature that it can see.)"
+        ],
+        "actions": [
+            "Greataxe. Melee Weapon Attack: +5 to hit, reach 5 ft., one target. Hit: 9 (1d12 + 3) slashing damage.",
+            "Javelin. Melee or Ranged Weapon Attack: +5 to hit, reach 5 ft. or range 30/120 ft., one target. Hit: 6 (1d6 + 3) piercing damage."
+        ],
+        "source": "Player's Handbook / Monster Manual"
+    },
+    "Category 1 Krasis": {
+        "name": "Category 1 Krasis",
+        "size": "Medium",
+        "type": "monstrosity",
+        "alignment": "unaligned",
+        "ac": 15,
+        "hp": 19,
+        "speed": "30 ft.",
+        "stats": {
+            "STR": 16,
+            "DEX": 15,
+            "CON": 14,
+            "INT": 2,
+            "WIS": 13,
+            "CHA": 8
+        },
+        "skills": "Perception +3",
+        "senses": "passive Perception 11",
+        "languages": "-",
+        "cr": "1",
+        "traits": [
+            "Amphibious (The krasis can breathe air and water.)",
+            "Armored Hide (The krasis has natural armor from scales, making its AC 15.)"
+        ],
+        "actions": [
+            "Multiattack. The krasis makes two attacks: one with its bite and one with its claws.",
+            "Bite. Melee Weapon Attack: +5 to hit, reach 5 ft., one target. Hit: 8 (1d10 + 3) piercing damage.",
+            "Claws. Melee Weapon Attack: +5 to hit, reach 5 ft., one target. Hit: 7 (1d8 + 3) slashing damage."
+        ],
+        "source": "Guildmasters' Guide to Ravnica"
+    },
+    "Brown Bear": {
+        "name": "Brown Bear",
+        "size": "Large",
+        "type": "beast",
+        "alignment": "unaligned",
+        "ac": 11,
+        "hp": 34,
+        "speed": "40 ft., climb 30 ft.",
+        "stats": {
+            "STR": 19,
+            "DEX": 10,
+            "CON": 16,
+            "INT": 2,
+            "WIS": 13,
+            "CHA": 7
+        },
+        "skills": "Perception +3",
+        "senses": "passive Perception 13",
+        "languages": "-",
+        "cr": "1",
+        "traits": [
+            "Keen Smell (The bear has advantage on Wisdom (Perception) checks that rely on smell.)"
+        ],
+        "actions": [
+            "Multiattack. The bear makes two attacks: one with its bite and one with its claws.",
+            "Bite. Melee Weapon Attack: +5 to hit, reach 5 ft., one target. Hit: 8 (1d8 + 4) piercing damage.",
+            "Claws. Melee Weapon Attack: +5 to hit, reach 5 ft., one target. Hit: 11 (2d6 + 4) slashing damage."
+        ],
+        "source": "Player's Handbook / Monster Manual"
+    },
+    "Dire Wolf": {
+        "name": "Dire Wolf",
+        "size": "Large",
+        "type": "beast",
+        "alignment": "unaligned",
+        "ac": 14,
+        "hp": 37,
+        "speed": "50 ft.",
+        "stats": {
+            "STR": 17,
+            "DEX": 15,
+            "CON": 15,
+            "INT": 3,
+            "WIS": 12,
+            "CHA": 7
+        },
+        "skills": "Perception +3, Stealth +4",
+        "senses": "passive Perception 13",
+        "languages": "-",
+        "cr": "1",
+        "traits": [
+            "Keen Hearing and Smell",
+            "Pack Tactics"
+        ],
+        "actions": [
+            "Bite"
+        ],
+        "source": "Player's Handbook"
+    },
+    "Giant Spider": {
+        "name": "Giant Spider",
+        "size": "Large",
+        "type": "beast",
+        "alignment": "unaligned",
+        "ac": 14,
+        "hp": 26,
+        "speed": "30 ft., climb 30 ft.",
+        "stats": {
+            "STR": 14,
+            "DEX": 16,
+            "CON": 12,
+            "INT": 2,
+            "WIS": 11,
+            "CHA": 4
+        },
+        "skills": "Stealth +7, Perception +4",
+        "senses": "blindsight 10 ft., darkvision 60 ft., passive Perception 14",
+        "languages": "-",
+        "cr": "1",
+        "traits": [
+            "Spider Climb (The spider can climb difficult surfaces without making an ability check.)",
+            "Web Sense (While in contact with a web, the spider knows the exact location of any other creature in the same web.)",
+            "Web Walker (The spider ignores movement restrictions caused by webbing.)"
+        ],
+        "actions": [
+            "Bite. Melee Weapon Attack: +5 to hit, reach 5 ft., one target. Hit: 7 (1d8 + 4) piercing damage, and the target must make a DC 11 Constitution save, taking 9 (2d8) poison damage on a failed save.",
+            "Web (Recharge 5-6). Ranged Weapon Attack: +5 to hit, range 30/60 ft., one creature. Hit: The target is restrained by webbing (escape DC 12)."
+        ],
+        "source": "Player's Handbook / Monster Manual"
+    },
+    "Quasit": {
+        "name": "Quasit",
+        "size": "Tiny",
+        "type": "fiend (demon)",
+        "alignment": "chaotic evil",
+        "ac": 13,
+        "hp": 7,
+        "speed": "40 ft.",
+        "stats": {
+            "STR": 5,
+            "DEX": 17,
+            "CON": 10,
+            "INT": 7,
+            "WIS": 10,
+            "CHA": 10
+        },
+        "skills": "Stealth +5",
+        "senses": "darkvision 120 ft., passive Perception 10",
+        "languages": "Abyssal, Common",
+        "cr": "1",
+        "traits": [
+            "Damage Resistances: cold, fire, lightning; bludgeoning, piercing, and slashing from nonmagical attacks. Damage Immunities: poison. Condition Immunities: poisoned.",
+            "Magic Resistance (The quasit has advantage on saving throws against spells and other magical effects.)",
+            "Shapechanger (The quasit can polymorph into a bat, centipede, or toad.)"
+        ],
+        "actions": [
+            "Claws (Bite in Beast Form). Melee Weapon Attack: +4 to hit, reach 5 ft., one target. Hit: 5 (1d4 + 3) piercing damage, and the target must succeed on a DC 10 Constitution save or take 5 (2d4) poison damage and be poisoned for 1 minute.",
+            "Scare (1/Day). One creature of the quasit's choice within 20 feet must make a DC 10 Wisdom save or be frightened for 1 minute.",
+            "Invisibility. The quasit turns invisible until it attacks or uses Scare."
+        ],
+        "source": "Player's Handbook / Monster Manual"
+    },
+    "Female Steeder": {
+        "name": "Female Steeder",
+        "size": "Large",
+        "type": "monstrosity",
+        "alignment": "unaligned",
+        "ac": 14,
+        "hp": 30,
+        "speed": "30 ft., climb 30 ft.",
+        "stats": {
+            "STR": 15,
+            "DEX": 16,
+            "CON": 14,
+            "INT": 2,
+            "WIS": 10,
+            "CHA": 3
+        },
+        "skills": "Stealth +7, Perception +4",
+        "senses": "darkvision 120 ft., passive Perception 14",
+        "languages": "-",
+        "cr": "1",
+        "traits": [
+            "Spider Climb (The steeder can climb difficult surfaces without needing to make an ability check.)",
+            "Extraordinary Leap (The distance of the steeder's long jumps is tripled.)"
+        ],
+        "actions": [
+            "Bite. Melee Weapon Attack: +5 to hit, reach 5 ft., one target. Hit: 7 (1d8 + 3) piercing damage plus 9 (2d8) poison damage.",
+            "Sticky Leg. Melee Weapon Attack: +5 to hit, reach 5 ft., one Medium or smaller creature. Hit: The target is stuck to the steeder's leg and grappled (escape DC 12)."
+        ],
+        "source": "Mordenkainen's Tome of Foes"
+    },
+    "Stone Cursed": {
+        "name": "Stone Cursed",
+        "size": "Medium",
+        "type": "construct",
+        "alignment": "lawful evil",
+        "ac": 17,
+        "hp": 19,
+        "speed": "10 ft.",
+        "stats": {
+            "STR": 16,
+            "DEX": 5,
+            "CON": 14,
+            "INT": 5,
+            "WIS": 8,
+            "CHA": 7
+        },
+        "skills": "-",
+        "senses": "passive Perception 9",
+        "languages": "understands the languages it knew in life",
+        "cr": "1",
+        "traits": [
+            "Damage Immunities: poison. Condition Immunities: charmed, exhaustion, frightened, petrified, poisoned.",
+            "Cunning Opportunist (The stone cursed has advantage on attack rolls of opportunity.)",
+            "False Appearance (While motionless, it is indistinguishable from a normal statue.)"
+        ],
+        "actions": [
+            "Petrifying Claws. Melee Weapon Attack: +5 to hit, reach 5 ft., one target. Hit: 8 (1d10 + 3) slashing damage plus 14 (2d10 + 3) slashing damage if it had advantage. The target must succeed on a DC 12 Constitution saving throw or begin to turn to stone."
+        ],
+        "source": "Mordenkainen's Tome of Foes"
+    },
+    "Bulezau": {
+        "name": "Bulezau",
+        "size": "Medium",
+        "type": "fiend (demon)",
+        "alignment": "chaotic evil",
+        "ac": 14,
+        "hp": 52,
+        "speed": "40 ft.",
+        "stats": {
+            "STR": 15,
+            "DEX": 14,
+            "CON": 17,
+            "INT": 8,
+            "WIS": 9,
+            "CHA": 6
+        },
+        "skills": "Perception +3",
+        "senses": "darkvision 120 ft., passive Perception 9",
+        "languages": "Abyssal, telepathy 60 ft.",
+        "cr": "3",
+        "traits": [
+            "Damage Resistances: cold, fire, lightning. Damage Immunities: poison. Condition Immunities: charmed, frightened, poisoned.",
+            "Rotting Presence (Non-demons starting turn within 30 ft. make DC 13 Constitution save or take 3 (1d6) necrotic damage.)"
+        ],
+        "actions": [
+            "Claws. Melee Weapon Attack: +4 to hit, reach 5 ft., one target. Hit: 6 (1d8 + 2) slashing damage.",
+            "Tail. Melee Weapon Attack: +4 to hit, reach 5 ft., one target. Hit: 8 (1d12 + 2) piercing damage."
+        ],
+        "source": "Mordenkainen's Tome of Foes"
+    },
+    "Iron Cobra": {
+        "name": "Iron Cobra",
+        "size": "Medium",
+        "type": "construct",
+        "alignment": "unaligned",
+        "ac": 13,
+        "hp": 45,
+        "speed": "30 ft.",
+        "stats": {
+            "STR": 12,
+            "DEX": 16,
+            "CON": 14,
+            "INT": 3,
+            "WIS": 10,
+            "CHA": 1
+        },
+        "skills": "Stealth +7",
+        "senses": "darkvision 60 ft., passive Perception 10",
+        "languages": "understands one language of its creator",
+        "cr": "4",
+        "traits": [
+            "Damage Immunities: poison; bludgeoning, piercing, and slashing from nonmagical attacks that aren't adamantine. Condition Immunities: charmed, exhaustion, frightened, paralyzed, petrified, poisoned."
+        ],
+        "actions": [
+            "Bite. Melee Weapon Attack: +5 to hit, reach 5 ft., one target. Hit: 6 (1d6 + 3) piercing damage plus 10 (3d6) poison damage."
+        ],
+        "source": "Mordenkainen's Tome of Foes"
+    },
+    "Merregon": {
+        "name": "Merregon",
+        "size": "Medium",
+        "type": "fiend (devil)",
+        "alignment": "lawful evil",
+        "ac": 16,
+        "hp": 45,
+        "speed": "30 ft.",
+        "stats": {
+            "STR": 18,
+            "DEX": 14,
+            "CON": 17,
+            "INT": 6,
+            "WIS": 12,
+            "CHA": 8
+        },
+        "skills": "-",
+        "senses": "darkvision 60 ft., passive Perception 11",
+        "languages": "understands Infernal but can't speak",
+        "cr": "4",
+        "traits": [
+            "Damage Resistances: cold; bludgeoning, piercing, and slashing from nonmagical attacks that aren't silvered. Damage Immunities: fire, poison. Condition Immunities: frightened, poisoned."
+        ],
+        "actions": [
+            "Halberd. Melee Weapon Attack: +6 to hit, reach 10 ft., one target. Hit: 9 (1d10 + 4) slashing damage.",
+            "Heavy Crossbow. Ranged Weapon Attack: +4 to hit, range 100/400 ft., one target. Hit: 7 (1d10 + 2) piercing damage."
+        ],
+        "source": "Mordenkainen's Tome of Foes"
+    },
+    "Troll": {
+        "name": "Troll",
+        "size": "Large",
+        "type": "giant",
+        "alignment": "chaotic evil",
+        "ac": 15,
+        "hp": 84,
+        "speed": "30 ft.",
+        "stats": {
+            "STR": 18,
+            "DEX": 13,
+            "CON": 20,
+            "INT": 7,
+            "WIS": 9,
+            "CHA": 7
+        },
+        "skills": "Perception +1",
+        "senses": "darkvision 60 ft., passive Perception 11",
+        "languages": "Giant",
+        "cr": "5",
+        "traits": [
+            "Keen Smell (The troll has advantage on Wisdom (Perception) checks that rely on smell.)",
+            "Regeneration (The troll regains 10 hit points at the start of its turn. If the troll takes acid or fire damage, this trait doesn't function at the start of its next turn.)"
+        ],
+        "actions": [
+            "Multiattack. The troll makes three attacks: one with its bite and two with its claws.",
+            "Bite. Melee Weapon Attack: +7 to hit, reach 5 ft., one target. Hit: 7 (1d6 + 4) piercing damage.",
+            "Claw. Melee Weapon Attack: +7 to hit, reach 5 ft., one target. Hit: 11 (2d6 + 4) slashing damage."
+        ],
+        "source": "Player's Handbook / Monster Manual"
+    },
+    "Star Spawn Mangler": {
+        "name": "Star Spawn Mangler",
+        "size": "Medium",
+        "type": "aberration",
+        "alignment": "chaotic evil",
+        "ac": 14,
+        "hp": 71,
+        "speed": "40 ft., climb 40 ft.",
+        "stats": {
+            "STR": 8,
+            "DEX": 18,
+            "CON": 12,
+            "INT": 11,
+            "WIS": 12,
+            "CHA": 7
+        },
+        "skills": "Saving Throws: Dex +7, Con +4. Skills: Stealth +7",
+        "senses": "darkvision 60 ft., passive Perception 11",
+        "languages": "Deep Speech",
+        "cr": "5",
+        "traits": [
+            "Damage Resistances: cold. Damage Immunities: psychic. Condition Immunities: charmed, frightened, prone.",
+            "Ambush (On the first round of combat, the mangler has advantage on attack rolls against a creature that hasn't taken a turn.)",
+            "Shadow Stealth (While in dim light or darkness, the mangler can take the Hide action as a bonus action.)"
+        ],
+        "actions": [
+            "Multiattack. The mangler makes two claw attacks.",
+            "Claw. Melee Weapon Attack: +7 to hit, reach 5 ft., one target. Hit: 8 (1d8 + 4) slashing damage plus 7 (2d6) psychic damage.",
+            "Flurry of Claws (Recharge 4-6). The mangler makes six claw attacks as a action."
+        ],
+        "source": "Mordenkainen's Tome of Foes"
+    },
+    "Category 2 Krasis": {
+        "name": "Category 2 Krasis",
+        "size": "Large",
+        "type": "monstrosity",
+        "alignment": "unaligned",
+        "ac": 15,
+        "hp": 136,
+        "speed": "40 ft.",
+        "stats": {
+            "STR": 18,
+            "DEX": 14,
+            "CON": 16,
+            "INT": 2,
+            "WIS": 13,
+            "CHA": 8
+        },
+        "skills": "Perception +4",
+        "senses": "passive Perception 11",
+        "languages": "-",
+        "cr": "6",
+        "traits": [
+            "Amphibious (The krasis can breathe air and water.)",
+            "Armored Hide (Natural scales increase AC to 15.)"
+        ],
+        "actions": [
+            "Multiattack. The krasis makes two attacks: one with its bite and one with its claws.",
+            "Bite. Melee Weapon Attack: +7 to hit, reach 5 ft., one target. Hit: 17 (2d12 + 4) piercing damage.",
+            "Claws. Melee Weapon Attack: +7 to hit, reach 5 ft., one target. Hit: 17 (2d12 + 4) slashing damage."
+        ],
+        "source": "Guildmasters' Guide to Ravnica"
+    },
+    "White Abishai": {
+        "name": "White Abishai",
+        "size": "Medium",
+        "type": "fiend (devil)",
+        "alignment": "lawful evil",
+        "ac": 15,
+        "hp": 68,
+        "speed": "30 ft., fly 40 ft.",
+        "stats": {
+            "STR": 16,
+            "DEX": 11,
+            "CON": 18,
+            "INT": 11,
+            "WIS": 12,
+            "CHA": 13
+        },
+        "skills": "Saving Throws: Str +6, Con +7",
+        "senses": "darkvision 120 ft., passive Perception 11",
+        "languages": "Draconic, Infernal, telepathy 120 ft.",
+        "cr": "6",
+        "traits": [
+            "Damage Resistances: bludgeoning, piercing, and slashing from nonmagical attacks that aren't silvered. Damage Immunities: cold, fire, poison. Condition Immunities: poisoned.",
+            "Devil's Sight (Magical darkness doesn't impede the abishai's darkvision.)",
+            "Magic Resistance (The abishai has advantage on saving throws against spells and other magical effects.)"
+        ],
+        "actions": [
+            "Multiattack. The abishai makes two attacks: one with its longsword and one with its claw.",
+            "Longsword. Melee Weapon Attack: +6 to hit, reach 5 ft., one target. Hit: 7 (1d8 + 3) slashing damage.",
+            "Claw. Melee Weapon Attack: +6 to hit, reach 5 ft., one target. Hit: 8 (1d14 + 3) slashing damage."
+        ],
+        "source": "Mordenkainen's Tome of Foes"
+    },
+    "The Lost": {
+        "name": "The Lost",
+        "size": "Medium",
+        "type": "monstrosity",
+        "alignment": "neutral evil",
+        "ac": 15,
+        "hp": 78,
+        "speed": "30 ft.",
+        "stats": {
+            "STR": 17,
+            "DEX": 12,
+            "CON": 15,
+            "INT": 6,
+            "WIS": 7,
+            "CHA": 5
+        },
+        "skills": "Athletics +6",
+        "senses": "darkvision 60 ft., passive Perception 8",
+        "languages": "Common",
+        "cr": "7",
+        "traits": [
+            "Damage Resistances: bludgeoning, piercing, and slashing while in dim light or darkness."
+        ],
+        "actions": [
+            "Multiattack. The Lost makes two arm spike attacks.",
+            "Arm Spike. Melee Weapon Attack: +6 to hit, reach 5 ft., one target. Hit: 14 (2d10 + 3) piercing damage.",
+            "Embrace. Melee Weapon Attack: +6 to hit, reach 5 ft., one target. Hit: 25 (4d10 + 3) piercing damage, and the target is grappled (escape DC 14)."
+        ],
+        "source": "Mordenkainen's Tome of Foes"
+    },
+    "Guardian Giant": {
+        "name": "Guardian Giant",
+        "size": "Huge",
+        "type": "giant",
+        "alignment": "lawful neutral",
+        "ac": 19,
+        "hp": 137,
+        "speed": "40 ft.",
+        "stats": {
+            "STR": 24,
+            "DEX": 17,
+            "CON": 22,
+            "INT": 10,
+            "WIS": 18,
+            "CHA": 12
+        },
+        "skills": "Saving Throws: Dex +6, Wis +7. Skills: Insight +7, Perception +10",
+        "senses": "passive Perception 20",
+        "languages": "Common, Giant",
+        "cr": "8",
+        "traits": [
+            "Vigilant (The giant can't be surprised.)"
+        ],
+        "actions": [
+            "Multiattack. The giant makes three spear attacks.",
+            "Spear. Melee or Ranged Weapon Attack: +10 to hit, reach 10 ft., or range 60/240 ft., one target. Hit: 17 (3d6 + 7) piercing damage."
+        ],
+        "source": "Guildmasters' Guide to Ravnica"
+    },
+    "Gloamwing": {
+        "name": "Gloamwing",
+        "size": "Large",
+        "type": "undead",
+        "alignment": "Neutral Evil",
+        "ac": 16,
+        "hp": 136,
+        "speed": "30 ft., fly 60 ft.",
+        "stats": {
+            "STR": 20,
+            "DEX": 16,
+            "CON": 17,
+            "INT": 2,
+            "WIS": 11,
+            "CHA": 6
+        },
+        "background": "Undead Shadow Realm",
+        "equipment": [
+            "Natural Claws",
+            "Spectral Bite"
+        ],
+        "max_hp": 136,
+        "current_hp": 136,
+        "temp_hp": 0,
+        "spell_points_variant": false,
+        "custom_options": {
+            "hero_points": false,
+            "honor": false,
+            "sanity": false
+        },
+        "skills": "Perception +3, Stealth +6",
+        "senses": "darkvision 120 ft., passive Perception 13",
+        "languages": "understands Common",
+        "cr": "8",
+        "traits": [
+            "Damage Resistances: necrotic; bludgeoning, piercing, and slashing from nonmagical attacks.",
+            "Damage Immunities: poison. Condition Immunities: charmed, exhaustion, frightened, poisoned."
+        ],
+        "actions": [
+            "Multiattack. The gloamwing makes three attacks: one with its bite and two with its claws.",
+            "Bite. Melee Weapon Attack: +8 to hit. Hit: 13 (2d8 + 4) piercing damage.",
+            "Claws. Melee Weapon Attack: +8 to hit. Hit: 11 (2d6 + 4) slashing damage."
+        ],
+        "source": "Guildmasters' Guide to Ravnica"
+    },
+    "Elder Oblex": {
+        "name": "Elder Oblex",
+        "size": "Huge",
+        "type": "ooze",
+        "alignment": "lawful evil",
+        "ac": 16,
+        "hp": 115,
+        "speed": "20 ft.",
+        "stats": {
+            "STR": 15,
+            "DEX": 16,
+            "CON": 21,
+            "INT": 22,
+            "WIS": 13,
+            "CHA": 18
+        },
+        "skills": "Saving Throws: Int +10, Cha +8. Skills: Arcana +10, Deception +8, History +10, Nature +10, Perception +5, Religion +10",
+        "senses": "blindsight 60 ft., passive Perception 15",
+        "languages": "Common plus six more",
+        "cr": "10",
+        "traits": [
+            "Condition Immunities: blinded, charmed, deafened, exhaustion, prone.",
+            "Amorphous (The oblex can move through a space as narrow as 1 inch wide without squeezing.)",
+            "Aversion to Fire (If the oblex takes fire damage, it has disadvantage on attack rolls and ability checks until the end of its next turn.)",
+            "Sulfurous Impersonation (As a bonus action, the oblex can extrude up to 2d6 + 1 different identical simulacra.)"
+        ],
+        "actions": [
+            "Multiattack. The elder oblex makes two pseudopod attacks and uses Eat Memories.",
+            "Pseudopod. Melee Weapon Attack: +7 to hit, reach 10 ft. Hit: 17 (4d6 + 3) bludgeoning damage plus 7 (2d6) psychic damage.",
+            "Eat Memories. The oblex targets one creature within 5 feet of it. The target must succeed on a DC 18 Wisdom saving throw or become memory drained."
+        ],
+        "source": "Mordenkainen's Tome of Foes"
+    },
+    "Alkilith": {
+        "name": "Alkilith",
+        "size": "Medium",
+        "type": "fiend (demon)",
+        "alignment": "chaotic evil",
+        "ac": 17,
+        "hp": 157,
+        "speed": "40 ft.",
+        "stats": {
+            "STR": 12,
+            "DEX": 19,
+            "CON": 22,
+            "INT": 6,
+            "WIS": 11,
+            "CHA": 7
+        },
+        "skills": "Saving Throws: Dex +8, Con +10. Skills: Stealth +8",
+        "senses": "darkvision 120 ft., passive Perception 10",
+        "languages": "understands Abyssal but can't speak",
+        "cr": "11",
+        "traits": [
+            "Damage Resistances: acid, cold, fire, lightning; bludgeoning, piercing, and slashing from nonmagical attacks.",
+            "Damage Immunities: poison. Condition Immunities: charmed, frightened, poisoned.",
+            "Magic Resistance (The alkilith has advantage on saving throws against spells and other magical effects.)"
+        ],
+        "actions": [
+            "Multiattack. The alkilith makes three tentacle attacks.",
+            "Tentacle. Melee Weapon Attack: +8 to hit, reach 15 ft. Hit: 18 (4d6 + 4) acid damage."
+        ],
+        "source": "Mordenkainen's Tome of Foes"
+    },
+    "Beholder": {
+        "name": "Beholder",
+        "size": "Large",
+        "type": "aberration",
+        "alignment": "lawful evil",
+        "ac": 18,
+        "hp": 180,
+        "speed": "0 ft., fly 20 ft. (hover)",
+        "stats": {
+            "STR": 10,
+            "DEX": 14,
+            "CON": 18,
+            "INT": 17,
+            "WIS": 15,
+            "CHA": 17
+        },
+        "skills": "Saving Throws: Int +8, Wis +7, Cha +8. Skills: Perception +12",
+        "senses": "darkvision 120 ft., passive Perception 22",
+        "languages": "Deep Speech, Undercommon",
+        "cr": "13",
+        "traits": [
+            "Antimagic Cone (The beholder's central eye creates an area of antimagic in a 150-foot cone.)"
+        ],
+        "actions": [
+            "Bite. Melee Weapon Attack: +5 to hit, reach 5 ft., one target. Hit: 14 (4d6) piercing damage.",
+            "Eye Rays. The beholder shoots three of the following eye rays at random (Charm, Paralyzing, Fear, Slowing, Enervation, Telekinetic, Sleep, Petrification, Disintegration, Death Ray)."
+        ],
+        "source": "Player's Handbook / Monster Manual"
+    },
+    "Skyswimmer": {
+        "name": "Skyswimmer",
+        "size": "Gargantuan",
+        "type": "monstrosity",
+        "alignment": "unaligned",
+        "ac": 18,
+        "hp": 216,
+        "speed": "10 ft., fly 60 ft.",
+        "stats": {
+            "STR": 23,
+            "DEX": 15,
+            "CON": 16,
+            "INT": 7,
+            "WIS": 12,
+            "CHA": 6
+        },
+        "skills": "Saving Throws: Con +8. Skills: Perception +6",
+        "senses": "passive Perception 16",
+        "languages": "-",
+        "cr": "13",
+        "traits": [
+            "Amphibious (The skyswimmer can breathe air and water.)"
+        ],
+        "actions": [
+            "Multiattack. The skyswimmer makes three attacks: one with its bite and two with its slam.",
+            "Bite. Melee Weapon Attack: +11 to hit, reach 10 ft. Hit: 22 (3d10 + 6) piercing damage. If the target is Large or smaller, it must succeed on a DC 19 Dexterity saving throw or be swallowed.",
+            "Slam. Melee Weapon Attack: +11 to hit, reach 30 ft. Hit: 19 (2d12 + 6) bludgeoning damage."
+        ],
+        "source": "Guildmasters' Guide to Ravnica"
+    },
+    "Star Spawn Seer": {
+        "name": "Star Spawn Seer",
+        "size": "Medium",
+        "type": "aberration",
+        "alignment": "neutral evil",
+        "ac": 17,
+        "hp": 153,
+        "speed": "30 ft.",
+        "stats": {
+            "STR": 14,
+            "DEX": 12,
+            "CON": 18,
+            "INT": 20,
+            "WIS": 19,
+            "CHA": 16
+        },
+        "skills": "Saving Throws: Dex +6, Con +9, Int +10, Wis +9, Cha +8. Skills: Perception +9",
+        "senses": "darkvision 60 ft., passive Perception 19",
+        "languages": "Deep Speech, Undercommon",
+        "cr": "13",
+        "traits": [
+            "Damage Resistances: cold; bludgeoning, piercing, and slashing from nonmagical attacks. Damage Immunities: psychic. Condition Immunities: charmed, frightened.",
+            "Out-of-Phase Movement (The seer can move through other creatures and objects as if they were difficult terrain.)"
+        ],
+        "actions": [
+            "Multiattack. The seer makes two comet staff attacks or uses Psychic Orb twice.",
+            "Comet Staff. Melee Weapon Attack: +11 to hit, reach 5 ft. Hit: 9 (1d6 + 6) bludgeoning damage plus 18 (4d8) psychic damage.",
+            "Psychic Orb. Ranged Spell Attack: +11 to hit, range 120 ft. Hit: 27 (5d10) psychic damage."
+        ],
+        "source": "Mordenkainen's Tome of Foes"
+    },
+    "Devkarin Lich": {
+        "name": "Devkarin Lich",
+        "size": "Medium",
+        "type": "undead",
+        "alignment": "neutral evil",
+        "ac": 14,
+        "hp": 97,
+        "speed": "30 ft.",
+        "stats": {
+            "STR": 11,
+            "DEX": 16,
+            "CON": 14,
+            "INT": 19,
+            "WIS": 16,
+            "CHA": 15
+        },
+        "skills": "Saving Throws: Con +7, Int +9, Wis +8. Skills: Arcana +14, Insight +8, Perception +8",
+        "senses": "truesight 120 ft., passive Perception 18",
+        "languages": "Common, Elvish, Kraul",
+        "cr": "14",
+        "traits": [
+            "Damage Resistances: necrotic; bludgeoning, piercing, and slashing from nonmagical attacks. Damage Immunities: poison. Condition Immunities: charmed, exhaustion, frightened, paralyzed, poisoned.",
+            "Legendary Resistance (3/Day) (If the lich fails a saving throw, it can choose to succeed instead.)",
+            "Regeneration (The lich regains 10 hit points at the start of its turn if it has fire or radiant damage.)"
+        ],
+        "actions": [
+            "Noxious Touch. Melee Spell Attack: +9 to hit, reach 5 ft. Hit: 14 (4d6) poison damage, and the target must succeed on a DC 17 Constitution save or be poisoned for 1 minute."
+        ],
+        "source": "Guildmasters' Guide to Ravnica"
+    },
+    "Cadaver Collector": {
+        "name": "Cadaver Collector",
+        "size": "Large",
+        "type": "construct",
+        "alignment": "lawful evil",
+        "ac": 17,
+        "hp": 189,
+        "speed": "30 ft.",
+        "stats": {
+            "STR": 21,
+            "DEX": 14,
+            "CON": 20,
+            "INT": 5,
+            "WIS": 11,
+            "CHA": 8
+        },
+        "skills": "-",
+        "senses": "darkvision 60 ft., passive Perception 10",
+        "languages": "understands all languages but can't speak",
+        "cr": "14",
+        "traits": [
+            "Damage Immunities: necrotic, poison, psychic; bludgeoning, piercing, and slashing from nonmagical attacks that aren't adamantine. Condition Immunities: charmed, exhaustion, frightened, paralyzed, petrified, poisoned."
+        ],
+        "actions": [
+            "Multiattack. The collector makes two slam attacks.",
+            "Slam. Melee Weapon Attack: +10 to hit, reach 5 ft. Hit: 18 (3d8 + 5) bludgeoning damage.",
+            "Summon Specters (Recharge 5-6). The collector calls forth 1d4 specters to fight alongside it."
+        ],
+        "source": "Mordenkainen's Tome of Foes"
+    },
+    "Phoenix": {
+        "name": "Phoenix",
+        "size": "Gargantuan",
+        "type": "elemental",
+        "alignment": "neutral",
+        "ac": 18,
+        "hp": 175,
+        "speed": "20 ft., fly 120 ft.",
+        "stats": {
+            "STR": 19,
+            "DEX": 26,
+            "CON": 25,
+            "INT": 2,
+            "WIS": 21,
+            "CHA": 18
+        },
+        "skills": "Saving Throws: Wis +10, Cha +9",
+        "senses": "passive Perception 15",
+        "languages": "-",
+        "cr": "16",
+        "traits": [
+            "Damage Resistances: bludgeoning, piercing, and slashing from nonmagical attacks. Damage Immunities: fire, poison. Condition Immunities: exhaustion, grappled, paralyzed, petrified, poisoned, prone, restrained, stunned.",
+            "Fire Form (The phoenix can move through a space as narrow as 1 inch wide. Any creature that touches it or hits it with a melee attack within 5 feet takes 5 (1d10) fire damage.)"
+        ],
+        "actions": [
+            "Multiattack. The phoenix makes two attacks: one with its beak and one with its fiery talons.",
+            "Beak. Melee Weapon Attack: +13 to hit, reach 15 ft. Hit: 15 (2d6 + 8) fire damage.",
+            "Fiery Talons. Melee Weapon Attack: +13 to hit, reach 15 ft. Hit: 17 (2d8 + 8) fire damage."
+        ],
+        "source": "Mordenkainen's Tome of Foes"
+    },
+    "Titivilus": {
+        "name": "Titivilus",
+        "size": "Medium",
+        "type": "fiend (devil)",
+        "alignment": "lawful evil",
+        "ac": 20,
+        "hp": 127,
+        "speed": "40 ft., fly 60 ft.",
+        "stats": {
+            "STR": 19,
+            "DEX": 22,
+            "CON": 17,
+            "INT": 24,
+            "WIS": 22,
+            "CHA": 26
+        },
+        "skills": "Saving Throws: Dex +11, Con +8, Wis +11, Cha +13. Skills: Deception +13, Insight +11, Intimidation +13, Persuasion +13",
+        "senses": "darkvision 120 ft., passive Perception 16",
+        "languages": "Common, Infernal, telepathy 120 ft.",
+        "cr": "16",
+        "traits": [
+            "Damage Resistances: cold; bludgeoning, piercing, and slashing from nonmagical attacks that aren't silvered. Damage Immunities: fire, poison. Condition Immunities: charmed, exhaustion, frightened, poisoned."
+        ],
+        "actions": [
+            "Multiattack. Titivilus makes one sword attack and uses Frightful Word once.",
+            "Silver Sword. Melee Weapon Attack: +9 to hit, reach 5 ft. Hit: 8 (1d8 + 4) slashing damage plus 16 (3d10) necrotic damage.",
+            "Frightful Word. Titivilus targets one creature he can see within 10 feet of him. The target must succeed on a DC 21 Wisdom saving throw or become frightened for 1 minute."
+        ],
+        "source": "Mordenkainen's Tome of Foes"
+    },
+    "Blue Abishai": {
+        "name": "Blue Abishai",
+        "size": "Medium",
+        "type": "fiend (devil)",
+        "alignment": "lawful evil",
+        "ac": 19,
+        "hp": 195,
+        "speed": "30 ft., fly 50 ft.",
+        "stats": {
+            "STR": 15,
+            "DEX": 14,
+            "CON": 17,
+            "INT": 22,
+            "WIS": 23,
+            "CHA": 18
+        },
+        "skills": "Saving Throws: Int +12, Wis +12. Skills: Arcana +12",
+        "senses": "darkvision 120 ft., passive Perception 16",
+        "languages": "Draconic, Infernal, telepathy 120 ft.",
+        "cr": "17",
+        "traits": [
+            "Damage Resistances: cold; bludgeoning, piercing, and slashing from nonmagical attacks that aren't silvered. Damage Immunities: fire, lightning, poison. Condition Immunities: poisoned."
+        ],
+        "actions": [
+            "Multiattack. The abishai makes three attacks: one with its bite and two with its claws.",
+            "Bite. Melee Weapon Attack: +8 to hit, reach 5 ft. Hit: 13 (2d8 + 4) piercing damage plus 11 (2d10) lightning damage.",
+            "Claw. Melee Weapon Attack: +8 to hit, reach 5 ft. Hit: 11 (2d6 + 4) slashing damage."
+        ],
+        "source": "Mordenkainen's Tome of Foes"
+    },
+    "Lazav": {
+        "name": "Lazav",
+        "size": "Medium",
+        "type": "monstrosity (shapechanger)",
+        "alignment": "neutral evil",
+        "ac": 18,
+        "hp": 204,
+        "speed": "40 ft.",
+        "stats": {
+            "STR": 16,
+            "DEX": 24,
+            "CON": 18,
+            "INT": 22,
+            "WIS": 20,
+            "CHA": 22
+        },
+        "skills": "Saving Throws: Dex +13, Int +12, Wis +11, Cha +12. Skills: Deception +18, Insight +11, Perception +11, Stealth +19",
+        "senses": "darkvision 120 ft., passive Perception 21",
+        "languages": "Common, thieves' cant",
+        "cr": "17",
+        "traits": [
+            "Damage Resistances: necrotic, psychic. Damage Immunities: poison. Condition Immunities: charmed, frightened, poisoned.",
+            "Shapechanger Savant (Lazav can use a bonus action to polymorph into any Medium or Small humanoid he has seen.)"
+        ],
+        "actions": [
+            "Multiattack. Lazav makes three shortsword attacks.",
+            "Shortsword. Melee Weapon Attack: +13 to hit, reach 5 ft. Hit: 10 (1d6 + 7) piercing damage plus 10 (3d6) psychic damage."
+        ],
+        "source": "Guildmasters' Guide to Ravnica"
+    },
+    "Amnizu": {
+        "name": "Amnizu",
+        "size": "Medium",
+        "type": "fiend (devil)",
+        "alignment": "lawful evil",
+        "ac": 21,
+        "hp": 202,
+        "speed": "30 ft., fly 40 ft.",
+        "stats": {
+            "STR": 11,
+            "DEX": 13,
+            "CON": 16,
+            "INT": 20,
+            "WIS": 12,
+            "CHA": 18
+        },
+        "skills": "Saving Throws: Dex +6, Con +8, Wis +6, Cha +9. Skills: Arcana +10, Deception +9, History +10, Insight +6, Perception +6",
+        "senses": "darkvision 120 ft., passive Perception 16",
+        "languages": "Common, Infernal, telepathy 120 ft.",
+        "cr": "18",
+        "traits": [
+            "Damage Resistances: cold; bludgeoning, piercing, and slashing from nonmagical attacks that aren't silvered. Damage Immunities: fire, poison. Condition Immunities: charmed, poisoned."
+        ],
+        "actions": [
+            "Multiattack. The amnizu makes two attacks: one with its whip and one with its taskmaster's rod.",
+            "Taskmaster's Rod. Melee Weapon Attack: +11 to hit, reach 5 ft. Hit: 9 (1d8 + 5) bludgeoning damage plus 16 (3d10) fire damage."
+        ],
+        "source": "Mordenkainen's Tome of Foes"
+    },
+    "Sibriex": {
+        "name": "Sibriex",
+        "size": "Huge",
+        "type": "fiend (demon)",
+        "alignment": "chaotic evil",
+        "ac": 19,
+        "hp": 150,
+        "speed": "0 ft., fly 20 ft. (hover)",
+        "stats": {
+            "STR": 10,
+            "DEX": 3,
+            "CON": 23,
+            "INT": 25,
+            "WIS": 24,
+            "CHA": 25
+        },
+        "skills": "Saving Throws: Int +13, Cha +13. Skills: Arcana +13, History +13, Perception +13",
+        "senses": "truesight 120 ft., passive Perception 23",
+        "languages": "all, telepathy 120 ft.",
+        "cr": "18",
+        "traits": [
+            "Damage Resistances: cold, fire, lightning; bludgeoning, piercing, and slashing from nonmagical attacks. Damage Immunities: poison. Condition Immunities: poisoned."
+        ],
+        "actions": [
+            "Multiattack. The sibriex uses Squirt Bile once and makes three chain attacks.",
+            "Chain. Melee Weapon Attack: +6 to hit, reach 15 ft. Hit: 20 (2d12 + 7) piercing damage."
+        ],
+        "source": "Mordenkainen's Tome of Foes"
+    },
+    "Red Abishai": {
+        "name": "Red Abishai",
+        "size": "Medium",
+        "type": "fiend (devil)",
+        "alignment": "lawful evil",
+        "ac": 22,
+        "hp": 255,
+        "speed": "30 ft., fly 50 ft.",
+        "stats": {
+            "STR": 23,
+            "DEX": 16,
+            "CON": 19,
+            "INT": 14,
+            "WIS": 15,
+            "CHA": 19
+        },
+        "skills": "Saving Throws: Str +12, Con +10, Wis +8. Skills: Intimidation +10, Perception +8",
+        "senses": "darkvision 120 ft., passive Perception 18",
+        "languages": "Draconic, Infernal, telepathy 120 ft.",
+        "cr": "19",
+        "traits": [
+            "Damage Resistances: cold; bludgeoning, piercing, and slashing from nonmagical attacks that aren't silvered. Damage Immunities: fire, poison. Condition Immunities: poisoned."
+        ],
+        "actions": [
+            "Multiattack. The abishai makes three attacks: one with its bite, one with its claws, and one with its longsword.",
+            "Bite. Melee Weapon Attack: +12 to hit, reach 5 ft. Hit: 15 (2d8 + 6) piercing damage."
+        ],
+        "source": "Mordenkainen's Tome of Foes"
+    },
+    "Leviathan": {
+        "name": "Leviathan",
+        "size": "Gargantuan",
+        "type": "elemental",
+        "alignment": "neutral",
+        "ac": 17,
+        "hp": 328,
+        "speed": "40 ft., swim 120 ft.",
+        "stats": {
+            "STR": 30,
+            "DEX": 24,
+            "CON": 30,
+            "INT": 2,
+            "WIS": 18,
+            "CHA": 17
+        },
+        "skills": "Saving Throws: Wis +10, Cha +9",
+        "senses": "darkvision 60 ft., passive Perception 14",
+        "languages": "-",
+        "cr": "20",
+        "traits": [
+            "Damage Resistances: bludgeoning, piercing, and slashing from nonmagical attacks. Damage Immunities: acid, poison. Condition Immunities: exhaustion, grappled, paralyzed, petrified, poisoned, prone, restrained, stunned."
+        ],
+        "actions": [
+            "Multiattack. The leviathan makes two attacks: one with its slam and one with its tail.",
+            "Slam. Melee Weapon Attack: +16 to hit, reach 20 ft. Hit: 21 (2d10 + 10) bludgeoning damage."
+        ],
+        "source": "Mordenkainen's Tome of Foes"
+    },
+    "Astral Dreadnought": {
+        "name": "Astral Dreadnought",
+        "size": "Gargantuan",
+        "type": "monstrosity",
+        "alignment": "unaligned",
+        "ac": 22,
+        "hp": 310,
+        "speed": "15 ft., fly 80 ft. (hover)",
+        "stats": {
+            "STR": 30,
+            "DEX": 14,
+            "CON": 20,
+            "INT": 1,
+            "WIS": 14,
+            "CHA": 10
+        },
+        "skills": "Saving Throws: Wis +9, Cha +7. Skills: Perception +9",
+        "senses": "blindsight 120 ft., passive Perception 19",
+        "languages": "-",
+        "cr": "21",
+        "traits": [
+            "Damage Resistances: piercing, slashing. Damage Immunities: acid, bludgeoning, cold, fire, lightning, necrotic, poison, psychic, radiant. Condition Immunities: all but invisible and prone."
+        ],
+        "actions": [
+            "Multiattack. The dreadnought makes three attacks: one with its bite and two with its claws.",
+            "Bite. Melee Weapon Attack: +16 to hit, reach 10 ft. Hit: 36 (4d12 + 10) piercing damage."
+        ],
+        "source": "Mordenkainen's Tome of Foes"
+    },
+    "Isperia": {
+        "name": "Isperia",
+        "size": "Gargantuan",
+        "type": "monstrosity",
+        "alignment": "lawful neutral",
+        "ac": 17,
+        "hp": 261,
+        "speed": "40 ft., fly 60 ft.",
+        "stats": {
+            "STR": 20,
+            "DEX": 14,
+            "CON": 18,
+            "INT": 23,
+            "WIS": 26,
+            "CHA": 20
+        },
+        "skills": "Saving Throws: Dex +9, Con +11, Int +13, Wis +15. Skills: Arcana +13, History +13, Insight +15, Perception +15",
+        "senses": "truesight 120 ft., passive Perception 25",
+        "languages": "Common, Sphinx",
+        "cr": "21",
+        "traits": [
+            "Damage Immunities: psychic; bludgeoning, piercing, and slashing from nonmagical attacks. Condition Immunities: charmed, frightened."
+        ],
+        "actions": [
+            "Multiattack. Isperia makes two claw attacks.",
+            "Claw. Melee Weapon Attack: +12 to hit, reach 5 ft. Hit: 21 (3d10 + 5) slashing damage."
+        ],
+        "source": "Guildmasters' Guide to Ravnica"
+    },
+    "Jarad Vod Savo": {
+        "name": "Jarad Vod Savo",
+        "size": "Medium",
+        "type": "undead",
+        "alignment": "neutral evil",
+        "ac": 17,
+        "hp": 180,
+        "speed": "30 ft.",
+        "stats": {
+            "STR": 14,
+            "DEX": 16,
+            "CON": 16,
+            "INT": 20,
+            "WIS": 16,
+            "CHA": 15
+        },
+        "skills": "Saving Throws: Con +10, Int +12, Wis +10. Skills: Arcana +12, Insight +10, Perception +10",
+        "senses": "darkvision 120 ft., passive Perception 20",
+        "languages": "Common, Elvish, Kraul",
+        "cr": "22",
+        "traits": [
+            "Damage Resistances: necrotic; bludgeoning, piercing, and slashing from nonmagical attacks. Damage Immunities: poison. Condition Immunities: charmed, exhausted, frightened, paralyzed, poisoned."
+        ],
+        "actions": [
+            "Multiattack. Jarad makes two attacks: one with his Noxious Touch and one with his Staff of Svogthir.",
+            "Noxious Touch. Melee Spell Attack: +12 to hit, reach 5 ft. Hit: 28 (8d6) poison damage."
+        ],
+        "source": "Guildmasters' Guide to Ravnica"
+    },
+    "Yeenoghu": {
+        "name": "Yeenoghu",
+        "size": "Huge",
+        "type": "fiend (demon)",
+        "alignment": "chaotic evil",
+        "ac": 20,
+        "hp": 333,
+        "speed": "50 ft.",
+        "stats": {
+            "STR": 29,
+            "DEX": 16,
+            "CON": 23,
+            "INT": 15,
+            "WIS": 24,
+            "CHA": 15
+        },
+        "skills": "Saving Throws: Dex +10, Con +15, Wis +14. Skills: Intimidation +9, Perception +14",
+        "senses": "truesight 120 ft., passive Perception 24",
+        "languages": "all, telepathy 120 ft.",
+        "cr": "24",
+        "traits": [
+            "Damage Resistances: cold, fire, lightning. Damage Immunities: poison; bludgeoning, piercing, and slashing that is nonmagical. Condition Immunities: charmed, exhaustion, frightened, poisoned."
+        ],
+        "actions": [
+            "Multiattack. Yeenoghu makes three flail attacks.",
+            "Butcher's Flail. Melee Weapon Attack: +16 to hit, reach 15 ft. Hit: 15 (2d6 + 8) bludgeoning damage."
+        ],
+        "source": "Mordenkainen's Tome of Foes"
+    },
+    "Niv-Mizzet": {
+        "name": "Niv-Mizzet",
+        "size": "Gargantuan",
+        "type": "dragon",
+        "alignment": "chaotic neutral",
+        "ac": 22,
+        "hp": 370,
+        "speed": "40 ft., climb 30 ft., fly 80 ft.",
+        "stats": {
+            "STR": 29,
+            "DEX": 14,
+            "CON": 29,
+            "INT": 30,
+            "WIS": 17,
+            "CHA": 25
+        },
+        "skills": "Saving Throws: Con +17, Int +18, Wis +11. Skills: Arcana +18, Insight +11, Perception +11",
+        "senses": "blindsight 60 ft., darkvision 120 ft., passive Perception 21",
+        "languages": "Common, Draconic",
+        "cr": "26",
+        "traits": [
+            "Damage Resistances: cold, psychic, thunder. Damage Immunities: fire, lightning. Condition Immunities: charmed."
+        ],
+        "actions": [
+            "Multiattack. Niv-Mizzet makes three attacks: one with his bite and two with his claws.",
+            "Bite. Melee Weapon Attack: +17 to hit. Hit: 18 (2d8 + 9) piercing damage plus 14 (4d6) fire damage."
+        ],
+        "source": "Guildmasters' Guide to Ravnica"
+    },
+    "Tarrasque": {
+        "name": "Tarrasque",
+        "size": "Gargantuan",
+        "type": "monstrosity",
+        "alignment": "unaligned",
+        "ac": 25,
+        "hp": 676,
+        "speed": "20 ft.",
+        "stats": {
+            "STR": 30,
+            "DEX": 11,
+            "CON": 30,
+            "INT": 3,
+            "WIS": 11,
+            "CHA": 11
+        },
+        "skills": "Saving Throws: Int +5, Wis +12, Cha +12",
+        "senses": "blindsight 120 ft., passive Perception 10",
+        "languages": "-",
+        "cr": "30",
+        "traits": [
+            "Damage Immunities: fire, poison; bludgeoning, piercing, and slashing from nonmagical attacks. Condition Immunities: charmed, frightened, paralyzed, poisoned.",
+            "Reflective Carapace (Any line spell, line of sight spell, or magic missile is automatically reflected back on a 1 on a d6.)",
+            "Magic Resistance (The tarrasque has advantage on saving throws against spells and other magical effects.)"
+        ],
+        "actions": [
+            "Multiattack. The tarrasque can use its Frightful Presence. It then makes five attacks: one with its bite, two with its claws, one with its horns, and one with its tail."
+        ],
+        "source": "Player's Handbook / Monster Manual"
+    },
+    "Soldier": {
+        "name": "Soldier",
+        "size": "Medium",
+        "type": "humanoid",
+        "alignment": "any alignment",
+        "ac": 18,
+        "hp": 16,
+        "speed": "30 ft.",
+        "stats": {
+            "STR": 13,
+            "DEX": 12,
+            "CON": 12,
+            "INT": 10,
+            "WIS": 11,
+            "CHA": 11
+        },
+        "skills": "Perception +2, Athletics +3",
+        "senses": "passive Perception 12",
+        "languages": "any one language",
+        "cr": "1/2",
+        "traits": [
+            "Formation Tactics"
+        ],
+        "actions": [
+            "Longsword"
+        ],
+        "source": "Guildmasters' Guide to Ravnica"
+    },
+    "Anarch": {
+        "name": "Anarch",
+        "size": "Medium",
+        "type": "humanoid",
+        "alignment": "chaotic evil",
+        "ac": 12,
+        "hp": 27,
+        "speed": "30 ft.",
+        "stats": {
+            "STR": 14,
+            "DEX": 14,
+            "CON": 12,
+            "INT": 9,
+            "WIS": 11,
+            "CHA": 12
+        },
+        "skills": "-",
+        "senses": "passive Perception 10",
+        "languages": "Common",
+        "cr": "2",
+        "traits": [
+            "Siege Monster"
+        ],
+        "actions": [
+            "Barbed Club"
+        ],
+        "source": "Guildmasters' Guide to Ravnica"
+    },
+    "Devkarin Warrior": {
+        "name": "Devkarin Warrior",
+        "size": "Medium",
+        "type": "humanoid (elf)",
+        "alignment": "neutral evil",
+        "ac": 15,
+        "hp": 22,
+        "speed": "30 ft.",
+        "stats": {
+            "STR": 11,
+            "DEX": 16,
+            "CON": 12,
+            "INT": 11,
+            "WIS": 12,
+            "CHA": 10
+        },
+        "skills": "Stealth +5",
+        "senses": "darkvision 120 ft., passive Perception 11",
+        "languages": "Common, Elvish",
+        "cr": "1",
+        "traits": [
+            "Fey Ancestry"
+        ],
+        "actions": [
+            "Shortsword"
+        ],
+        "source": "Guildmasters' Guide to Ravnica"
+    },
+    "Golgari Shaman": {
+        "name": "Golgari Shaman",
+        "size": "Medium",
+        "type": "humanoid",
+        "alignment": "neutral evil",
+        "ac": 12,
+        "hp": 38,
+        "speed": "30 ft.",
+        "stats": {
+            "STR": 10,
+            "DEX": 14,
+            "CON": 12,
+            "INT": 13,
+            "WIS": 16,
+            "CHA": 11
+        },
+        "skills": "Medicine +5, Nature +3",
+        "senses": "passive Perception 13",
+        "languages": "Common, Elvish",
+        "cr": "5",
+        "traits": [
+            "Spellcasting"
+        ],
+        "actions": [
+            "Staff"
+        ],
+        "source": "Guildmasters' Guide to Ravnica"
+    },
+    "Simic Hybrid Spy": {
+        "name": "Simic Hybrid Spy",
+        "size": "Medium",
+        "type": "humanoid (hybrid)",
+        "alignment": "neutral",
+        "ac": 13,
+        "hp": 27,
+        "speed": "30 ft.",
+        "stats": {
+            "STR": 12,
+            "DEX": 16,
+            "CON": 14,
+            "INT": 11,
+            "WIS": 10,
+            "CHA": 12
+        },
+        "skills": "Deception +3, Stealth +5",
+        "senses": "passive Perception 10",
+        "languages": "Common",
+        "cr": "2",
+        "traits": [
+            "Manta Glide"
+        ],
+        "actions": [
+            "Dagger"
+        ],
+        "source": "Guildmasters' Guide to Ravnica"
+    },
+    "Thought Spy": {
+        "name": "Thought Spy",
+        "size": "Medium",
+        "type": "humanoid",
+        "alignment": "neutral evil",
+        "ac": 12,
+        "hp": 27,
+        "speed": "30 ft.",
+        "stats": {
+            "STR": 10,
+            "DEX": 15,
+            "CON": 12,
+            "INT": 14,
+            "WIS": 12,
+            "CHA": 14
+        },
+        "skills": "Deception +4, Perception +3",
+        "senses": "passive Perception 13",
+        "languages": "Common",
+        "cr": "1",
+        "traits": [
+            "Innate Spellcasting"
+        ],
+        "actions": [
+            "Shortsword"
+        ],
+        "source": "Guildmasters' Guide to Ravnica"
+    },
+    "Precognitive Mage": {
+        "name": "Precognitive Mage",
+        "size": "Medium",
+        "type": "humanoid",
+        "alignment": "lawful neutral",
+        "ac": 11,
+        "hp": 33,
+        "speed": "30 ft.",
+        "stats": {
+            "STR": 9,
+            "DEX": 13,
+            "CON": 12,
+            "INT": 16,
+            "WIS": 14,
+            "CHA": 11
+        },
+        "skills": "Perception +4",
+        "senses": "passive Perception 14",
+        "languages": "Common",
+        "cr": "3",
+        "traits": [
+            "Spellcasting",
+            "Glimpse the Future"
+        ],
+        "actions": [
+            "Dagger"
+        ],
+        "source": "Guildmasters' Guide to Ravnica"
+    },
+    "Lawmage": {
+        "name": "Lawmage",
+        "size": "Medium",
+        "type": "humanoid",
+        "alignment": "lawful neutral",
+        "ac": 12,
+        "hp": 45,
+        "speed": "30 ft.",
+        "stats": {
+            "STR": 10,
+            "DEX": 14,
+            "CON": 12,
+            "INT": 17,
+            "WIS": 14,
+            "CHA": 11
+        },
+        "skills": "Arcana +6, Perception +5",
+        "senses": "passive Perception 15",
+        "languages": "Common",
+        "cr": "6",
+        "traits": [
+            "Spellcasting"
+        ],
+        "actions": [
+            "Quarterstaff"
+        ],
+        "source": "Guildmasters' Guide to Ravnica"
+    },
+    "Kraul Warrior": {
+        "name": "Kraul Warrior",
+        "size": "Medium",
+        "type": "humanoid (kraul)",
+        "alignment": "neutral evil",
+        "ac": 18,
+        "hp": 27,
+        "speed": "30 ft., climb 30 ft.",
+        "stats": {
+            "STR": 15,
+            "DEX": 12,
+            "CON": 14,
+            "INT": 8,
+            "WIS": 10,
+            "CHA": 8
+        },
+        "skills": "-",
+        "senses": "passive Perception 10",
+        "languages": "Kraul, understands Common",
+        "cr": "1/2",
+        "traits": [
+            "Pack Tactics"
+        ],
+        "actions": [
+            "Spear"
+        ],
+        "source": "Guildmasters' Guide to Ravnica"
+    },
+    "Kraul Death Priest": {
+        "name": "Kraul Death Priest",
+        "size": "Medium",
+        "type": "humanoid (kraul)",
+        "alignment": "neutral evil",
+        "ac": 18,
+        "hp": 52,
+        "speed": "30 ft., climb 30 ft.",
+        "stats": {
+            "STR": 15,
+            "DEX": 12,
+            "CON": 14,
+            "INT": 10,
+            "WIS": 16,
+            "CHA": 12
+        },
+        "skills": "Medicine +5, Religion +2",
+        "senses": "passive Perception 13",
+        "languages": "Kraul, Common",
+        "cr": "4",
+        "traits": [
+            "Spellcasting"
+        ],
+        "actions": [
+            "Quarterstaff"
+        ],
+        "source": "Guildmasters' Guide to Ravnica"
+    },
+    "Owl": {
+        "name": "Owl",
+        "size": "Tiny",
+        "type": "beast",
+        "alignment": "unaligned",
+        "ac": 11,
+        "hp": 1,
+        "speed": "5 ft., fly 60 ft.",
+        "stats": {
+            "STR": 3,
+            "DEX": 13,
+            "CON": 8,
+            "INT": 2,
+            "WIS": 12,
+            "CHA": 7
+        },
+        "skills": "Perception +3, Stealth +3",
+        "senses": "darkvision 120 ft., passive Perception 13",
+        "languages": "-",
+        "cr": "0",
+        "traits": [
+            "Flyby",
+            "Keen Hearing and Sight"
+        ],
+        "actions": [
+            "Talons"
+        ],
+        "source": "Player's Handbook"
+    },
+    "Eagle": {
+        "name": "Eagle",
+        "size": "Small",
+        "type": "beast",
+        "alignment": "unaligned",
+        "ac": 12,
+        "hp": 3,
+        "speed": "10 ft., fly 60 ft.",
+        "stats": {
+            "STR": 6,
+            "DEX": 15,
+            "CON": 10,
+            "INT": 2,
+            "WIS": 14,
+            "CHA": 7
+        },
+        "skills": "Perception +4",
+        "senses": "passive Perception 14",
+        "languages": "-",
+        "cr": "0",
+        "traits": [
+            "Keen Sight"
+        ],
+        "actions": [
+            "Talons"
+        ],
+        "source": "Player's Handbook"
+    },
+    "Goat": {
+        "name": "Goat",
+        "size": "Medium",
+        "type": "beast",
+        "alignment": "unaligned",
+        "ac": 10,
+        "hp": 4,
+        "speed": "40 ft.",
+        "stats": {
+            "STR": 12,
+            "DEX": 10,
+            "CON": 11,
+            "INT": 2,
+            "WIS": 10,
+            "CHA": 5
+        },
+        "skills": "-",
+        "senses": "passive Perception 10",
+        "languages": "-",
+        "cr": "0",
+        "traits": [
+            "Charge",
+            "Sure-Footed"
+        ],
+        "actions": [
+            "Ram"
+        ],
+        "source": "Player's Handbook"
+    },
+    "Giant Eagle": {
+        "name": "Giant Eagle",
+        "size": "Large",
+        "type": "beast",
+        "alignment": "neutral good",
+        "ac": 13,
+        "hp": 26,
+        "speed": "10 ft., fly 80 ft.",
+        "stats": {
+            "STR": 16,
+            "DEX": 17,
+            "CON": 13,
+            "INT": 8,
+            "WIS": 14,
+            "CHA": 10
+        },
+        "skills": "Perception +4",
+        "senses": "passive Perception 14",
+        "languages": "understands Common and Auran",
+        "cr": "1",
+        "traits": [
+            "Keen Sight"
+        ],
+        "actions": [
+            "Multiattack",
+            "Beak",
+            "Talons"
+        ],
+        "source": "Player's Handbook"
+    },
+    "Constrictor Snake": {
+        "name": "Constrictor Snake",
+        "size": "Large",
+        "type": "beast",
+        "alignment": "unaligned",
+        "ac": 12,
+        "hp": 13,
+        "speed": "30 ft., swim 30 ft.",
+        "stats": {
+            "STR": 15,
+            "DEX": 14,
+            "CON": 12,
+            "INT": 1,
+            "WIS": 10,
+            "CHA": 3
+        },
+        "skills": "-",
+        "senses": "blindsight 10 ft., passive Perception 10",
+        "languages": "-",
+        "cr": "1/4",
+        "traits": [],
+        "actions": [
+            "Bite",
+            "Constrict"
+        ],
+        "source": "Player's Handbook"
+    },
+    "Elephant": {
+        "name": "Elephant",
+        "size": "Huge",
+        "type": "beast",
+        "alignment": "unaligned",
+        "ac": 12,
+        "hp": 76,
+        "speed": "40 ft.",
+        "stats": {
+            "STR": 22,
+            "DEX": 9,
+            "CON": 17,
+            "INT": 3,
+            "WIS": 11,
+            "CHA": 6
+        },
+        "skills": "-",
+        "senses": "passive Perception 10",
+        "languages": "-",
+        "cr": "4",
+        "traits": [
+            "Trampling Charge"
+        ],
+        "actions": [
+            "Gore",
+            "Stomp"
+        ],
+        "source": "Player's Handbook"
+    },
+    "Triceratops": {
+        "name": "Triceratops",
+        "size": "Huge",
+        "type": "beast",
+        "alignment": "unaligned",
+        "ac": 13,
+        "hp": 95,
+        "speed": "50 ft.",
+        "stats": {
+            "STR": 22,
+            "DEX": 9,
+            "CON": 17,
+            "INT": 2,
+            "WIS": 11,
+            "CHA": 5
+        },
+        "skills": "-",
+        "senses": "passive Perception 10",
+        "languages": "-",
+        "cr": "5",
+        "traits": [
+            "Trampling Charge"
+        ],
+        "actions": [
+            "Gore",
+            "Stomp"
+        ],
+        "source": "Player's Handbook"
+    },
+    "Bronze Scout": {
+        "name": "Bronze Scout",
+        "size": "Medium",
+        "type": "construct",
+        "alignment": "unaligned",
+        "ac": 13,
+        "hp": 18,
+        "speed": "30 ft., burrow 30 ft.",
+        "stats": {
+            "STR": 10,
+            "DEX": 16,
+            "CON": 11,
+            "INT": 3,
+            "WIS": 12,
+            "CHA": 1
+        },
+        "skills": "Perception +3, Stealth +7",
+        "senses": "darkvision 60 ft., passive Perception 13",
+        "languages": "understands one language of its creator but can't speak",
+        "cr": "1",
+        "traits": [
+            "Constructed Nature",
+            "Lightning Flare"
+        ],
+        "actions": [
+            "Bite"
+        ],
+        "source": "Mordenkainen's Tome of Foes"
+    },
+    "Stone Defender": {
+        "name": "Stone Defender",
+        "size": "Medium",
+        "type": "construct",
+        "alignment": "unaligned",
+        "ac": 16,
+        "hp": 52,
+        "speed": "30 ft.",
+        "stats": {
+            "STR": 19,
+            "DEX": 10,
+            "CON": 14,
+            "INT": 3,
+            "WIS": 10,
+            "CHA": 1
+        },
+        "skills": "-",
+        "senses": "darkvision 60 ft., passive Perception 10",
+        "languages": "understands one language of its creator but can't speak",
+        "cr": "4",
+        "traits": [
+            "Intercept Damage"
+        ],
+        "actions": [
+            "Slam"
+        ],
+        "source": "Mordenkainen's Tome of Foes"
+    },
+    "Choker": {
+        "name": "Choker",
+        "size": "Small",
+        "type": "aberration",
+        "alignment": "chaotic evil",
+        "ac": 16,
+        "hp": 13,
+        "speed": "30 ft., climb 30 ft.",
+        "stats": {
+            "STR": 16,
+            "DEX": 14,
+            "CON": 13,
+            "INT": 4,
+            "WIS": 12,
+            "CHA": 7
+        },
+        "skills": "Athletics +5, Stealth +6",
+        "senses": "darkvision 60 ft., passive Perception 11",
+        "languages": "understands Undercommon",
+        "cr": "1",
+        "traits": [
+            "Aberrant Quickness"
+        ],
+        "actions": [
+            "Tentacle",
+            "Choke"
+        ],
+        "source": "Mordenkainen's Tome of Foes"
+    },
+    "Berbalang": {
+        "name": "Berbalang",
+        "size": "Medium",
+        "type": "aberration",
+        "alignment": "neutral evil",
+        "ac": 14,
+        "hp": 38,
+        "speed": "30 ft., fly 40 ft.",
+        "stats": {
+            "STR": 10,
+            "DEX": 16,
+            "CON": 10,
+            "INT": 13,
+            "WIS": 12,
+            "CHA": 14
+        },
+        "skills": "Arcana +3, History +3, Perception +3",
+        "senses": "truesight 120 ft., passive Perception 13",
+        "languages": "Abyssal, Common",
+        "cr": "2",
+        "traits": [
+            "Spectral Duplicate"
+        ],
+        "actions": [
+            "Claws",
+            "Bite"
+        ],
+        "source": "Mordenkainen's Tome of Foes"
+    },
+    "Drow Arachnomancer": {
+        "name": "Drow Arachnomancer",
+        "size": "Medium",
+        "type": "humanoid (elf)",
+        "alignment": "chaotic evil",
+        "ac": 15,
+        "hp": 162,
+        "speed": "30 ft., climb 30 ft.",
+        "stats": {
+            "STR": 11,
+            "DEX": 17,
+            "CON": 14,
+            "INT": 19,
+            "WIS": 14,
+            "CHA": 16
+        },
+        "skills": "Arcana +9, Nature +9, Perception +7, Stealth +8",
+        "senses": "blindsight 10 ft., darkvision 120 ft.",
+        "languages": "Elvish, Undercommon",
+        "cr": "13",
+        "traits": [
+            "Fey Ancestry",
+            "Spider Climb",
+            "Spellcasting"
+        ],
+        "actions": [
+            "Multiattack",
+            "Bite",
+            "Web"
+        ],
+        "source": "Mordenkainen's Tome of Foes"
+    },
+    "Steel Predator": {
+        "name": "Steel Predator",
+        "size": "Large",
+        "type": "construct",
+        "alignment": "lawful evil",
+        "ac": 20,
+        "hp": 210,
+        "speed": "40 ft.",
+        "stats": {
+            "STR": 24,
+            "DEX": 17,
+            "CON": 22,
+            "INT": 4,
+            "WIS": 14,
+            "CHA": 6
+        },
+        "skills": "Perception +7, Stealth +8, Survival +7",
+        "senses": "blindsight 30 ft., darkvision 60 ft.",
+        "languages": "understands Modron",
+        "cr": "16",
+        "traits": [
+            "Constructed Nature",
+            "Magic Resistance"
+        ],
+        "actions": [
+            "Bite",
+            "Stunning Roar"
+        ],
+        "source": "Mordenkainen's Tome of Foes"
+    },
+    "Oblex Spawn": {
+        "name": "Oblex Spawn",
+        "size": "Tiny",
+        "type": "ooze",
+        "alignment": "lawful evil",
+        "ac": 13,
+        "hp": 18,
+        "speed": "20 ft.",
+        "stats": {
+            "STR": 8,
+            "DEX": 16,
+            "CON": 15,
+            "INT": 14,
+            "WIS": 11,
+            "CHA": 10
+        },
+        "skills": "Saving Throws: Int +4, Cha +2",
+        "senses": "blindsight 60 ft.",
+        "languages": "-",
+        "cr": "1/4",
+        "traits": [
+            "Amorphous",
+            "Aversion to Fire"
+        ],
+        "actions": [
+            "Pseudopod"
+        ],
+        "source": "Mordenkainen's Tome of Foes"
+    },
+    "Gloom Weaver": {
+        "name": "Gloom Weaver",
+        "size": "Medium",
+        "type": "humanoid (elf)",
+        "alignment": "neutral",
+        "ac": 15,
+        "hp": 110,
+        "speed": "30 ft.",
+        "stats": {
+            "STR": 10,
+            "DEX": 16,
+            "CON": 12,
+            "INT": 18,
+            "WIS": 14,
+            "CHA": 17
+        },
+        "skills": "Saving Throws: Int +7, Wis +8",
+        "senses": "darkvision 120 ft., passive Perception 15",
+        "languages": "Common, Elvish",
+        "cr": "9",
+        "traits": [
+            "Fey Ancestry",
+            "Spellcasting"
+        ],
+        "actions": [
+            "Multiattack",
+            "Shadow Dagger"
+        ],
+        "source": "Mordenkainen's Tome of Foes"
+    },
+    "Sacred Statue": {
+        "name": "Sacred Statue",
+        "size": "Large",
+        "type": "construct",
+        "alignment": "lawful neutral",
+        "ac": 19,
+        "hp": 95,
+        "speed": "30 ft.",
+        "stats": {
+            "STR": 22,
+            "DEX": 10,
+            "CON": 20,
+            "INT": 3,
+            "WIS": 11,
+            "CHA": 1
+        },
+        "skills": "Saving Throws: Wis +4",
+        "senses": "darkvision 60 ft.",
+        "languages": "understands all languages of its creator",
+        "cr": "5",
+        "traits": [
+            "False Appearance"
+        ],
+        "actions": [
+            "Multiattack",
+            "Slam"
+        ],
+        "source": "Mordenkainen's Tome of Foes"
+    },
+    "Sword Wraith Warrior": {
+        "name": "Sword Wraith Warrior",
+        "size": "Medium",
+        "type": "undead",
+        "alignment": "chaotic evil",
+        "ac": 16,
+        "hp": 45,
+        "speed": "30 ft.",
+        "stats": {
+            "STR": 18,
+            "DEX": 12,
+            "CON": 17,
+            "INT": 6,
+            "WIS": 10,
+            "CHA": 11
+        },
+        "skills": "-",
+        "senses": "darkvision 60 ft., passive Perception 10",
+        "languages": "Common",
+        "cr": "3",
+        "traits": [
+            "Martial Fury"
+        ],
+        "actions": [
+            "Longsword",
+            "Longbow"
+        ],
+        "source": "Mordenkainen's Tome of Foes"
+    },
+    "Vampiric Mist": {
+        "name": "Vampiric Mist",
+        "size": "Medium",
+        "type": "undead",
+        "alignment": "chaotic evil",
+        "ac": 13,
+        "hp": 30,
+        "speed": "0 ft., fly 30 ft. (hover)",
+        "stats": {
+            "STR": 6,
+            "DEX": 16,
+            "CON": 12,
+            "INT": 6,
+            "WIS": 12,
+            "CHA": 7
+        },
+        "skills": "-",
+        "senses": "darkvision 60 ft., passive Perception 11",
+        "languages": "-",
+        "cr": "3",
+        "traits": [
+            "Misty Form",
+            "Sunlight Susceptibility"
+        ],
+        "actions": [
+            "Life Drain"
+        ],
+        "source": "Mordenkainen's Tome of Foes"
+    },
+    "Sorrowsworn The Angry": {
+        "name": "Sorrowsworn The Angry",
+        "size": "Medium",
+        "type": "monstrosity",
+        "alignment": "neutral evil",
+        "ac": 18,
+        "hp": 255,
+        "speed": "30 ft.",
+        "stats": {
+            "STR": 17,
+            "DEX": 10,
+            "CON": 19,
+            "INT": 8,
+            "WIS": 13,
+            "CHA": 6
+        },
+        "skills": "Perception +6",
+        "senses": "darkvision 60 ft.",
+        "languages": "Common",
+        "cr": "13",
+        "traits": [
+            "Two Heads",
+            "Rising Anger"
+        ],
+        "actions": [
+            "Multiattack",
+            "Hooked Arm"
+        ],
+        "source": "Mordenkainen's Tome of Foes"
+    }
+}
